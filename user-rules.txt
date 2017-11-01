@@ -18,3 +18,4 @@
 tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src="http://wx3.sinaimg.cn/large/7044f931gy1fkpop3mpffj20dc02igmq.jpg"],IMG[src="http://wx1.sinaimg.cn/large/7044f931gy1fed4yyib84j20dc02igms.jpg\a "]
 goudidiao.com##[class^="img-responsive"],[style$="red;"]
 subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"]
+5chajian.com##[id^="ad_"]
