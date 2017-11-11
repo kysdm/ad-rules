@@ -1,9 +1,9 @@
-!  -----:  2017-11-11 16:27:25   by:kysdm-----
+!  -----:  2017-11-11 22:14:25   by:kysdm-----
 !
 !---------------------------------http网站元素屏蔽----------------------------------------
 5chajian.com##[id^="ad_"]
 goudidiao.com##[class^="img-responsive"],[style$="red;"]
-mobanwang.com##.teagg,[class^="g960"],.box960x90
+mobanwang.com##.teagg,[class^="g960"],.box960x90,.topBannerYun,.linkyun
 subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"]
 tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src="http://wx3.sinaimg.cn/large/7044f931gy1fkpop3mpffj20dc02igmq.jpg"],IMG[src="http://wx1.sinaimg.cn/large/7044f931gy1fed4yyib84j20dc02igms.jpg\a "]
 zimuzu.tv###help,[style^="text-align:center;"]
@@ -12,9 +12,31 @@ zimuzu.tv###help,[style^="text-align:center;"]
 !---------------------------------http链接屏蔽--------------------------------------------
 |http://cdn.xianliao.me/assets/static/lib.js?
 |http://renren2.maoyun.tv/ads
-!---------------------------------https链接屏蔽-------------------------------------------
+!动漫花园
 |https://share.dmhy.org/dmhy1.png?1
 |https://share.dmhy.org/msdl2.jpg?4
+!天使论坛签到
+|http://www.tsdm.me/plugin.php?id=$s@var openTargetUrl = '';*window.open(openTargetUrl);@@
+|http://www.tsdm.me/plugin.php?id=$s@<a href="https://detail.tmall.com/item.htm?spm=*>@@
+|http://www.tsdm.me/plugin.php?id=$s@<a href="http://hxtk.taobao.com*>@@
+|http://www.tsdm.me/plugin.php?id=$s@<a href="http://www.ladybees.com/*>@@
+|http://www.tsdm.me/plugin.php?id=$s@<a href="http://www.masadora.net/singleTopic/*>@@
+|http://www.tsdm.me/plugin.php?id=$s@<a href="http://www.acgnz.cc*>@@
+|http://www.tsdm.me/plugin.php?id=$s@<a href="http://www.loli.cd/*>@@
+|http://www.tsdm.me/plugin.php?id=$s@<a href="http://vdm.cn/*>@@
+|http://www.tsdm.me/plugin.php?id=$s@<a href="http://www.upupoo.com*>@@
+!天使论坛打工插件
+|http://www.tsdm.me/plugin.php?id=$s@<a href="http://www.tsdm.me/forum.php?mod=viewthread&tid=848006*">@<a href="javascript:void(0);" target="_blank">@
+|http://www.tsdm.me/plugin.php?id=$s@<a href="http://777dm.net/*">@<a href="javascript:void(0);" target="_blank">@
+|http://www.tsdm.me/plugin.php?id=$s@<a href="http://dm.tsdm.tv/xinfandongman/"*">@<a href="javascript:void(0);" target="_blank">@
+|http://www.tsdm.me/plugin.php?id=$s@<a href="http://www.masadora.net/teleport.htm?hmsr=tsdm*">@<a href="javascript:void(0);" target="_blank">@
+|http://www.tsdm.me/plugin.php?id=$s@<a href="https://wydm.taobao.com/*">@<a href="javascript:void(0);" target="_blank">@
+|http://www.tsdm.me/plugin.php?id=$s@<a href="https://www.iqing.in/book/*">@<a href="javascript:void(0);" target="_blank">@
+!|http://www.tsdm.me/source/plugin/np_cliworkdz/plugin.js$s@var clicknum=0@var clicknum=6@
+!|http://www.tsdm.me/source/plugin/np_cliworkdz/plugin.js$s@var advnum=0@var advnum=6@
+!
+!
+!
 !
 !  ------------------------------ ADByby 自定义过滤语法表---------------------------------
 !  --------------  规则基于abp规则，并进行了字符替换部分的扩展-----------------------------
