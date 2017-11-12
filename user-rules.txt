@@ -1,4 +1,4 @@
-!  -----:  2017-11-11 22:14:25   by:kysdm-----
+!  -----:  2017-11-12 11:56:11   by:kysdm-----
 !
 !---------------------------------http网站元素屏蔽----------------------------------------
 5chajian.com##[id^="ad_"]
@@ -9,6 +9,10 @@ tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src="http://wx3.sinaimg.cn/large/704
 zimuzu.tv###help,[style^="text-align:center;"]
 !---------------------------------httpS网站元素屏蔽---------------------------------------
 ||https://dmhy.org##[id$="_ad"]
+||https://javbus3.com##[class="ad-list"]
+|https://www-360doc-cn.mipcdn.com##.mip-360doc-script-box960
+!手机百度网页下方软件推广
+|https://www.baidu.com$s@<script type="text/javascript">var zbBanner = {switch: '1',startTime: '*',endTime: '*',name: '*'*function () {banner(zbBanner, '*', storage.ls, B.log);});});</script>@@
 !---------------------------------http链接屏蔽--------------------------------------------
 |http://cdn.xianliao.me/assets/static/lib.js?
 |http://renren2.maoyun.tv/ads
