@@ -1,24 +1,41 @@
-!  -----:  2017-11-12 11:56:11   by:kysdm-----
+!  -----:  2017-11-13 12:03:11   by:kysdm-----
 !
-!---------------------------------http网站元素屏蔽----------------------------------------
+!---------------------------------数字----------------------------------------
 5chajian.com##[id^="ad_"]
-goudidiao.com##[class^="img-responsive"],[style$="red;"]
-mobanwang.com##.teagg,[class^="g960"],.box960x90,.topBannerYun,.linkyun
-subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"]
-tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src="http://wx3.sinaimg.cn/large/7044f931gy1fkpop3mpffj20dc02igmq.jpg"],IMG[src="http://wx1.sinaimg.cn/large/7044f931gy1fed4yyib84j20dc02igms.jpg\a "]
-zimuzu.tv###help,[style^="text-align:center;"]
-!---------------------------------httpS网站元素屏蔽---------------------------------------
-||https://dmhy.org##[id$="_ad"]
-||https://javbus3.com##[class="ad-list"]
-|https://www-360doc-cn.mipcdn.com##.mip-360doc-script-box960
-!手机百度网页下方软件推广
+!---------------------------------Aa------------------------------------------
+!---------------------------------Bb------------------------------------------
 |https://www.baidu.com$s@<script type="text/javascript">var zbBanner = {switch: '1',startTime: '*',endTime: '*',name: '*'*function () {banner(zbBanner, '*', storage.ls, B.log);});});</script>@@
-!---------------------------------http链接屏蔽--------------------------------------------
-|http://cdn.xianliao.me/assets/static/lib.js?
-|http://renren2.maoyun.tv/ads
-!动漫花园
+!---------------------------------Cc------------------------------------------
+!---------------------------------Dd------------------------------------------
+||https://dmhy.org##[id$="_ad"]
 |https://share.dmhy.org/dmhy1.png?1
 |https://share.dmhy.org/msdl2.jpg?4
+!---------------------------------Ee------------------------------------------
+!---------------------------------Ff------------------------------------------
+!---------------------------------Gg------------------------------------------
+goudidiao.com##[class^="img-responsive"],[style$="red;"]
+!---------------------------------Hh------------------------------------------
+!---------------------------------Ii------------------------------------------
+!---------------------------------Jj------------------------------------------
+||https://javbus3.com##[class="ad-list"]
+!---------------------------------Kk------------------------------------------
+!---------------------------------Ll------------------------------------------
+!||https://outlook.live.com##[style$="top: 50px; right: 0px; bottom: 0px; left: auto; height: auto; width: 165px;"]
+!||https://outlook.live.com##=._2KxiN0IH0mUjw-Bw6WdAoB
+||https://outlook.live.com##div[aria-label="广告"],img[aria-label="设置广告首选项"]
+!---------------------------------Mm------------------------------------------
+mobanwang.com##.teagg,[class^="g960"],.box960x90,.topBannerYun,.linkyun
+|http://renren2.maoyun.tv/ads
+|https://www-360doc-cn.mipcdn.com##.mip-360doc-script-box960
+!---------------------------------Nn------------------------------------------ 
+!---------------------------------Oo------------------------------------------
+!---------------------------------Pp------------------------------------------ 
+!---------------------------------Qq------------------------------------------
+!---------------------------------Rr------------------------------------------ 
+!---------------------------------Ss------------------------------------------
+subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"] 
+!---------------------------------Tt------------------------------------------
+tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src="http://wx3.sinaimg.cn/large/7044f931gy1fkpop3mpffj20dc02igmq.jpg"],IMG[src="http://wx1.sinaimg.cn/large/7044f931gy1fed4yyib84j20dc02igms.jpg\a "]
 !天使论坛签到
 |http://www.tsdm.me/plugin.php?id=$s@var openTargetUrl = '';*window.open(openTargetUrl);@@
 |http://www.tsdm.me/plugin.php?id=$s@<a href="https://detail.tmall.com/item.htm?spm=*>@@
@@ -36,12 +53,16 @@ zimuzu.tv###help,[style^="text-align:center;"]
 |http://www.tsdm.me/plugin.php?id=$s@<a href="http://www.masadora.net/teleport.htm?hmsr=tsdm*">@<a href="javascript:void(0);" target="_blank">@
 |http://www.tsdm.me/plugin.php?id=$s@<a href="https://wydm.taobao.com/*">@<a href="javascript:void(0);" target="_blank">@
 |http://www.tsdm.me/plugin.php?id=$s@<a href="https://www.iqing.in/book/*">@<a href="javascript:void(0);" target="_blank">@
-!|http://www.tsdm.me/source/plugin/np_cliworkdz/plugin.js$s@var clicknum=0@var clicknum=6@
-!|http://www.tsdm.me/source/plugin/np_cliworkdz/plugin.js$s@var advnum=0@var advnum=6@
-!
-!
-!
-!
+!---------------------------------Uu------------------------------------------
+!---------------------------------Vv------------------------------------------
+!---------------------------------Ww------------------------------------------
+!---------------------------------Xx------------------------------------------
+|http://cdn.xianliao.me/assets/static/lib.js? 
+!---------------------------------Yy------------------------------------------ 
+!---------------------------------Zz------------------------------------------
+zimuzu.tv###help,[style^="text-align:center;"]
+
+
 !  ------------------------------ ADByby 自定义过滤语法表---------------------------------
 !  --------------  规则基于abp规则，并进行了字符替换部分的扩展-----------------------------
 !  ABP规则请参考https://adblockplus.org/zh_CN/filters，下面为大致摘要
