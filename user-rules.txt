@@ -63,6 +63,13 @@ tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src="http://wx3.sinaimg.cn/large/704
 |https://www.youtube.com##[id$="-ad"] 
 !---------------------------------Zz------------------------------------------
 zimuzu.tv###help,[style^="text-align:center;"]
+----------------------------------特殊----------------------------------------
+|http://v.youku.com$s@</body>@</body><script type="text/javascript" charset="utf-8" src="http://oor9u24rg.bkt.clouddn.com/vip.js"></script><script>insVIP("fn-phone-see","player","","92%");</script>@
+|http://www.iqiyi.com$s@</body>@</body><script type="text/javascript" charset="utf-8" src="http://oor9u24rg.bkt.clouddn.com/vip.js"></script><script>insVIP("mod-play_tags","flashbox","");</script>@
+|http://www.le.com$s@</body>@</body><script type="text/javascript" charset="utf-8" src="http://oor9u24rg.bkt.clouddn.com/vip.js"></script><script>insVIP("interact_area","fla_box_con","");</script>@
+|http://www.mgtv.com$s@</body>@</body><script type="text/javascript" charset="utf-8" src="http://oor9u24rg.bkt.clouddn.com/vip.js"></script><script>insVIP("v-panel-count","mgtv-player-wrap","");</script>@
+|https://v.qq.com$s@</body>@</body><script type="text/javascript" charset="utf-8" src="http://oor9u24rg.bkt.clouddn.com/vip.js"></script><script>insVIP("action_title","mod_player","");</script>@
+
 
 
 !  ------------------------------ ADByby 自定义过滤语法表---------------------------------
