@@ -5,6 +5,7 @@
 !---------------------------------Aa------------------------------------------
 !---------------------------------Bb------------------------------------------
 |https://www.baidu.com$s@<script type="text/javascript">var zbBanner = {switch: '1',startTime: '*',endTime: '*',name: '*'*function () {banner(zbBanner, '*', storage.ls, B.log);});});</script>@@
+||https://bilibili.com##.bilibili-player-promote-box
 !---------------------------------Cc------------------------------------------
 !---------------------------------Dd------------------------------------------
 ||https://dmhy.org##[id$="_ad"]
