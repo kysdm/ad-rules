@@ -1,4 +1,4 @@
-!  -----:  2017-11-14 12:03:11   by:kysdm-----
+!  -----:  2017-11-15 12:03:11   by:kysdm-----
 !
 !---------------------------------数字----------------------------------------
 5chajian.com##[id^="ad_"]
@@ -47,12 +47,13 @@ tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src="http://wx3.sinaimg.cn/large/704
 |http://www.tsdm.me/plugin.php?id=$s@<a href="http://vdm.cn/*>@@
 |http://www.tsdm.me/plugin.php?id=$s@<a href="http://www.upupoo.com*>@@
 !天使论坛打工插件
-|http://www.tsdm.me/plugin.php?id=$s@<a href="http://www.tsdm.me/forum.php?mod=viewthread&tid=848006*">@<a href="javascript:void(0);" target="_blank">@
-|http://www.tsdm.me/plugin.php?id=$s@<a href="http://777dm.net/*">@<a href="javascript:void(0);" target="_blank">@
-|http://www.tsdm.me/plugin.php?id=$s@<a href="http://dm.tsdm.tv/xinfandongman/"*">@<a href="javascript:void(0);" target="_blank">@
-|http://www.tsdm.me/plugin.php?id=$s@<a href="http://www.masadora.net/teleport.htm?hmsr=tsdm*">@<a href="javascript:void(0);" target="_blank">@
-|http://www.tsdm.me/plugin.php?id=$s@<a href="https://wydm.taobao.com/*">@<a href="javascript:void(0);" target="_blank">@
-|http://www.tsdm.me/plugin.php?id=$s@<a href="https://www.iqing.in/book/*">@<a href="javascript:void(0);" target="_blank">@
+|http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@<a href="http://www.tsdm.me/forum.php?mod=viewthread&tid=848006*">@<a href="javascript:void(0);" target="_blank">@
+|http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@<a href="http://777dm.net/*">@<a href="javascript:void(0);" target="_blank">@
+|http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@<a href="http://dm.tsdm.tv/xinfandongman/"*">@<a href="javascript:void(0);" target="_blank">@
+|http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@<a href="http://www.masadora.net/teleport.htm?hmsr=tsdm*">@<a href="javascript:void(0);" target="_blank">@
+|http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@<a href="https://wydm.taobao.com/*">@<a href="javascript:void(0);" target="_blank">@
+|http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@<a href="https://www.iqing.in/book/*">@<a href="javascript:void(0);" target="_blank">@
+|http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@<a href="http://zjzk.xiimoon.com/*">@<a href="javascript:void(0);" target="_blank">@
 !---------------------------------Uu------------------------------------------
 !---------------------------------Vv------------------------------------------
 !---------------------------------Ww------------------------------------------
