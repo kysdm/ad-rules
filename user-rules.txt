@@ -1,7 +1,10 @@
-!  -----:  2017-11-16 22:00:11   by:kysdm-----
+!  -----:  2017-11-9 20:00:11   by:kysdm-----
 !
 !---------------------------------数字----------------------------------------
 5chajian.com##[id^="ad_"]
+m.cloud.189.cn###J_CloudWapBanner
+|http://m.cloud.189.cn/source/images/banner.png
+|http://www.tsdmw.net/img01/MP3/pm_1.mp3
 !---------------------------------Aa------------------------------------------
 !---------------------------------Bb------------------------------------------
 |https://www.baidu.com$s@<script type="text/javascript">var zbBanner = {switch: '1',startTime: '*',endTime: '*',name: '*'*function () {banner(zbBanner, '*', storage.ls, B.log);});});</script>@@
@@ -38,6 +41,7 @@ mobanwang.com##.teagg,[class^="g960"],.box960x90,.topBannerYun,.linkyun
 subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"] 
 !---------------------------------Tt------------------------------------------
 tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src="http://wx3.sinaimg.cn/large/7044f931gy1fkpop3mpffj20dc02igmq.jpg"],IMG[src="http://wx1.sinaimg.cn/large/7044f931gy1fed4yyib84j20dc02igms.jpg\a "]
+|http://www.tsdmw.net/img01/MP3/pm_1.mp3
 !天使论坛签到
 |http://www.tsdm.me/plugin.php?id=$s@var openTargetUrl = '';*window.open(openTargetUrl);@@
 |http://www.tsdm.me/plugin.php?id=$s@<a href="https://detail.tmall.com/item.htm?spm=*>@@
