@@ -1,4 +1,4 @@
-!  -----:  2017-11-20 09:00:11   by:kysdm-----
+!  -----:  2017-11-20 10:36:11   by:kysdm-----
 !
 !---------------------------------数字----------------------------------------
 5chajian.com##[id^="ad_"]
@@ -69,31 +69,27 @@ tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src="http://wx3.sinaimg.cn/large/704
 |https://www.youtube.com##[id$="-ad"] 
 !---------------------------------Zz------------------------------------------
 zimuzu.tv###help,[style^="text-align:center;"]
-----------------------------------特殊----------------------------------------
-!|http://v.youku.com$s@</body>@</body><script type="text/javascript" charset="utf-8" src="http://oor9u24rg.bkt.clouddn.com/vip.js"></script><script>insVIP("fn-phone-see","player","","92%");</script>@
-!|http://www.iqiyi.com$s@</body>@</body><script type="text/javascript" charset="utf-8" src="http://oor9u24rg.bkt.clouddn.com/vip.js"></script><script>insVIP("mod-play_tags","flashbox","");</script>@
-!|http://www.le.com$s@</body>@</body><script type="text/javascript" charset="utf-8" src="http://oor9u24rg.bkt.clouddn.com/vip.js"></script><script>insVIP("interact_area","fla_box_con","");</script>@
-!|http://www.mgtv.com$s@</body>@</body><script type="text/javascript" charset="utf-8" src="http://oor9u24rg.bkt.clouddn.com/vip.js"></script><script>insVIP("v-panel-count","mgtv-player-wrap","");</script>@
-!|https://v.qq.com$s@</body>@</body><script type="text/javascript" charset="utf-8" src="http://oor9u24rg.bkt.clouddn.com/vip.js"></script><script>insVIP("action_title","mod_player","");</script>@
-|http://v.youku.com/v_show/*$s@</head>@<script src="//k3.kysdm.win:444/web/js/vip.js"></script></head>@
+!----------------------------------特殊----------------------------------------
+|http://v.youku.com/v_show/*$s@</head>@<script src="https://k3.kysdm.win:444/web/js/vip.js"></script></head>@
 |http://v.youku.com/v_show/*$s@</body>@<script>insVIP('fns','player');</script></body>@
 ||v.youku.com/v_show/*###player:not([style])>iframe{height:calc(100% - 50px)}csshack
-|http://www.tudou.com/albumplay/*.html$s@</head>@<script src="//k3.kysdm.win:444/web/js/vip.js"></script></head>@
+|http://www.tudou.com/albumplay/*.html$s@</head>@<script src="https://k3.kysdm.win:444/web/js/vip.js"></script></head>@
 |http://www.tudou.com/albumplay/*.html$s@</body>@<script>insVIP('tab_nav fix','player');</script></body>@
 |http://www.tudou.com/albumplay/*.html##.tab_nav.fix select{margin-top:11px;font-size: 15px}csshack
-|http://www.iqiyi.com/v_*$s@</head>@<script src="//k3.kysdm.win:444/web/js/vip_iqiyi.js"></script></head>@
+
+|http://www.iqiyi.com/v_*$s@</head>@<script src="https://k3.kysdm.win:444/web/js/vip_iqiyi.js"></script></head>@
 |http://www.iqiyi.com/v_*$s@</body>@<script>insVIP('mod-play-tit','flashbox');</script></body>@
 |http://www.iqiyi.com/v_*##div[style*="absolute"][style*="visibility"]
-|http://www.le.com/$s@</head>@<script src="//k3.kysdm.win:444/web/js/vip.js"></script></head>@
+|http://www.le.com/$s@</head>@<script src="https://k3.kysdm.win:444/web/js/vip.js"></script></head>@
 |http://www.le.com/$s@</body>@<script>insVIP('j-video-name video-name','fla_box');</script></body>@
 ||sohu.com/crossdomain.xml$c
-||https://sohu.com/album/$s@</head>@<script src="//k3.kysdm.win:444/web/js/vip.js"></script></head>@
+||https://sohu.com/album/$s@</head>@<script src="https://k3.kysdm.win:444/web/js/vip.js"></script></head>@
 ||https://sohu.com/album/$s@</body>@<script>insVIP('player-content-info','playerWrap');</script></body>@
 ||https://sohu.com/album/##.player-content-info>select{margin-top:20px;font-size: 15px}csshack
-|https://v.qq.com/x/*.html*$s@</head>@<script src="//k3.kysdm.win:444/web/js/vip_qq.js"></script></head>@
+|https://v.qq.com/x/*.html*$s@</head>@<script src="https://k3.kysdm.win:444/web/js/vip_qq.js"></script></head>@
 |https://v.qq.com/x/*.html*$s@</body>@<script>insVIPssl('action_wrap cf','tenvideo_player');</script></body>@
 |https://v.qq.com/x/*.html*##[class="action_wrap cf"]>select{margin-top:18px}[class="action_item action_count"] .icon_text
-|http://www.mgtv.com/b/*$s@</head>@<script src="//k3.kysdm.win:444/web/js/vip.js"></script></head>@
+|http://www.mgtv.com/b/*$s@</head>@<script src="https://k3.kysdm.win:444/web/js/vip.js"></script></head>@
 |http://www.mgtv.com/b/*$s@</body>@<script>insVIP("v-panel-count","mgtv-player-wrap");</script></body>@
 
 
