@@ -1,0 +1,19 @@
+! 视频vip规则
+! 优酷
+|http://v.youku.com$s@</body>@<script type="text/javascript" charset="utf-8" src="http://你的js地址"></script><script>insVIP("base_info","#418EE6","player","92%");</script></body>@
+! 乐视
+|http://www.le.com$s@</body>@<script type="text/javascript" charset="utf-8" src="http://你的js地址"></script><script>insVIP("j-video-name video-name","#418EE6","fla_box_con","100%");</script></body>@
+! pptv
+|http://vip.pptv.com$s@</body>@<script type="text/javascript" charset="utf-8" src="http://你的js地址"></script><script>insVIP("title_video","#3E94E0","pptv_playpage","100%");</script></body>@
+|http://v.pptv.com$s@</body>@<script type="text/javascript" charset="utf-8" src="http://你的js地址"></script><script>insVIP("module-video2016-ops cf","#3E94E0","pptv_playpage_box","100%");</script></body>@
+! 爱奇艺
+|http://www.iqiyi.com$s@</body>@<script type="text/javascript" charset="utf-8" src="http://你的js地址"></script><script>insVIP("mod-play-tit","#5FA000","flashbox","100%");</script></body>@
+|http://www.iqiyi.com/v_*##div[style*="absolute"][style*="visibility"]
+! 搜狐
+|http://tv.sohu.com$s@</body>@<script type="text/javascript" charset="utf-8" src="http://你的js地址"></script><script>insVIP("left","#D3342E","player_vipTips","100%");</script></body>@
+|https://film.sohu.com$s@</body>@<script type="text/javascript" charset="utf-8" src="https://你的js地址"></script><script>insVIP("detailInfo_box","#E3B53D","playerWrap","100%");</script></body>@
+! 腾讯
+|https://v.qq.com$s@</body>@<script type="text/javascript" charset="utf-8" src="https://你的js地址"></script><script>insVIP("player_title","#E93646","mod_player","");</script></body>@
+! 芒果
+|https://www.mgtv.com$s@</body>@<script type="text/javascript" charset="utf-8" src="https://你的js地址"></script><script>insVIP("u-title title","#DD5600","mgtv-player-wrap","");</script></body>@
+!  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

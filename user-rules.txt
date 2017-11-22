@@ -1,10 +1,13 @@
-!  -----:  2017-11-20 19:36:11   by:kysdm-----
+!  -----:  2017-11-21 22:03:11   by:kysdm-----
 !
 !---------------------------------数字----------------------------------------
 5chajian.com##[id^="ad_"]
 m.cloud.189.cn###J_CloudWapBanner
 |http://m.cloud.189.cn/source/images/banner.png
-|http://www.tsdmw.net/img01/MP3/pm_1.mp3
+|http://www.tsdmw.net/img01/MP3/
+|https://www.5128t.com/js/mobile.js
+|https://www.5128t.com/js/Collection.js
+|https://www.5128t.com/js/jquery.js$s@btnClose = '<*adRightFloatBottom,ofloat:1})@{@
 !---------------------------------Aa------------------------------------------
 !---------------------------------Bb------------------------------------------
 |https://www.baidu.com$s@<script type="text/javascript">var zbBanner = {switch: '1',startTime: '*',endTime: '*',name: '*'*function () {banner(zbBanner, '*', storage.ls, B.log);});});</script>@@
@@ -32,7 +35,8 @@ goudidiao.com##[class^="img-responsive"],[style$="red;"]
 mobanwang.com##.teagg,[class^="g960"],.box960x90,.topBannerYun,.linkyun
 |http://renren2.maoyun.tv/ads
 |https://www-360doc-cn.mipcdn.com##.mip-360doc-script-box960
-!---------------------------------Nn------------------------------------------ 
+!---------------------------------Nn------------------------------------------
+|http://img.namusai.com/ 
 !---------------------------------Oo------------------------------------------
 !---------------------------------Pp------------------------------------------ 
 !---------------------------------Qq------------------------------------------
@@ -67,51 +71,34 @@ tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src="http://wx3.sinaimg.cn/large/704
 !---------------------------------Xx------------------------------------------
 |http://cdn.xianliao.me/assets/static/lib.js? 
 !---------------------------------Yy------------------------------------------
-|https://www.youtube.com##[id$="-ad"] 
+|https://www.youtube.com##[id$="-ad"]
+|https://js.yyjym.com//v.php?id= 
 !---------------------------------Zz------------------------------------------
 zimuzu.tv###help,[style^="text-align:center;"]
 !----------------------------------特殊----------------------------------------
-|http://v.youku.com/v_show/*$s@</head>@<script src="https://gitee.com/kysdm/ad-rules/raw/master/vip-js/Caeseason/vip.js"></script></head>@
+|http://v.youku.com/v_show/*$s@</head>@<script src="//coding.net/u/kysdm/p/ad-rules/git/raw/master/vip-js/Caeseason/vip.js"></script></head>@
 |http://v.youku.com/v_show/*$s@</body>@<script>insVIP('fns','player');</script></body>@
 ||v.youku.com/v_show/*###player:not([style])>iframe{height:calc(100% - 50px)}csshack
-|http://www.tudou.com/albumplay/*.html$s@</head>@<script src="https://gitee.com/kysdm/ad-rules/raw/master/vip-js/Caeseason/vip.js"></script></head>@
+|http://www.tudou.com/albumplay/*.html$s@</head>@<script src="//coding.net/u/kysdm/p/ad-rules/git/raw/master/vip-js/Caeseason/vip.js"></script></head>@
 |http://www.tudou.com/albumplay/*.html$s@</body>@<script>insVIP('tab_nav fix','player');</script></body>@
 |http://www.tudou.com/albumplay/*.html##.tab_nav.fix select{margin-top:11px;font-size: 15px}csshack
-
-|http://www.iqiyi.com/v_*$s@</head>@<script src="https://gitee.com/kysdm/ad-rules/raw/master/vip-js/Caeseason/vip_iqiyi.js"></script></head>@
+|http://www.iqiyi.com/v_*$s@</head>@<script src="//coding.net/u/kysdm/p/ad-rules/git/raw/master/vip-js/Caeseason/vip_iqiyi.js"></script></head>@
 |http://www.iqiyi.com/v_*$s@</body>@<script>insVIP('mod-play-tit','flashbox');</script></body>@
 |http://www.iqiyi.com/v_*##div[style*="absolute"][style*="visibility"]
-|http://www.le.com/$s@</head>@<script src="https://gitee.com/kysdm/ad-rules/raw/master/vip-js/Caeseason/vip.js"></script></head>@
+|http://www.le.com/$s@</head>@<script src="//coding.net/u/kysdm/p/ad-rules/git/raw/master/vip-js/Caeseason/vip.js"></script></head>@
 |http://www.le.com/$s@</body>@<script>insVIP('j-video-name video-name','fla_box');</script></body>@
 ||sohu.com/crossdomain.xml$c
-||https://sohu.com/album/$s@</head>@<script src="https://gitee.com/kysdm/ad-rules/raw/master/vip-js/Caeseason/vip.js"></script></head>@
-||https://sohu.com/album/$s@</body>@<script>insVIP('player-content-info','playerWrap');</script></body>@
 ||https://sohu.com/album/##.player-content-info>select{margin-top:20px;font-size: 15px}csshack
-|https://v.qq.com/x/*.html*$s@</head>@<script src="https://gitee.com/kysdm/ad-rules/raw/master/vip-js/Caeseason/vip_qq.js"></script></head>@
+|http://tv.sohu.com$s@</body>@<script type="text/javascript" charset="utf-8" src="//coding.net/u/kysdm/p/ad-rules/git/raw/master/vip-js/Code-SD/vip.js"></script><script>insVIP("left","#D3342E","player_vipTips","100%");</script></body>@
+|https://film.sohu.com$s@</body>@<script type="text/javascript" charset="utf-8" src="//coding.net/u/kysdm/p/ad-rules/git/raw/master/vip-js/Code-SD/vip.js"></script><script>insVIP("detailInfo_box","#E3B53D","playerWrap","100%");</script></body>@
+|https://v.qq.com/x/*.html*$s@</head>@<script src="//coding.net/u/kysdm/p/ad-rules/git/raw/master/vip-js/Caeseason/vip_qq.js"></script></head>@
 |https://v.qq.com/x/*.html*$s@</body>@<script>insVIPssl('action_wrap cf','tenvideo_player');</script></body>@
 |https://v.qq.com/x/*.html*##[class="action_wrap cf"]>select{margin-top:18px}[class="action_item action_count"] .icon_text
-|http://www.mgtv.com/b/*$s@</head>@<script src="https://gitee.com/kysdm/ad-rules/raw/master/vip-js/Caeseason/vip.js"></script></head>@
-|http://www.mgtv.com/b/*$s@</body>@<script>insVIP("v-panel-count","mgtv-player-wrap");</script></body>@
-
-
-!  ------------------------------ ADByby 自定义过滤语法表---------------------------------
-!  --------------  规则基于abp规则，并进行了字符替换部分的扩展-----------------------------
-!  ABP规则请参考https://adblockplus.org/zh_CN/filters，下面为大致摘要
-!  "!" 为行注释符，注释行以该符号起始作为一行注释语义，用于规则描述
-!  "*" 为字符通配符，能够匹配0长度或任意长度的字符串，该通配符不能与正则语法混用。
-!  "^" 为分隔符，可以是除了字母、数字或者 _ - . % 之外的任何字符。
-!  "|" 为管线符号，来表示地址的最前端或最末端
-!  "||" 为子域通配符，方便匹配主域名下的所有子域。
-!  "~" 为排除标识符，通配符能过滤大多数广告，但同时存在误杀, 可以通过排除标识符修正误杀链接。
-!  "##" 为元素选择器标识符，后面跟需要隐藏元素的CSS样式例如 #ad_id  .ad_class
-!  元素隐藏暂不支持全局规则和排除规则
-!  字符替换扩展
-!  文本替换选择器标识符，后面跟需要替换的文本数据，格式：$s@模式字符串@替换后的文本@
-!  支持通配符*和？
+|https://www.mgtv.com/b/*$s@</head>@<script src="//coding.net/u/kysdm/p/ad-rules/git/raw/master/vip-js/Caeseason/vip.js"></script></head>@
+|https://www.mgtv.com/b/*$s@</body>@<script>insVIP("v-panel-count","mgtv-player-wrap");</script></body>@
+!
+!
 !  ******************************* koolproxy 自定义过滤语法简表 *******************************
-!  ------------------------ 规则基于adblock规则，并进行了语法部分的扩展 ------------------------
-!  ABP规则请参考https://adblockplus.org/zh_CN/filters，下面为大致摘要
-!  "!" 为行注释符，注释行以该符号起始作为一行注释语义，用于规则描述
 !  "@@" 为白名单符，白名单具有最高优先级，放行过滤的网站，例如:@@||taobao.com
 !  ------------------------------------------------------------------------------------------
 !  "*" 为字符通配符，能够匹配0长度或任意长度的字符串，该通配符不能与正则语法混用。
@@ -121,7 +108,6 @@ zimuzu.tv###help,[style^="text-align:center;"]
 !  ------------------------------------------------------------------------------------------
 !  "|" 为管线符号，来表示地址的最前端或最末端
 !  "||" 为子域通配符，方便匹配主域名下的所有子域
-!  用法及例子如下：(以下等号表示等价于)
 !  ||xx.com          =  http://xx.com || http://*.xx.com
 !  ||http://xx.com   =  http://xx.com || http://*.xx.com
 !  ||https://xx.com  =  https://xx.com || https://*.xx.com
@@ -141,8 +127,6 @@ zimuzu.tv###help,[style^="text-align:center;"]
 !  fulldls.com##.tp_reccomend_banner
 !  torrentzap.com##.tp_reccomend_banner
 !  ------------------------------------------------------------------------------------------
-!  文本替换语法：$s@匹配内容@替换内容@
-!  文本替换例子：|http://cdn.pcbeta.js.inimc.com/data/cache/common.js?$s@var $banner = @@
 !  重定向语法：$r@匹配内容@替换内容@
 !  重定向例子：|http://koolshare.cn$r@http://koolshare.cn/*@http://www.qq.com@
 !  注：文本替换语法及重定向语法中的匹配内容不仅支持通配符功能，而且额外支持以下功能
@@ -150,7 +134,3 @@ zimuzu.tv###help,[style^="text-align:center;"]
 !  支持全正则匹配，/正则内容/ 表示应用正则匹配
 !  正则替换：替换内容支持 $1 $2 这样的符号
 !  普通替换：替换内容支持 * 这样的符号，表示把命中的内容复制到替换的内容。（类似 $1 $2，但是 * 号会自动计算数字）
-!  ------------------------------------------------------------------------------------------
-!  koolporxy支持https过滤功能，但考虑到https过滤的效率问题，目前仅允许非常明确的过滤指令。
-!  未来将逐步开放模糊https的相关语法，与普通语法同步，敬请期待。
-!  ******************************************************************************************
