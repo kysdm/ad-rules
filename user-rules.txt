@@ -1,8 +1,8 @@
-!  -----:  2017-11-21 22:03:11   by:kysdm-----
+!  -----:  2017-11-23 19:11:11   by:kysdm-----
 !
 !---------------------------------数字----------------------------------------
 5chajian.com##[id^="ad_"]
-m.cloud.189.cn###J_CloudWapBanner
+!m.cloud.189.cn###J_CloudWapBanner  //因kp BUG 此规则不生效//
 |http://m.cloud.189.cn/source/images/banner.png
 |http://www.tsdmw.net/img01/MP3/
 |https://www.5128t.com/js/mobile.js
@@ -45,7 +45,7 @@ mobanwang.com##.teagg,[class^="g960"],.box960x90,.topBannerYun,.linkyun
 !---------------------------------Ss------------------------------------------
 subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"] 
 !---------------------------------Tt------------------------------------------
-tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src="http://wx3.sinaimg.cn/large/7044f931gy1fkpop3mpffj20dc02igmq.jpg"],IMG[src="http://wx1.sinaimg.cn/large/7044f931gy1fed4yyib84j20dc02igms.jpg\a "]
+tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src$="7044f931gy1fkpop3mpffj20dc02igmq.jpg"],IMG[src$="7044f931gy1fed4yyib84j20dc02igms.jpg\a "]
 |http://www.tsdmw.net/img01/MP3/pm_1.mp3
 !天使论坛签到
 |http://www.tsdm.me/plugin.php?id=$s@var openTargetUrl = '';*window.open(openTargetUrl);@@
@@ -69,7 +69,8 @@ tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src="http://wx3.sinaimg.cn/large/704
 !---------------------------------Vv------------------------------------------
 !---------------------------------Ww------------------------------------------
 !---------------------------------Xx------------------------------------------
-|http://cdn.xianliao.me/assets/static/lib.js? 
+|http://cdn.xianliao.me/assets/static/lib.js?
+|http://union1.xiaojianjian.net/avkdebubrycx.js
 !---------------------------------Yy------------------------------------------
 |https://www.youtube.com##[id$="-ad"]
 |https://js.yyjym.com//v.php?id= 
