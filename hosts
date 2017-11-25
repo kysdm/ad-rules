@@ -1,0 +1,26 @@
+# acronis破解 屏蔽检测
+127.0.0.1 activation.acronis.com
+127.0.0.1 web-api-tih.acronis.com
+127.0.0.1 web-api-tie.acronis.com
+127.0.0.1 web-api-vmp.acronis.com
+127.0.0.1 cloud-rs-ru2.acronis.com
+127.0.0.1 cloud-fes-ru2.acronis.com
+127.0.0.1 rpc.acronis.com
+127.0.0.1 activation.acronis.com web-api-tih.acronis.com
+# 屏蔽百度地图高精度IP定位(ipv4)
+0.0.0.0 api.map.baidu.com
+0.0.0.0 ps.map.baidu.com
+0.0.0.0 sv.map.baidu.com
+0.0.0.0 offnavi.map.baidu.com
+0.0.0.0 newvector.map.baidu.com
+0.0.0.0 ulog.imap.baidu.com
+0.0.0.0 newloc.map.n.shifen.com
+# 屏蔽百度地图高精度IP定位(ipv6)
+:: api.map.baidu.com
+:: ps.map.baidu.com
+:: sv.map.baidu.com
+:: offnavi.map.baidu.com
+:: newvector.map.baidu.com
+:: ulog.imap.baidu.com
+:: newloc.map.n.shifen.com
+ 
