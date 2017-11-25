@@ -1,4 +1,4 @@
-!  -----:  2017-11-25 15:29:00   by:kysdm-----
+!  -----:  2017-11-25 19:16:00   by:kysdm-----
 !
 !  -----规则兼容Adbyby，部分兼容koolproxy-----
 !---------------------------------数字----------------------------------------
@@ -25,10 +25,9 @@
 |http://www.bilibili.com##.bilibili-player-promote
 !---------------------------------Cc------------------------------------------
 !---------------------------------Dd------------------------------------------
-! 网页中广告
-||http://dmhy.org##[id$="_ad"]
-|http://share.dmhy.org/dmhy1.png?1
-|http://share.dmhy.org/msdl2.jpg?4
+|http://share.dmhy.org/dmhy*.png
+|http://share.dmhy.org/msdl1.png
+|http://share.dmhy.org/msdl2.jpg
 ! 未知
 |http://dyncdn.me/static/20/js/expla60.js
 !---------------------------------Ee------------------------------------------

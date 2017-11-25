@@ -1,4 +1,4 @@
-!  -----:  2017-11-25 13:47:00   by:kysdm-----
+!  -----:  2017-11-25 19:16:00   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !---------------------------------数字----------------------------------------
@@ -28,9 +28,9 @@
 !---------------------------------Cc------------------------------------------
 !---------------------------------Dd------------------------------------------
 ! 网页中广告
-||https://dmhy.org##[id$="_ad"]
-|https://share.dmhy.org/dmhy1.png?1
-|https://share.dmhy.org/msdl2.jpg?4
+|https://share.dmhy.org/dmhy*.png
+|https://share.dmhy.org/msdl1.png
+|https://share.dmhy.org/msdl2.jpg
 ! 未知
 |https://dyncdn.me/static/20/js/expla60.js
 !---------------------------------Ee------------------------------------------
@@ -46,15 +46,12 @@ goudidiao.com##[class^="img-responsive"],[style$="red;"]
 |https://bbs.kafan.cn##iframe[width="500"][height="200"]
 !---------------------------------Ll------------------------------------------
 ! 右侧广告
-!||https://outlook.live.com##[style$="top: 50px; right: 0px; bottom: 0px; left: auto; height: auto; width: 165px;"]
-!||https://outlook.live.com##=._2KxiN0IH0mUjw-Bw6WdAoB
 ||https://outlook.live.com##div[aria-label="广告"],img[aria-label="设置广告首选项"]
 !---------------------------------Mm------------------------------------------
 mobanwang.com##.teagg,[class^="g960"],.box960x90,.topBannerYun,.linkyun
 |http://renren2.maoyun.tv/ads
-|https://www-360doc-cn.mipcdn.com##.mip-360doc-script-box960
 !---------------------------------Nn------------------------------------------
-|http://img.namusai.com/ 
+|http://img.namusai.com/
 !---------------------------------Oo------------------------------------------
 !---------------------------------Pp------------------------------------------ 
 !---------------------------------Qq------------------------------------------
@@ -94,9 +91,7 @@ tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src$="7044f931gy1fkpop3mpffj20dc02ig
 |http://cdn.xianliao.me/assets/static/lib.js?
 |http://union1.xiaojianjian.net/avkdebubrycx.js
 !---------------------------------Yy------------------------------------------
-! 首页上方广告
 |https://www.youtube.com##[id$="-ad"]
-! 未知
 |https://js.yyjym.com//v.php?id= 
 !---------------------------------Zz------------------------------------------
 ! 人人字幕组赞助悬浮窗
