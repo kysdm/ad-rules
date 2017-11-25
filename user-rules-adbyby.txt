@@ -3,15 +3,12 @@
 !  -----规则兼容Adbyby，部分兼容koolproxy-----
 !---------------------------------数字----------------------------------------
 5chajian.com##[id^="ad_"]
-! 顶部或者尾部APP推广
-!m.cloud.189.cn###J_CloudWapBanner  //因kp BUG 此规则不生效//
-|http://m.cloud.189.cn/source/images/banner.png
 ! 你懂得网站大量广告推送
 |http://www.5128t.com/js/mobile.js
 |http://www.5128t.com/js/Collection.js
 |http://www.5128t.com/js/jquery.js$s@btnClose = '<*adRightFloatBottom,ofloat:1})@{@
 |http://www.3344ja.com/js/
-|http://www.3344ja.com##[class="main top"]
+3344ja.com##[class="main top"]
 ! 360doc手机版上下广告信息
 360doc.cn###fixid
 |http://mipcache.bdstatic.com/static/v1/mip-360doc-script/mip-360doc-script.js
@@ -22,7 +19,7 @@
 !---------------------------------Aa------------------------------------------
 !---------------------------------Bb------------------------------------------
 ! 去除弹幕池下方广告
-|http://www.bilibili.com##.bilibili-player-promote
+bilibili.com##.bilibili-player-promote
 !---------------------------------Cc------------------------------------------
 !---------------------------------Dd------------------------------------------
 |http://share.dmhy.org/dmhy*.png
@@ -37,14 +34,12 @@ goudidiao.com##[class^="img-responsive"],[style$="red;"]
 !---------------------------------Hh------------------------------------------
 !---------------------------------Ii------------------------------------------
 !---------------------------------Jj------------------------------------------
-||http://javbus3.com##[class="ad-list"]
+javbus3.com##[class="ad-list"]
 !---------------------------------Kk------------------------------------------
 ! 卡饭帖子回复中广告
-|http://bbs.kafan.cn##iframe[width="500"][height="200"]
+kafan.cn##iframe[width="500"][height="200"]
 !---------------------------------Ll------------------------------------------
 ! 右侧广告
-!||http://outlook.live.com##[style$="top: 50px; right: 0px; bottom: 0px; left: auto; height: auto; width: 165px;"]
-!||http://outlook.live.com##=._2KxiN0IH0mUjw-Bw6WdAoB
 ||http://outlook.live.com##div[aria-label="广告"],img[aria-label="设置广告首选项"]
 !---------------------------------Mm------------------------------------------
 mobanwang.com##.teagg,[class^="g960"],.box960x90,.topBannerYun,.linkyun
@@ -57,7 +52,7 @@ mobanwang.com##.teagg,[class^="g960"],.box960x90,.topBannerYun,.linkyun
 !---------------------------------Qq------------------------------------------
 !---------------------------------Rr------------------------------------------
 ! 网页空白处搜索框处的网页跳转
-|http://rarbg.is$s@var _wm3_settings={popunder:*}};@@
+rarbg.is$s@var _wm3_settings={popunder:*}};@@
 !---------------------------------Ss------------------------------------------
 ! 聊天悬浮窗 右下角二维码 上方空白
 subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"] 
@@ -91,8 +86,7 @@ tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src$="7044f931gy1fkpop3mpffj20dc02ig
 |http://cdn.xianliao.me/assets/static/lib.js?
 |http://union1.xiaojianjian.net/avkdebubrycx.js
 !---------------------------------Yy------------------------------------------
-! 首页上方广告
-|https://www.youtube.com##[id$="-ad"]
+youtube.com##[id$="-ad"]
 ! 未知
 |http://js.yyjym.com//v.php?id= 
 !---------------------------------Zz------------------------------------------
