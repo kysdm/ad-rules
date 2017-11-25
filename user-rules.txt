@@ -1,25 +1,35 @@
-!  -----:  2017-11-24 16:50:00   by:kysdm-----
+!  -----:  2017-11-25 10:59:00   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !---------------------------------数字----------------------------------------
 5chajian.com##[id^="ad_"]
+! 顶部或者尾部APP推广
 !m.cloud.189.cn###J_CloudWapBanner  //因kp BUG 此规则不生效//
 |http://m.cloud.189.cn/source/images/banner.png
-|http://www.tsdmw.net/img01/MP3/
+! 你懂得网站大量广告推送
 |https://www.5128t.com/js/mobile.js
 |https://www.5128t.com/js/Collection.js
+! 360doc手机版上下广告信息
+360doc.cn###fixid
+|https://mipcache.bdstatic.com/static/v1/mip-360doc-script/mip-360doc-script.js
+|http://www.360doc.cn/mip$s@<div class="w1">*<div class="footer_nav_box">@<div class="footer_nav_box">@
 |https://www.5128t.com/js/jquery.js$s@btnClose = '<*adRightFloatBottom,ofloat:1})@{@
+! www.360doc.com解除登录才能复制文章限制
 |http://www.360doc.com/content/$s@</body>@<script>document.body.oncopy=null;document.body.__defineSetter__("oncopy",function(){})</script></body>@
 !|http://www.360doc.com/content/$r@http://www.360doc.com/js/showarticle.js*@https://coding.net/u/kysdm/p/ad-rules/git/raw/master/js/showarticle.js@
 !---------------------------------Aa------------------------------------------
 !---------------------------------Bb------------------------------------------
+! 手机百度下方APP推广
 |https://www.baidu.com$s@<script type="text/javascript">var zbBanner = {switch: '1',startTime: '*',endTime: '*',name: '*'*function () {banner(zbBanner, '*', storage.ls, B.log);});});</script>@@
+! 去除弹幕池下方广告
 |https://www.bilibili.com##.bilibili-player-promote
 !---------------------------------Cc------------------------------------------
 !---------------------------------Dd------------------------------------------
+! 网页中广告
 ||https://dmhy.org##[id$="_ad"]
 |https://share.dmhy.org/dmhy1.png?1
 |https://share.dmhy.org/msdl2.jpg?4
+! 未知
 |https://dyncdn.me/static/20/js/expla60.js
 !---------------------------------Ee------------------------------------------
 !---------------------------------Ff------------------------------------------
@@ -31,6 +41,7 @@ goudidiao.com##[class^="img-responsive"],[style$="red;"]
 ||https://javbus3.com##[class="ad-list"]
 !---------------------------------Kk------------------------------------------
 !---------------------------------Ll------------------------------------------
+! 右侧广告
 !||https://outlook.live.com##[style$="top: 50px; right: 0px; bottom: 0px; left: auto; height: auto; width: 165px;"]
 !||https://outlook.live.com##=._2KxiN0IH0mUjw-Bw6WdAoB
 ||https://outlook.live.com##div[aria-label="广告"],img[aria-label="设置广告首选项"]
@@ -44,13 +55,17 @@ mobanwang.com##.teagg,[class^="g960"],.box960x90,.topBannerYun,.linkyun
 !---------------------------------Pp------------------------------------------ 
 !---------------------------------Qq------------------------------------------
 !---------------------------------Rr------------------------------------------
+! 网页空白处搜索框处的网页跳转
 |https://rarbg.is$s@var _wm3_settings={popunder:*}};@@
 !---------------------------------Ss------------------------------------------
+! 聊天悬浮窗 右下角二维码 上方空白
 subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"] 
 !---------------------------------Tt------------------------------------------
+! 天使论坛消息推送声音
+|http://www.tsdmw.net/img01/MP3/
+! 天使论坛微博框架和网页中广告
 tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src$="7044f931gy1fkpop3mpffj20dc02igmq.jpg"],IMG[src$="7044f931gy1fed4yyib84j20dc02igms.jpg\a "]
-|http://www.tsdmw.net/img01/MP3/pm_1.mp3
-!天使论坛签到
+! 天使论坛签到
 |http://www.tsdm.me/plugin.php?id=$s@var openTargetUrl = '';*window.open(openTargetUrl);@@
 |http://www.tsdm.me/plugin.php?id=$s@<a href="https://detail.tmall.com/item.htm?spm=*>@@
 |http://www.tsdm.me/plugin.php?id=$s@<a href="http://hxtk.taobao.com*>@@
@@ -60,7 +75,7 @@ tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src$="7044f931gy1fkpop3mpffj20dc02ig
 |http://www.tsdm.me/plugin.php?id=$s@<a href="http://www.loli.cd/*>@@
 |http://www.tsdm.me/plugin.php?id=$s@<a href="http://vdm.cn/*>@@
 |http://www.tsdm.me/plugin.php?id=$s@<a href="http://www.upupoo.com*>@@
-!天使论坛打工插件
+! 天使论坛打工插件
 |http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@<a href="http://www.tsdm.me/forum.php?mod=viewthread&tid=848006*">@<a href="javascript:void(0);" target="_blank">@
 |http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@<a href="http://777dm.net/*">@<a href="javascript:void(0);" target="_blank">@
 |http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@<a href="http://dm.tsdm.tv/xinfandongman/"*">@<a href="javascript:void(0);" target="_blank">@
@@ -75,9 +90,12 @@ tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src$="7044f931gy1fkpop3mpffj20dc02ig
 |http://cdn.xianliao.me/assets/static/lib.js?
 |http://union1.xiaojianjian.net/avkdebubrycx.js
 !---------------------------------Yy------------------------------------------
+! 首页上方广告
 |https://www.youtube.com##[id$="-ad"]
+! 未知
 |https://js.yyjym.com//v.php?id= 
 !---------------------------------Zz------------------------------------------
+! 人人字幕组赞助悬浮窗
 zimuzu.tv###help,[style^="text-align:center;"]
 !----------------------------------特殊----------------------------------------
 |http://v.youku.com/v_show/*$s@</head>@<script src="//coding.net/u/kysdm/p/ad-rules/git/raw/master/vip-js/Caeseason/vip.js"></script></head>@
