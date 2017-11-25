@@ -1,4 +1,4 @@
-!  -----:  2017-11-25 13:40:00   by:kysdm-----
+!  -----:  2017-11-25 13:47:00   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !---------------------------------数字----------------------------------------
@@ -9,6 +9,8 @@
 ! 你懂得网站大量广告推送
 |https://www.5128t.com/js/mobile.js
 |https://www.5128t.com/js/Collection.js
+|https://www.3344ja.com/js/
+|https://www.3344ja.com##[class="main top"]
 ! 360doc手机版上下广告信息
 360doc.cn###fixid
 |https://mipcache.bdstatic.com/static/v1/mip-360doc-script/mip-360doc-script.js
