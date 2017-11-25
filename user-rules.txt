@@ -1,4 +1,4 @@
-!  -----:  2017-11-25 10:59:00   by:kysdm-----
+!  -----:  2017-11-25 13:40:00   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !---------------------------------数字----------------------------------------
@@ -13,6 +13,7 @@
 360doc.cn###fixid
 |https://mipcache.bdstatic.com/static/v1/mip-360doc-script/mip-360doc-script.js
 |http://www.360doc.cn/mip$s@<div class="w1">*<div class="footer_nav_box">@<div class="footer_nav_box">@
+!
 |https://www.5128t.com/js/jquery.js$s@btnClose = '<*adRightFloatBottom,ofloat:1})@{@
 ! www.360doc.com解除登录才能复制文章限制
 |http://www.360doc.com/content/$s@</body>@<script>document.body.oncopy=null;document.body.__defineSetter__("oncopy",function(){})</script></body>@
@@ -40,6 +41,8 @@ goudidiao.com##[class^="img-responsive"],[style$="red;"]
 !---------------------------------Jj------------------------------------------
 ||https://javbus3.com##[class="ad-list"]
 !---------------------------------Kk------------------------------------------
+! 卡饭帖子回复中广告
+|https://bbs.kafan.cn##iframe[width="500"][height="200"]
 !---------------------------------Ll------------------------------------------
 ! 右侧广告
 !||https://outlook.live.com##[style$="top: 50px; right: 0px; bottom: 0px; left: auto; height: auto; width: 165px;"]
