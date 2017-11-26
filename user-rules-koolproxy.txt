@@ -1,4 +1,4 @@
-!  -----:  2017-11-25 21:23:00   by:kysdm-----
+!  -----:  2017-11-26 20:46:00   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !---------------------------------数字----------------------------------------
@@ -25,6 +25,9 @@
 |https://www.baidu.com$s@<script type="text/javascript">var zbBanner = {switch: '1',startTime: '*',endTime: '*',name: '*'*function () {banner(zbBanner, '*', storage.ls, B.log);});});</script>@@
 ! 去除弹幕池下方广告
 |https://www.bilibili.com##.bilibili-player-promote
+! 点击跳转 无用框架
+bttiantangs.com###sidebar-follow,[class="full-width row"]
+|http://bttt99.kkcaicai.com:8080/tan.js
 !---------------------------------Cc------------------------------------------
 !---------------------------------Dd------------------------------------------
 ! 网页中广告
