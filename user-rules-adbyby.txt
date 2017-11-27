@@ -1,73 +1,71 @@
-!  -----:  2017-11-26 20:46:00   by:kysdm-----
+!  -----:  2017-11-27 12:40:16   by:kysdm-----
 !
 !  -----规则兼容Adbyby，部分兼容koolproxy-----
+|  -----如需过滤https网址，需配合ssllist.ini文件-----
 !---------------------------------数字----------------------------------------
 5chajian.com##[id^="ad_"]
-! 你懂得网站大量广告推送
+!--你懂得网站大量广告推送
 |http://www.5128t.com/js/mobile.js
 |http://www.5128t.com/js/Collection.js
 |http://www.5128t.com/js/jquery.js$s@btnClose = '<*adRightFloatBottom,ofloat:1})@{@
 |http://www.3344ja.com/js/
-3344ja.com##[class="main top"]
-! 360doc手机版上下广告信息
-360doc.cn###fixid
-|http://mipcache.bdstatic.com/static/v1/mip-360doc-script/mip-360doc-script.js
-|http://www.360doc.cn/mip$s@<div class="w1">*<div class="footer_nav_box">@<div class="footer_nav_box">@
-! www.360doc.com解除登录才能复制文章限制
+|http://www.3344ja.com##[class="main top"]
+!--www.360doc.com解除登录才能复制文章限制
 |http://www.360doc.com/content/$s@</body>@<script>document.body.oncopy=null;document.body.__defineSetter__("oncopy",function(){})</script></body>@
-!|http://www.360doc.com/content/$r@http://www.360doc.com/js/showarticle.js*@https://coding.net/u/kysdm/p/ad-rules/git/raw/master/js/showarticle.js@
 !---------------------------------Aa------------------------------------------
 !---------------------------------Bb------------------------------------------
-! 去除弹幕池下方广告
-bilibili.com##.bilibili-player-promote
-! 点击跳转 无用框架
+!--去除弹幕池下方广告
+|http://www.bilibili.com##.bilibili-player-promote
+!--点击跳转 无用框架
 bttiantangs.com###sidebar-follow,[class="full-width row"]
 |http://bttt99.kkcaicai.com:8080/tan.js
 !---------------------------------Cc------------------------------------------
 !---------------------------------Dd------------------------------------------
+!--网页中广告
 |http://share.dmhy.org/dmhy*.png
 |http://share.dmhy.org/msdl1.png
 |http://share.dmhy.org/msdl2.jpg
-! 未知
+!--未知
 |http://dyncdn.me/static/20/js/expla60.js
 !---------------------------------Ee------------------------------------------
+||eastday.com/assets/js/resources/new_detail_v2/detail.js?130480502
 !---------------------------------Ff------------------------------------------
 !---------------------------------Gg------------------------------------------
 goudidiao.com##[class^="img-responsive"],[style$="red;"]
 !---------------------------------Hh------------------------------------------
 !---------------------------------Ii------------------------------------------
 !---------------------------------Jj------------------------------------------
-javbus3.com##[class="ad-list"]
+||javbus3.com##[class="ad-list"]
 !---------------------------------Kk------------------------------------------
-! 卡饭帖子回复中广告
-kafan.cn##iframe[width="500"][height="200"]
+!--卡饭帖子回复中广告
+|http://bbs.kafan.cn##iframe[width="500"][height="200"]
 !---------------------------------Ll------------------------------------------
-! 右侧广告
-||http://outlook.live.com##div[aria-label="广告"],img[aria-label="设置广告首选项"]
+!--右侧广告
+||https://outlook.live.com##div[aria-label="广告"],img[aria-label="设置广告首选项"]
 !---------------------------------Mm------------------------------------------
-! 模板王字库
+!--模板王字库
 mobanwang.com##.linkyun,.topBannerYun,.guge,.g590x40
 |http://g1.pptair.com$script
 |http://fonts.mobanwang.com$s@<div id="searchTop">*</a></span>@<div id="searchTop">@
+!
 |http://renren2.maoyun.tv/ads
-|http://www-360doc-cn.mipcdn.com##.mip-360doc-script-box960
 !---------------------------------Nn------------------------------------------
-|http://img.namusai.com/ 
+|http://img.namusai.com/
 !---------------------------------Oo------------------------------------------
 !---------------------------------Pp------------------------------------------ 
 !---------------------------------Qq------------------------------------------
 !---------------------------------Rr------------------------------------------
-! 网页空白处搜索框处的网页跳转
-rarbg.is$s@var _wm3_settings={popunder:*}};@@
+!--网页空白处搜索框处的网页跳转
+|http://rarbg.is$s@var _wm3_settings={popunder:*}};@@
 !---------------------------------Ss------------------------------------------
-! 聊天悬浮窗 右下角二维码 上方空白
+!--聊天悬浮窗 右下角二维码 上方空白
 subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"] 
 !---------------------------------Tt------------------------------------------
-! 天使论坛消息推送声音
+!--天使论坛消息推送声音
 |http://www.tsdmw.net/img01/MP3/
 ! 天使论坛微博框架和网页中广告
 tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src$="7044f931gy1fkpop3mpffj20dc02igmq.jpg"],IMG[src$="7044f931gy1fed4yyib84j20dc02igms.jpg\a "]
-! 天使论坛签到
+!--天使论坛签到
 |http://www.tsdm.me/plugin.php?id=$s@var openTargetUrl = '';*window.open(openTargetUrl);@@
 |http://www.tsdm.me/plugin.php?id=$s@<a href="https://detail.tmall.com/item.htm?spm=*>@@
 |http://www.tsdm.me/plugin.php?id=$s@<a href="http://hxtk.taobao.com*>@@
@@ -77,7 +75,7 @@ tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src$="7044f931gy1fkpop3mpffj20dc02ig
 |http://www.tsdm.me/plugin.php?id=$s@<a href="http://www.loli.cd/*>@@
 |http://www.tsdm.me/plugin.php?id=$s@<a href="http://vdm.cn/*>@@
 |http://www.tsdm.me/plugin.php?id=$s@<a href="http://www.upupoo.com*>@@
-! 天使论坛打工插件
+!--天使论坛打工插件
 |http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@<a href="http://www.tsdm.me/forum.php?mod=viewthread&tid=848006*">@<a href="javascript:void(0);" target="_blank">@
 |http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@<a href="http://777dm.net/*">@<a href="javascript:void(0);" target="_blank">@
 |http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@<a href="http://dm.tsdm.tv/xinfandongman/"*">@<a href="javascript:void(0);" target="_blank">@
@@ -92,13 +90,36 @@ tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src$="7044f931gy1fkpop3mpffj20dc02ig
 |http://cdn.xianliao.me/assets/static/lib.js?
 |http://union1.xiaojianjian.net/avkdebubrycx.js
 !---------------------------------Yy------------------------------------------
-youtube.com##[id$="-ad"]
-! 未知
+|http://www.youtube.com##[id$="-ad"]
 |http://js.yyjym.com//v.php?id= 
 !---------------------------------Zz------------------------------------------
-! 人人字幕组赞助悬浮窗
+!--人人字幕组赞助悬浮窗
 zimuzu.tv###help,[style^="text-align:center;"]
 !----------------------------------特殊----------------------------------------
+!--Android王者荣耀封禁登录
+|http://msdk.qq.com/auth/getlogin_info/?timestamp=*
+|http://msdk.qq.com/auth/wxfirst_login/?appid=*
+|http://msdk.qq.com/auth/getlogin_info/?timestamp=*
+|http://msdk.qq.com/auth/wxfirst_login/?appid=*
+!--IOS王者荣耀封禁登录  部分链接为https可能不会生效
+|http://ssl.msdk.qq.com/auth/*_*/?*
+|http://ssl.msdk.qq.com/auth/*_*/?*
+!--迅雷9去右边框广告
+|http://misc-xl9-ssl.xunlei.com/d/dist/static/js/*.js
+!--右边框背景图片
+|http://misc-xl9-ssl.xunlei.com/d/dist/static/img/bg1.*.jpg$image
+!--增强型规则，可能有误杀，请谨慎使用
+!http://video.xycdn.n0808.com/*sign=*
+!http://images.client.vip.xunlei.com/mini/xl9/tips_*/*
+!http://i.xunlei.com/login/*/*.js*
+!http://js.weitrades.com/web_component/js/*.js?v=*
+!||88cdn.com/clientembed/*/js/*.js
+!http://jinrong.xunlei.com/x*/xl9-pendent.js
+!--右边框背景图片恶搞
+!http://misc-xl9-ssl.xunlei.com/d/dist/static/img/bg1.*.jpg$r@http://misc-xl9-ssl.xunlei.com/d/dist/static/img/bg1.*.jpg@http://ww1.sinaimg.cn/large/8e8e6950ly1fi1wr4ou3fj20k00ad0t7.jpg
+!--右边框页面替换，可替换成百度等页面
+!http://pc.xunlei.com/?key=*&m=0f$r@http://pc.xunlei.com/?key=*&m=0f@www.baidu.com@
+!--VIP
 |http://v.youku.com/v_show/*$s@</head>@<script src="//coding.net/u/kysdm/p/ad-rules/git/raw/master/vip-js/Caeseason/vip.js"></script></head>@
 |http://v.youku.com/v_show/*$s@</body>@<script>insVIP('fns','player');</script></body>@
 ||v.youku.com/v_show/*###player:not([style])>iframe{height:calc(100% - 50px)}csshack
@@ -111,7 +132,7 @@ zimuzu.tv###help,[style^="text-align:center;"]
 |http://www.le.com/$s@</head>@<script src="//coding.net/u/kysdm/p/ad-rules/git/raw/master/vip-js/Caeseason/vip.js"></script></head>@
 |http://www.le.com/$s@</body>@<script>insVIP('j-video-name video-name','fla_box');</script></body>@
 ||sohu.com/crossdomain.xml$c
-||http://sohu.com/album/##.player-content-info>select{margin-top:20px;font-size: 15px}csshack
+||sohu.com/album/##.player-content-info>select{margin-top:20px;font-size: 15px}csshack
 |http://tv.sohu.com$s@</body>@<script type="text/javascript" charset="utf-8" src="//coding.net/u/kysdm/p/ad-rules/git/raw/master/vip-js/Code-SD/vip.js"></script><script>insVIP("left","#D3342E","player_vipTips","100%");</script></body>@
 |http://film.sohu.com$s@</body>@<script type="text/javascript" charset="utf-8" src="//coding.net/u/kysdm/p/ad-rules/git/raw/master/vip-js/Code-SD/vip.js"></script><script>insVIP("detailInfo_box","#E3B53D","playerWrap","100%");</script></body>@
 |http://v.qq.com/x/*.html*$s@</head>@<script src="//coding.net/u/kysdm/p/ad-rules/git/raw/master/vip-js/Caeseason/vip_qq.js"></script></head>@
