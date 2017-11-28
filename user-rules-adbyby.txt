@@ -1,4 +1,4 @@
-!  -----:  2017-11-27 12:40:16   by:kysdm-----
+!  -----:  2017-11-28 09:10:16   by:kysdm-----
 !
 !  -----规则兼容Adbyby，部分兼容koolproxy-----
 |  -----如需过滤https网址，需配合ssllist.ini文件-----
@@ -25,8 +25,6 @@ bttiantangs.com###sidebar-follow,[class="full-width row"]
 |http://share.dmhy.org/dmhy*.png
 |http://share.dmhy.org/msdl1.png
 |http://share.dmhy.org/msdl2.jpg
-!--未知
-|http://dyncdn.me/static/20/js/expla60.js
 !---------------------------------Ee------------------------------------------
 ||eastday.com/assets/js/resources/new_detail_v2/detail.js?130480502
 !---------------------------------Ff------------------------------------------
@@ -56,7 +54,7 @@ mobanwang.com##.linkyun,.topBannerYun,.guge,.g590x40
 !---------------------------------Qq------------------------------------------
 !---------------------------------Rr------------------------------------------
 !--网页空白处搜索框处的网页跳转
-|http://rarbg.is$s@var _wm3_settings={popunder:*}};@@
+|https://rarbg.is$s@function mBhJuWMW(name, value, seconds) {*) { _wm3.format.popunder.isTriggered = true; } } }@@
 !---------------------------------Ss------------------------------------------
 !--聊天悬浮窗 右下角二维码 上方空白
 subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"] 
