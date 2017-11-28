@@ -1,0 +1,75 @@
+!  -----:  2017-11-28 12:18:16   by:kysdm-----
+!--域名
+91yun.co
+avast.com
+alibabacloud.com
+aliyun.com
+acgluna.com
+amazonaws.com
+blogspot.com
+bitcomet.com
+cloudflare.com
+daum.net
+doub.io
+dmhy.org
+eset.com
+formyip.com
+github.com
+godaddy.com
+googleapis.com
+kaspersky.com
+madvr.com
+madshi.net
+ping.cat
+rarbg.is
+sourceforge.net
+vcb-s.com
+videohelp.com
+teamviewer.com
+tsdm.me
+utorrent.com
+ubuntu.com
+!
+!--steam专栏
+!--steam works
+partner.steamgames.com
+!--steam电影/动画(中国地区)
+video.mileweb.steampowered.com.8686c.com
+!--steam 实况直播(中国地区)
+broadcast.mileweb.steampowered.com.8686c.com
+!--setam 商店/社区/创意工坊静态资源/图片(JPG)
+steamuserimages-a.akamaihd.net
+cdn.akamai.steamstatic.com
+store.akamai.steamstatic.com
+!--setam 社区/创意工坊动态图片(GIF)
+cloud-3.steamusercontent.com
+!--steam 商店/社区网页
+store.steampowered.com
+steamcommunity.com
+!--steam 游戏图片/视频(中国地区)
+cdn.steamstatic.com.8686c.com
+!--steam 游戏下载(中国下载区)不包含香港
+!cdn.mileweb.cs.steampowered.com.8686c.com
+!--steam 游戏下载(非中国下载区)  *为数字
+!valve*.steampipe.steamcontent.com
+!--steam akamai下载CDN-特殊
+!steampipe.akamaized.net
+!--steam Edgecast下载CDN-特殊
+!cdn.edgecast.cs.steampowered.com
+!--steam Highwinds下载CDN-特殊
+!cdn.highwinds.cs.steampowered.com
+!--steam 完美电信下载CDN-特殊
+!telecom.dota2.wmsj.cn
+!--steam 完美联通下载CDN-特殊
+!unicom.dota2.wmsj.cn
+!
+!--IP
+149.154.160.0/20
+91.108.4.0/22
+91.108.56.0/24
+109.239.140.0/24
+67.198.55.0/24
+8.8.8.8
+9.9.9.9
+208.67.222.222
+208.67.220.220
