@@ -12,11 +12,12 @@
 |https://www.5326t.com/js/jquery.js$s@btnClose = '<*adRightFloatBottom,ofloat:1})@{@
 |https://www.3344ja.com/js/
 |https://www.3344ja.com##[class="main top"]
+|https://www.989bt.com##[width="1100"][height="90"]
 !--360doc手机版上下广告信息
 360doc.cn###fixid
 |https://mipcache.bdstatic.com/static/v1/mip-360doc-script/mip-360doc-script.js
 |http://www.360doc.cn/mip$s@<div class="w1">*<div class="footer_nav_box">@<div class="footer_nav_box">@
-!--www.360doc.com解除登录才能复制文章限制
+!--解除登录才能复制文章限制
 |http://www.360doc.com/content/$s@</body>@<script>document.body.oncopy=null;document.body.__defineSetter__("oncopy",function(){})</script></body>@
 !|http://www.360doc.com/content/$r@http://www.360doc.com/js/showarticle.js*@https://coding.net/u/kysdm/p/ad-rules/git/raw/master/js/showarticle.js@
 !---------------------------------Aa------------------------------------------

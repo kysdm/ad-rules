@@ -9,8 +9,9 @@
 |http://www.5326t.com/js/Collection.js
 |http://www.5326t.com/js/jquery.js$s@btnClose = '<*adRightFloatBottom,ofloat:1})@{@
 |http://www.3344ja.com/js/
-|http://www.3344ja.com##[class="main top"]
-!--www.360doc.com解除登录才能复制文章限制
+3344ja.com##[class="main top"]
+989bt.com##[width="1100"][height="90"]
+!--解除登录才能复制文章限制
 |http://www.360doc.com/content/$s@</body>@<script>document.body.oncopy=null;document.body.__defineSetter__("oncopy",function(){})</script></body>@
 !---------------------------------Aa------------------------------------------
 !---------------------------------Bb------------------------------------------
