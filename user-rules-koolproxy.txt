@@ -1,4 +1,4 @@
-!  -----:  2017-11-28 15:12:10   by:kysdm-----
+!  -----:  2017-11-28 16:48:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !---------------------------------数字----------------------------------------
@@ -32,6 +32,10 @@ bttiantangs.com###sidebar-follow,[class="full-width row"]
 !--贴吧领红包广告
 |http://tieba.baidu.com/p/$s@<div id="fixed_bar" class="showBar"><img src="*" alt="" class="close">@@
 !---------------------------------Cc------------------------------------------
+!--手机版进入全屏广告3-5s  未具体测试
+|http://m.comicat.org$s@document.referrer.indexOf(document.domain) !@-1 @
+!--网页插入广告
+||comicat.org##img[src^="https://ooo.0o0.ooo/"]
 !---------------------------------Dd------------------------------------------
 !--网页中广告
 |https://share.dmhy.org/dmhy*.png
