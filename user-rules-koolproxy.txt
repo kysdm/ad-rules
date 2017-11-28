@@ -1,4 +1,4 @@
-!  -----:  2017-11-28 10:36:10   by:kysdm-----
+!  -----:  2017-11-28 15:12:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !---------------------------------数字----------------------------------------
@@ -7,9 +7,9 @@
 !m.cloud.189.cn###J_CloudWapBanner  //因kp BUG 此规则不生效//
 |http://m.cloud.189.cn/source/images/banner.png
 !--你懂得网站大量广告推送
-|https://www.5128t.com/js/mobile.js
-|https://www.5128t.com/js/Collection.js
-|https://www.5128t.com/js/jquery.js$s@btnClose = '<*adRightFloatBottom,ofloat:1})@{@
+|https://www.5326t.com/js/mobile.js
+|https://www.5326t.com/js/Collection.js
+|https://www.5326t.com/js/jquery.js$s@btnClose = '<*adRightFloatBottom,ofloat:1})@{@
 |https://www.3344ja.com/js/
 |https://www.3344ja.com##[class="main top"]
 !--360doc手机版上下广告信息
