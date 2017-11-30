@@ -8,7 +8,7 @@
 |http://www.5326t.com/js/mobile.js
 |http://www.5326t.com/js/Collection.js
 |http://www.5326t.com/js/jquery.js$s@btnClose = '<*adRightFloatBottom,ofloat:1})@{@
-|http://www.3344ja.com/js/
+|http://www.3344ja.com/js/$script
 3344ja.com##[class="main top"]
 989bt.com##[width="1100"][height="90"]
 !--解除登录才能复制文章限制
@@ -23,15 +23,11 @@ bttiantangs.com###sidebar-follow,[class="full-width row"]
 !--贴吧领红包广告
 |http://tieba.baidu.com/p/$s@<div id="fixed_bar" class="showBar"><img src="*" alt="" class="close">@@
 !---------------------------------Cc------------------------------------------
-!--手机版进入全屏广告3-5s  未具体测试
+!--手机版进入全屏广告3-5s
 |http://m.comicat.org$s@document.referrer.indexOf(document.domain) !@-1 @
 !--网页插入广告
-||comicat.org##img[src^="https://ooo.0o0.ooo/"]
+||comicat.org##img[src^="https://ooo.0o0.ooo/"],[class^="gg_canvas gg_canvas-hidden"]
 !---------------------------------Dd------------------------------------------
-!--网页中广告
-|http://share.dmhy.org/dmhy*.png
-|http://share.dmhy.org/msdl1.png
-|http://share.dmhy.org/msdl2.jpg
 !---------------------------------Ee------------------------------------------
 ||eastday.com/assets/js/resources/new_detail_v2/detail.js?130480502
 !---------------------------------Ff------------------------------------------
@@ -44,13 +40,17 @@ goudidiao.com##[class^="img-responsive"],[style$="red;"]
 !---------------------------------Kk------------------------------------------
 !--卡饭帖子回复中广告
 |http://bbs.kafan.cn##iframe[width="500"][height="200"]
+!--网页插入广告
+||kisssub.org##.ads-full-width,[class^="gg_canvas gg_canvas-hidden"],.clear,a[href^="http://nyabbs.com/group/"]
+!--手机版进入全屏广告3-5s
+|http://m.kisssub.org$s@document.referrer.indexOf(document.domain) !@-1 @
 !---------------------------------Ll------------------------------------------
 !--右侧广告
 ||https://outlook.live.com##div[aria-label="广告"],img[aria-label="设置广告首选项"]
 !---------------------------------Mm------------------------------------------
 !--模板王字库
 mobanwang.com##.linkyun,.topBannerYun,.guge,.g590x40
-|http://g1.pptair.com$script
+|http://g1.pptair.com^$script
 |http://fonts.mobanwang.com$s@<div id="searchTop">*</a></span>@<div id="searchTop">@
 !
 |http://renren2.maoyun.tv/ads
