@@ -1,4 +1,4 @@
-!  -----:  2017-11-28 16:48:16   by:kysdm-----
+!  -----:  2017-12-01 09:29:10   by:kysdm-----
 !
 !  -----规则兼容Adbyby，部分兼容koolproxy-----
 |  -----如需过滤https网址，需配合ssllist.ini文件-----
@@ -60,8 +60,8 @@ mobanwang.com##.linkyun,.topBannerYun,.guge,.g590x40
 !---------------------------------Pp------------------------------------------ 
 !---------------------------------Qq------------------------------------------
 !---------------------------------Rr------------------------------------------
-!--网页空白处搜索框处的网页跳转
-|https://rarbg.is$s@function mBhJuWMW(name, value, seconds) {*) { _wm3.format.popunder.isTriggered = true; } } }@@
+|https://dyncdn.me/static/20/js/xqijtezmrschyl.js
+|https://rarbg.is$s@; } else { if (typeof(_wm3) !== 'undefined')*{ _wm3.format.popunder.isTriggered = true; } } @@
 !---------------------------------Ss------------------------------------------
 !--聊天悬浮窗 右下角二维码 上方空白
 subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"] 
