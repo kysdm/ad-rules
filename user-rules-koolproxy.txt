@@ -1,4 +1,4 @@
-!  -----:  2017-12-01 09:29:10   by:kysdm-----
+!  -----:  2017-12-02 18:25:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !---------------------------------数字----------------------------------------
@@ -38,8 +38,8 @@ bttiantangs.com###sidebar-follow,[class="full-width row"]
 ||comicat.org##img[src^="https://ooo.0o0.ooo/"],[class^="gg_canvas gg_canvas-hidden"]
 !---------------------------------Dd------------------------------------------
 !--网页中广告 未知原因无法屏蔽白框 去除白框规则仅在IE生效
-|https://share.dmhy.org/dmhy*.*g
-|https://share.dmhy.org/msdl*.*g
+|https://share.dmhy.org/dmhy$image
+|https://share.dmhy.org/msdl$image
 !---------------------------------Ee------------------------------------------
 ||eastday.com/assets/js/resources/new_detail_v2/detail.js?130480502
 !---------------------------------Ff------------------------------------------
@@ -80,6 +80,12 @@ mobanwang.com##.linkyun,.topBannerYun,.guge,.g590x40
 !--聊天悬浮窗 右下角二维码 上方空白
 subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"] 
 !---------------------------------Tt------------------------------------------
+!--页面内广告 拦截gif加快网页加载速度
+thzthz.net##[src*=".thzok.com/"]
+|http://tu9.3wk.cc/images/2017/11/27/af8f882b80463f15e375c1d8359efe56.gif
+|http://tu9.3wk.cc/images/2017/11/27/135d91f08b360e6ca4adbb03abaec5f0.gif
+|http://thzthz.net$s@src="http://s*.thzok.com/6/*.gif"@src=""@
+|http://thzthz.net$s@src="https://wx2.sinaimg.cn/*.gif"@src=""@
 !--天使论坛消息推送声音
 |http://www.tsdmw.net/img01/MP3/
 ! 天使论坛微博框架和网页中广告
