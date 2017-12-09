@@ -1,4 +1,4 @@
-!  -----:  2017-12-07 20:10:10   by:kysdm-----
+!  -----:  2017-12-09 08:41:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !---------------------------------数字----------------------------------------
@@ -10,6 +10,9 @@
 |https://www.5326t.com/js/mobile.js
 |https://www.5326t.com/js/Collection.js
 |https://www.5326t.com/js/jquery.js$s@btnClose = '<*adRightFloatBottom,ofloat:1})@{@
+|https://www.5746t.com/js/mobile.js
+|https://www.5746t.com/js/Collection.js
+|https://www.5746t.com/js/jquery.js$s@btnClose = '<*adRightFloatBottom,ofloat:1})@{@
 |https://www.3344ja.com/js/$script
 |https://www.3344ja.com##[class="main top"]
 |https://www.989bt.com##[width="1100"][height="90"]
