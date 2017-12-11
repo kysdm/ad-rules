@@ -1,4 +1,4 @@
-!  -----:  2017-12-09 08:41:10   by:kysdm-----
+!  -----:  2017-12-11 10:27:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !---------------------------------数字----------------------------------------
@@ -23,6 +23,8 @@
 !--解除登录才能复制文章限制
 |http://www.360doc.com/content/$s@</body>@<script>document.body.oncopy=null;document.body.__defineSetter__("oncopy",function(){})</script></body>@
 !|http://www.360doc.com/content/$r@http://www.360doc.com/js/showarticle.js*@https://coding.net/u/kysdm/p/ad-rules/git/raw/master/js/showarticle.js@
+!--移除禁止复制限制
+|http://news.52fuqing.com$s@<div class="nr" oncopy="alert('*!');return false;">@<div class="nr">@
 !---------------------------------Aa------------------------------------------
 !---------------------------------Bb------------------------------------------
 !--手机百度下方APP推广
@@ -60,7 +62,7 @@ goudidiao.com##[class^="img-responsive"],[style$="red;"]
 !--卡饭帖子回复中广告
 |https://bbs.kafan.cn##iframe[width="500"][height="200"]
 !--网页插入广告
-||kisssub.org##.ads-full-width,[class^="gg_canvas gg_canvas-hidden"],.clear,a[href^="http://nyabbs.com/group/"]
+||kisssub.org##.ads-full-width,[class^="gg_canvas gg_canvas-hidden"],.clear,a[href^="http://nyabbs.com/group/"],img[src="https://ooo.0o0.ooo/2017/05/24/59253b331e924.jpg"]
 !--手机版进入全屏广告3-5s
 |http://m.kisssub.org$s@document.referrer.indexOf(document.domain) !@-1 @
 !---------------------------------Ll------------------------------------------
