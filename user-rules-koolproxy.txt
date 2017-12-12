@@ -48,6 +48,7 @@ bttiantangs.com###sidebar-follow,[class="full-width row"]
 !--网页中广告 未知原因无法屏蔽白框 去除白框规则仅在IE生效
 |https://share.dmhy.org/dmhy$image
 |https://share.dmhy.org/msdl$image
+|https://share.dmhy.org/12801201.jpg
 !---------------------------------Ee------------------------------------------
 ||eastday.com/assets/js/resources/new_detail_v2/detail.js?130480502
 |http://www.enbte.com/Public/Ad/Ad-*.js

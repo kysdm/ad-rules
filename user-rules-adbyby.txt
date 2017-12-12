@@ -31,6 +31,7 @@ bttiantangs.com###sidebar-follow,[class="full-width row"]
 !--网页插入广告
 ||comicat.org##img[src^="https://ooo.0o0.ooo/"],[class^="gg_canvas gg_canvas-hidden"]
 !---------------------------------Dd------------------------------------------
+|http://share.dmhy.org/12801201.jpg
 !---------------------------------Ee------------------------------------------
 ||eastday.com/assets/js/resources/new_detail_v2/detail.js?130480502
 |http://www.enbte.com/Public/Ad/Ad-*.js
