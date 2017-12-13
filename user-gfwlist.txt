@@ -1,4 +1,4 @@
-!  -----:  2017-12-07 19:14:16   by:kysdm-----
+!  -----:  2017-12-13 11:14:16   by:kysdm-----
 !--域名
 91yun.co
 avast.com
@@ -28,6 +28,7 @@ vcb-s.com
 videohelp.com
 teamviewer.com
 tsdm.me
+thzthz.net
 ubuntu.com
 !
 !--steam专栏
