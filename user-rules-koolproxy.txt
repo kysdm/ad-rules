@@ -1,4 +1,4 @@
-!  -----:  2017-12-13 16:10:10   by:kysdm-----
+!  -----:  2017-12-14 19:06:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !---------------------------------数字----------------------------------------
@@ -34,7 +34,7 @@
 !--点击跳转 无用框架
 bttiantangs.com###sidebar-follow,[class="full-width row"]
 |http://www.bttiantangs.com$s@<script type="text/javascript" src="http://bttt99.kkcaicai.com:8080/tan.js"*"></script>@@
-!--贴吧领红包广告
+!---http://tieba.baidu.com
 |http://tieba.baidu.com/p/$s@<div id="fixed_bar" class="showBar"><img src="*" alt="" class="close">@@
 !
 |https://style.bttt.la/static/ad.js
@@ -61,7 +61,6 @@ goudidiao.com##[class^="img-responsive"],[style$="red;"]
 !---------------------------------Hh------------------------------------------
 !---------------------------------Ii------------------------------------------
 !---------------------------------Jj------------------------------------------
-||https://javbus3.com##[class="ad-list"]
 !---------------------------------Kk------------------------------------------
 !--卡饭帖子回复中广告
 |https://bbs.kafan.cn##iframe[width="500"][height="200"]
