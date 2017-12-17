@@ -34,7 +34,7 @@
 !--点击跳转 无用框架
 bttiantangs.com###sidebar-follow,[class="full-width row"]
 |http://www.bttiantangs.com$s@<script type="text/javascript" src="http://bttt99.kkcaicai.com:8080/tan.js"*"></script>@@
-!---http://tieba.baidu.com
+!---http://tieba.baidu.com/
 |http://tieba.baidu.com/p/$s@<div id="fixed_bar" class="showBar"><img src="*" alt="" class="close">@@
 !
 |https://style.bttt.la/static/ad.js
@@ -48,11 +48,11 @@ bbs99.club###hd > div > div.a_2mu > center,#nv_forum > div.wp.a2_h > center,#pos
 |http://m.comicat.org$s@document.referrer.indexOf(document.domain) !@-1 @
 !--网页插入广告
 ||comicat.org##img[src^="https://ooo.0o0.ooo/"],[class^="gg_canvas gg_canvas-hidden"]
-!---------------------------------Dd------------------------------------------
-!--网页中广告 未知原因无法屏蔽白框 去除白框规则仅在IE生效
+!---https://share.dmhy.org/
 |https://share.dmhy.org/dmhy$image
 |https://share.dmhy.org/msdl$image
 |https://share.dmhy.org/12801201.jpg
+|https://share.dmhy.org/FGO1.jpg
 !---------------------------------Ee------------------------------------------
 ||eastday.com/assets/js/resources/new_detail_v2/detail.js?130480502
 |http://www.enbte.com/Public/Ad/Ad-*.js
