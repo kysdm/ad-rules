@@ -25,7 +25,10 @@
 !|http://www.360doc.com/content/$r@http://www.360doc.com/js/showarticle.js*@https://coding.net/u/kysdm/p/ad-rules/git/raw/master/js/showarticle.js@
 !--移除禁止复制限制
 |http://news.52fuqing.com$s@<div class="nr" oncopy="alert('*!');return false;">@<div class="nr">@
-!---------------------------------Aa------------------------------------------
+!---acgnx.se
+|https://share.acgnx.se##img[src="/images/gDqF4N4b.png"],img[src="/images/cjTQH5PQ.png"]
+|https://share.acgnx.se/images/gDqF4N4b.png
+|https://share.acgnx.se/images/cjTQH5PQ.png
 !---------------------------------Bb------------------------------------------
 !--手机百度下方APP推广
 |https://www.baidu.com$s@<script type="text/javascript">var zbBanner = {switch: '1',startTime:*, storage.ls, B.log);});});}</script>@@
@@ -48,11 +51,12 @@ bbs99.club###hd > div > div.a_2mu > center,#nv_forum > div.wp.a2_h > center,#pos
 |http://m.comicat.org$s@document.referrer.indexOf(document.domain) !@-1 @
 !--网页插入广告
 ||comicat.org##img[src^="https://ooo.0o0.ooo/"],[class^="gg_canvas gg_canvas-hidden"]
-!---https://share.dmhy.org/
+!---dmhy.org
 |https://share.dmhy.org/dmhy$image
 |https://share.dmhy.org/msdl$image
-|https://share.dmhy.org/12801201.jpg
-|https://share.dmhy.org/FGO1.jpg
+|https://share.dmhy.org/12801201$image
+|https://share.dmhy.org/FGO1$image
+|https://share.dmhy.org###1280_ad
 !---------------------------------Ee------------------------------------------
 ||eastday.com/assets/js/resources/new_detail_v2/detail.js?130480502
 |http://www.enbte.com/Public/Ad/Ad-*.js
@@ -62,8 +66,7 @@ goudidiao.com##[class^="img-responsive"],[style$="red;"]
 !---------------------------------Hh------------------------------------------
 !---------------------------------Ii------------------------------------------
 !---------------------------------Jj------------------------------------------
-!---------------------------------Kk------------------------------------------
-!--卡饭帖子回复中广告
+!---kafan.cn
 |https://bbs.kafan.cn##iframe[width="500"][height="200"]
 !---kisssub.org
 ||kisssub.org##.clear.text_center,[style="width:960px; height:90px"]
@@ -73,11 +76,9 @@ goudidiao.com##[class^="img-responsive"],[style$="red;"]
 ||kisssub.org##img[src="http://wx2.sinaimg.cn/large/55141b08gy1fls3xns7pbj20q40280t3.jpg"]
 ||kisssub.org##img[src="http://wx2.sinaimg.cn/large/55141b08gy1fm06q026j1j20qo02i41d.jpg"]
 |http://m.kisssub.org$s@document.referrer.indexOf(document.domain) !@-1 @
-!---------------------------------Ll------------------------------------------
-!--右侧广告
+!---live.com
 ||https://outlook.live.com##div[aria-label="广告"],img[aria-label="设置广告首选项"]
-!---------------------------------Mm------------------------------------------
-!--模板王字库
+!---mobanwang.com
 mobanwang.com##.linkyun,.topBannerYun,.guge,.g590x40
 |http://g1.pptair.com^$script
 |http://fonts.mobanwang.com$s@<div id="searchTop">*</a></span>@<div id="searchTop">@
@@ -88,20 +89,19 @@ mobanwang.com##.linkyun,.topBannerYun,.guge,.g590x40
 !---------------------------------Oo------------------------------------------
 !---------------------------------Pp------------------------------------------ 
 !---------------------------------Qq------------------------------------------
-!---------------------------------Rr------------------------------------------
+!---rarbg.is
 |https://rarbg.is$s@var _wm3_settings={popunder:*</script>@</script>@
 |https://dyncdn.me/static/20/js/expla60.js
 |https://dyncdn.me/static/20/js/xqijtezmrschyl.js
 |https://rarbg.is$s@; } else { if (typeof(_wm3) !== 'undefined')*{ _wm3.format.popunder.isTriggered = true; } } @@
-!---------------------------------Ss------------------------------------------
-!--聊天悬浮窗 右下角二维码 上方空白
+!---subhd.com
 subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"] 
 !---------------------------------Tt------------------------------------------
 ---thzok.com 桃花族域名
 |http://s2.thzok.com/6/*.gif
 |http://s1.thzok.com/6/*.gif
 thzvv.com##img[style$="height:60px;"],img[style$="height:120px;"],img[height="400"][width="180"],img[height="250"][width="250"],img[height="300"][width="300"],li.txt,table[style="width:100%;"][bordercolor="#999999"],span[style^="font-weight:bold;color:#"],img[src="http://www.thztv.net/6/luoliao.gif"]
-!--页面内广告 拦截gif加快网页加载速度
+!---thzthz.net
 thzthz.net##[src*=".thzok.com/"]
 |http://tu9.3wk.cc/images/2017/11/27/af8f882b80463f15e375c1d8359efe56.gif
 |http://tu9.3wk.cc/images/2017/11/27/135d91f08b360e6ca4adbb03abaec5f0.gif
@@ -135,11 +135,11 @@ tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src$="7044f931gy1fkpop3mpffj20dc02ig
 !---------------------------------Xx------------------------------------------
 |http://cdn.xianliao.me/assets/static/lib.js?
 |http://union1.xiaojianjian.net/avkdebubrycx.js
-!---------------------------------Yy------------------------------------------
+!---youtube.com
 |https://www.youtube.com##[id$="-ad"]
+!
 |https://js.yyjym.com//v.php?id= 
-!---------------------------------Zz------------------------------------------
-!--人人字幕组赞助悬浮窗
+!---zimuzu.tv
 zimuzu.tv###help,[style^="text-align:center;"]
 !----------------------------------特殊----------------------------------------
 !--Android王者荣耀封禁登录

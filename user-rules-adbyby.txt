@@ -15,7 +15,10 @@
 |http://www.360doc.com/content/$s@</body>@<script>document.body.oncopy=null;document.body.__defineSetter__("oncopy",function(){})</script></body>@
 !--移除禁止复制限制
 |http://news.52fuqing.com$s@<div class="nr" oncopy="alert('*!');return false;">@<div class="nr">@
-!---------------------------------Aa------------------------------------------
+!---acgnx.se
+|https://share.acgnx.se##img[src="/images/gDqF4N4b.png"],img[src="/images/cjTQH5PQ.png"]
+|https://share.acgnx.se/images/gDqF4N4b.png
+|https://share.acgnx.se/images/cjTQH5PQ.png
 !---------------------------------Bb------------------------------------------
 !--去除弹幕池下方广告
 |http://www.bilibili.com##.bilibili-player-promote
@@ -33,11 +36,12 @@ bbs99.club###hd > div > div.a_2mu > center,#nv_forum > div.wp.a2_h > center,#pos
 |http://m.comicat.org$s@document.referrer.indexOf(document.domain) !@-1 @
 !--网页插入广告
 ||comicat.org##img[src^="https://ooo.0o0.ooo/"],[class^="gg_canvas gg_canvas-hidden"]
-!---https://share.dmhy.org/
-|http://share.dmhy.org/12801201.jpg
-|http://share.dmhy.org/FGO1.jpg
-|http://share.dmhy.org/dmhy$image
-|http://share.dmhy.org/msdl$image
+!---dmhy.org
+|https://share.dmhy.org/dmhy$image
+|https://share.dmhy.org/msdl$image
+|https://share.dmhy.org/12801201$image
+|https://share.dmhy.org/FGO1$image
+|https://share.dmhy.org###1280_ad
 !---------------------------------Ee------------------------------------------
 ||eastday.com/assets/js/resources/new_detail_v2/detail.js?130480502
 |http://www.enbte.com/Public/Ad/Ad-*.js
