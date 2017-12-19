@@ -1,4 +1,4 @@
-!  -----:  2017-12-18 11:49:10   by:kysdm-----
+!  -----:  2017-12-19 09:57:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !---------------------------------数字----------------------------------------
@@ -16,7 +16,7 @@
 |https://www.3344ja.com/js/$script
 |https://www.3344ja.com##[class="main top"]
 |https://www.989bt.com##[width="1100"][height="90"]
-!--360doc手机版上下广告信息
+!---360doc.cn
 360doc.cn###fixid
 |https://mipcache.bdstatic.com/static/v1/mip-360doc-script/mip-360doc-script.js
 |http://www.360doc.cn/mip$s@<div class="w1">*<div class="footer_nav_box">@<div class="footer_nav_box">@
@@ -29,20 +29,18 @@
 |https://share.acgnx.se##img[src="/images/gDqF4N4b.png"],img[src="/images/cjTQH5PQ.png"]
 |https://share.acgnx.se/images/gDqF4N4b.png
 |https://share.acgnx.se/images/cjTQH5PQ.png
-!---------------------------------Bb------------------------------------------
-!--手机百度下方APP推广
+!---baidu.com
 |https://www.baidu.com$s@<script type="text/javascript">var zbBanner = {switch: '1',startTime:*, storage.ls, B.log);});});}</script>@@
-!--去除弹幕池下方广告
+|http://tieba.baidu.com/p/$s@<div id="fixed_bar" class="showBar"><img src="*" alt="" class="close">@@
+!---bilibili.com
 |https://www.bilibili.com##.bilibili-player-promote
-!--点击跳转 无用框架
+!---bttiantangs.com
 bttiantangs.com###sidebar-follow,[class="full-width row"]
 |http://www.bttiantangs.com$s@<script type="text/javascript" src="http://bttt99.kkcaicai.com:8080/tan.js"*"></script>@@
-!---http://tieba.baidu.com/
-|http://tieba.baidu.com/p/$s@<div id="fixed_bar" class="showBar"><img src="*" alt="" class="close">@@
-!
+!---bttt.la
 |https://style.bttt.la/static/ad.js
 |https://style.bttt.la/static/wen_960.js
-!---http://bbs99.club/
+!---bbs99.club
 bbs99.club###hd > div > div.a_2mu > center,#nv_forum > div.wp.a2_h > center,#postlist > table.ad > tbody > tr > td.plc > div > center
 |http://nz04com.com/aabdd/aaaddpics/$image
 ||https://lieshazhe.com/vs.php?id=
@@ -65,7 +63,12 @@ bbs99.club###hd > div > div.a_2mu > center,#nv_forum > div.wp.a2_h > center,#pos
 goudidiao.com##[class^="img-responsive"],[style$="red;"]
 !---------------------------------Hh------------------------------------------
 !---------------------------------Ii------------------------------------------
-!---------------------------------Jj------------------------------------------
+!---javbus3.com 因插件原因只在IE下生效
+|https://adserver.juicyads.com/
+|https://www.javbus3.com##img[src^="/ads/"],div.col-xs-12.col-md-4.text-center.ptb10
+|https://www.javbus3.com$s@<script type="text/javascript">var ad_idzone="*",ad_width="728",ad_height="90";</script>@@
+|https://www.javbus3.com$s@<h4 style="position:relative">*</span><span class="glyphicon glyphicon-envelope"></span></span></a></h4>@@
+|https://www.javbus3.com/ads/$image
 !---kafan.cn
 |https://bbs.kafan.cn##iframe[width="500"][height="200"]
 !---kisssub.org
