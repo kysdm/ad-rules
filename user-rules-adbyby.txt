@@ -1,4 +1,4 @@
-!  -----:  2017-12-19 09:57:10   by:kysdm-----
+!  -----:  2017-12-19 20:40:10   by:kysdm-----
 !
 !  -----规则兼容Adbyby，部分兼容koolproxy-----
 |  -----如需过滤https网址，需配合ssllist.ini文件-----
@@ -52,7 +52,7 @@ goudidiao.com##[class^="img-responsive"],[style$="red;"]
 !---------------------------------Ii------------------------------------------
 !---javbus3.com 因插件原因只在IE下生效
 |https://adserver.juicyads.com/
-|https://www.javbus3.com##img[src^="/ads/"],div.col-xs-12.col-md-4.text-center.ptb10
+|https://www.javbus3.com##div.ad-list,div.col-xs-12.col-md-4.text-center.ptb10
 |https://www.javbus3.com$s@<script type="text/javascript">var ad_idzone="*",ad_width="728",ad_height="90";</script>@@
 |https://www.javbus3.com$s@<h4 style="position:relative">*</span><span class="glyphicon glyphicon-envelope"></span></span></a></h4>@@
 |https://www.javbus3.com/ads/$image
