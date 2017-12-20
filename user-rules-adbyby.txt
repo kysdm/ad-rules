@@ -16,9 +16,9 @@
 !--移除禁止复制限制
 |http://news.52fuqing.com$s@<div class="nr" oncopy="alert('*!');return false;">@<div class="nr">@
 !---acgnx.se
-|https://share.acgnx.se##img[src="/images/gDqF4N4b.png"],img[src="/images/cjTQH5PQ.png"]
-|https://share.acgnx.se/images/gDqF4N4b.png
-|https://share.acgnx.se/images/cjTQH5PQ.png
+|http://share.acgnx.se##img[src="/images/gDqF4N4b.png"],img[src="/images/cjTQH5PQ.png"]
+|http://share.acgnx.se/images/gDqF4N4b.png
+|http://share.acgnx.se/images/cjTQH5PQ.png
 !---------------------------------Bb------------------------------------------
 !--去除弹幕池下方广告
 |http://www.bilibili.com##.bilibili-player-promote
