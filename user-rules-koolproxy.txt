@@ -1,10 +1,8 @@
-!  -----:  2017-12-20 14:03:10   by:kysdm-----
+!  -----:  2017-12-20 19:04:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
-!---------------------------------数字----------------------------------------
+!---5chajian.com
 5chajian.com##[id^="ad_"]
-!--顶部或者尾部APP推广
-!m.cloud.189.cn###J_CloudWapBanner  //因kp BUG 此规则不生效//
 |http://m.cloud.189.cn/source/images/banner.png
 !---四位数字+t域名 因kp正则语法只支持http链接故下面三条正则语法规则不生效
 !/^https:\/\/www\.\d{4}t\.com\/js\/mobile\.js/
@@ -19,18 +17,17 @@
 |https://www.9904t.com/js/mobile.js
 |https://www.9904t.com/js/Collection.js
 |https://www.9904t.com/js/jquery.js$s@btnClose = '<*adRightFloatBottom,ofloat:1})@{@
-!--你懂得网站大量广告推送
+!---3344ja.com
 |https://www.3344ja.com/js/$script
 |https://www.3344ja.com##[class="main top"]
 |https://www.989bt.com##[width="1100"][height="90"]
-!---360doc.cn
+!---360doc.cn 360doc.com
 360doc.cn###fixid
 |https://mipcache.bdstatic.com/static/v1/mip-360doc-script/mip-360doc-script.js
 |http://www.360doc.cn/mip$s@<div class="w1">*<div class="footer_nav_box">@<div class="footer_nav_box">@
-!--解除登录才能复制文章限制
 |http://www.360doc.com/content/$s@</body>@<script>document.body.oncopy=null;document.body.__defineSetter__("oncopy",function(){})</script></body>@
 !|http://www.360doc.com/content/$r@http://www.360doc.com/js/showarticle.js*@https://coding.net/u/kysdm/p/ad-rules/git/raw/master/js/showarticle.js@
-!--移除禁止复制限制
+!---52fuqing.com
 |http://news.52fuqing.com$s@<div class="nr" oncopy="alert('*!');return false;">@<div class="nr">@
 !---acgnx.se
 |https://share.acgnx.se##img[src="/images/gDqF4N4b.png"],img[src="/images/cjTQH5PQ.png"]
@@ -51,8 +48,7 @@ bttiantangs.com###sidebar-follow,[class="full-width row"]
 bbs99.club###hd > div > div.a_2mu > center,#nv_forum > div.wp.a2_h > center,#postlist > table.ad > tbody > tr > td.plc > div > center
 |http://nz04com.com/aabdd/aaaddpics/$image
 ||https://lieshazhe.com/vs.php?id=
-!---------------------------------Cc------------------------------------------
-!--手机版进入全屏广告3-5s
+!---comicat.org
 |http://m.comicat.org$s@document.referrer.indexOf(document.domain) !@-1 @
 !--网页插入广告
 ||comicat.org##img[src^="https://ooo.0o0.ooo/"],[class^="gg_canvas gg_canvas-hidden"]
@@ -68,11 +64,12 @@ bbs99.club###hd > div > div.a_2mu > center,#nv_forum > div.wp.a2_h > center,#pos
 |https://share.dmhy.org/12801201$image
 |https://share.dmhy.org/FGO1$image
 |https://share.dmhy.org###1280_ad
-!---------------------------------Ee------------------------------------------
+!---eastday.com
 ||eastday.com/assets/js/resources/new_detail_v2/detail.js?130480502
+!---enbte.com
 |http://www.enbte.com/Public/Ad/Ad-*.js
 !---------------------------------Ff------------------------------------------
-!---------------------------------Gg------------------------------------------
+!---goudidiao.com
 goudidiao.com##[class^="img-responsive"],[style$="red;"]
 !---------------------------------Hh------------------------------------------
 !---------------------------------Ii------------------------------------------
@@ -123,11 +120,9 @@ thzthz.net##[src*=".thzok.com/"]
 |http://tu9.3wk.cc/images/2017/11/27/135d91f08b360e6ca4adbb03abaec5f0.gif
 |http://thzthz.net$s@src="http://s*.thzok.com/6/*.gif"@src=""@
 |http://thzthz.net$s@src="https://wx2.sinaimg.cn/*.gif"@src=""@
-!--天使论坛消息推送声音
+!---tsdmw.net
 |http://www.tsdmw.net/img01/MP3/
-! 天使论坛微博框架和网页中广告
 tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src$="7044f931gy1fkpop3mpffj20dc02igmq.jpg"],IMG[src$="7044f931gy1fed4yyib84j20dc02igms.jpg\a "]
-!--天使论坛签到
 |http://www.tsdm.me/plugin.php?id=$s@var openTargetUrl = '';*window.open(openTargetUrl);@@
 |http://www.tsdm.me/plugin.php?id=$s@<a href="https://detail.tmall.com/item.htm?spm=*>@@
 |http://www.tsdm.me/plugin.php?id=$s@<a href="http://hxtk.taobao.com*>@@
@@ -137,7 +132,6 @@ tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src$="7044f931gy1fkpop3mpffj20dc02ig
 |http://www.tsdm.me/plugin.php?id=$s@<a href="http://www.loli.cd/*>@@
 |http://www.tsdm.me/plugin.php?id=$s@<a href="http://vdm.cn/*>@@
 |http://www.tsdm.me/plugin.php?id=$s@<a href="http://www.upupoo.com*>@@
-!--天使论坛打工插件
 |http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@<a href="http://www.tsdm.me/forum.php?mod=viewthread&tid=848006*">@<a href="javascript:void(0);" target="_blank">@
 |http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@<a href="http://777dm.net/*">@<a href="javascript:void(0);" target="_blank">@
 |http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@<a href="http://dm.tsdm.tv/xinfandongman/"*">@<a href="javascript:void(0);" target="_blank">@
@@ -157,6 +151,9 @@ tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src$="7044f931gy1fkpop3mpffj20dc02ig
 |https://js.yyjym.com//v.php?id= 
 !---zimuzu.tv
 zimuzu.tv###help,[style^="text-align:center;"]
+!---APP-今日头条
+|https://it.snssdk.com/service/14/app_ad/?_unused=
+|https://it.snssdk.com/api/news/feed/v71/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"action\":1,\"desc\":\"\",\"extra\":{}},{\"action\":3,\"desc\":\"\",\"extra\":{}},{\"action\":7,\"desc\":\"\",\"extra\":{}},{\"action\":9,\"desc\":\"\",\"extra\":{}}],\"ad_id\":*,"code":""},@@
 !----------------------------------特殊----------------------------------------
 !--Android王者荣耀封禁登录
 http://msdk.qq.com/auth/getlogin_info/?timestamp=*

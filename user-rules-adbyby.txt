@@ -1,8 +1,8 @@
-!  -----:  2017-12-20 14:03:10   by:kysdm-----
+!  -----:  2017-12-20 19:09:10   by:kysdm-----
 !
 !  -----规则兼容Adbyby，部分兼容koolproxy-----
 |  -----如需过滤https网址，需配合ssllist.ini文件-----
-!---------------------------------数字----------------------------------------
+!---5chajian.com
 5chajian.com##[id^="ad_"]
 !--你懂得网站大量广告推送
 |http://www.5326t.com/js/mobile.js
@@ -11,16 +11,15 @@
 |http://www.3344ja.com/js/$script
 3344ja.com##[class="main top"]
 989bt.com##[width="1100"][height="90"]
-!--解除登录才能复制文章限制
+!---360doc.com
 |http://www.360doc.com/content/$s@</body>@<script>document.body.oncopy=null;document.body.__defineSetter__("oncopy",function(){})</script></body>@
-!--移除禁止复制限制
+!---52fuqing.com
 |http://news.52fuqing.com$s@<div class="nr" oncopy="alert('*!');return false;">@<div class="nr">@
 !---acgnx.se
-|https://share.acgnx.se##img[src="/images/gDqF4N4b.png"],img[src="/images/cjTQH5PQ.png"]
-|https://share.acgnx.se/images/gDqF4N4b.png
-|https://share.acgnx.se/images/cjTQH5PQ.png
-!---------------------------------Bb------------------------------------------
-!--去除弹幕池下方广告
+|http://share.acgnx.se##img[src="/images/gDqF4N4b.png"],img[src="/images/cjTQH5PQ.png"]
+|http://share.acgnx.se/images/gDqF4N4b.png
+|http://share.acgnx.se/images/cjTQH5PQ.png
+!---bilibili.com
 |http://www.bilibili.com##.bilibili-player-promote
 !--点击跳转 无用框架
 bttiantangs.com###sidebar-follow,[class="full-width row"]
@@ -30,11 +29,9 @@ bttiantangs.com###sidebar-follow,[class="full-width row"]
 !---http://bbs99.club/
 bbs99.club###hd > div > div.a_2mu > center,#nv_forum > div.wp.a2_h > center,#postlist > table.ad > tbody > tr > td.plc > div > center,iframe[src^="https://js001.lieshazhe.com/v.php"],img[src^="https://pic001.sharemiss.com//images/close"]
 |http://nz04com.com/aabdd/aaaddpics/$image
-!
-!---------------------------------Cc------------------------------------------
+!---comicat.org
 !--手机版进入全屏广告3-5s
 |http://m.comicat.org$s@document.referrer.indexOf(document.domain) !@-1 @
-!--网页插入广告
 ||comicat.org##img[src^="https://ooo.0o0.ooo/"],[class^="gg_canvas gg_canvas-hidden"]
 !---ctfile.com
 |http://mydisplay.ctfile.com/ad_display.php?ad_pos=
@@ -43,11 +40,11 @@ ctfile.com##a[href="https://union.ctfile.com"],iframe[width="380"][height="80"]
 ||http://ctfile.com/i/$s@<script src="https://mydisplay.ctfile.com/iz.php?i=*"></script>@@
 ||http://ctfile.com/i/$s@<script type="text/javascript">var _popup_ispoped = false;*);</script>@@
 !---dmhy.org
-|https://share.dmhy.org/dmhy$image
-|https://share.dmhy.org/msdl$image
-|https://share.dmhy.org/12801201$image
-|https://share.dmhy.org/FGO1$image
-|https://share.dmhy.org###1280_ad
+|http://share.dmhy.org/dmhy$image
+|http://share.dmhy.org/msdl$image
+|http://share.dmhy.org/12801201$image
+|http://share.dmhy.org/FGO1$image
+|http://share.dmhy.org###1280_ad
 !---------------------------------Ee------------------------------------------
 ||eastday.com/assets/js/resources/new_detail_v2/detail.js?130480502
 |http://www.enbte.com/Public/Ad/Ad-*.js
@@ -57,11 +54,11 @@ goudidiao.com##[class^="img-responsive"],[style$="red;"]
 !---------------------------------Hh------------------------------------------
 !---------------------------------Ii------------------------------------------
 !---javbus3.com 因插件原因只在IE下生效
-|https://adserver.juicyads.com/
-|https://www.javbus3.com##div.ad-list,div.col-xs-12.col-md-4.text-center.ptb10
-|https://www.javbus3.com$s@<script type="text/javascript">var ad_idzone="*",ad_width="728",ad_height="90";</script>@@
-|https://www.javbus3.com$s@<h4 style="position:relative">*</span><span class="glyphicon glyphicon-envelope"></span></span></a></h4>@@
-|https://www.javbus3.com/ads/$image
+|http://adserver.juicyads.com/
+|http://www.javbus3.com##div.ad-list,div.col-xs-12.col-md-4.text-center.ptb10
+|http://www.javbus3.com$s@<script type="text/javascript">var ad_idzone="*",ad_width="728",ad_height="90";</script>@@
+|http://www.javbus3.com$s@<h4 style="position:relative">*</span><span class="glyphicon glyphicon-envelope"></span></span></a></h4>@@
+|http://www.javbus3.com/ads/$image
 !---kafan.cn
 |http://bbs.kafan.cn##iframe[width="500"][height="200"]
 !---kisssub.org
@@ -74,7 +71,7 @@ goudidiao.com##[class^="img-responsive"],[style$="red;"]
 |http://m.kisssub.org$s@document.referrer.indexOf(document.domain) !@-1 @
 !---------------------------------Ll------------------------------------------
 !---live.com
-||https://outlook.live.com##div[aria-label="广告"],img[aria-label="设置广告首选项"]
+||http://outlook.live.com##div[aria-label="广告"],img[aria-label="设置广告首选项"]
 !---------------------------------Mm------------------------------------------
 !---mobanwang.com
 mobanwang.com##.linkyun,.topBannerYun,.guge,.g590x40
@@ -87,18 +84,18 @@ mobanwang.com##.linkyun,.topBannerYun,.guge,.g590x40
 !---------------------------------Oo------------------------------------------
 !---------------------------------Pp------------------------------------------ 
 !---------------------------------Qq------------------------------------------
-!---------------------------------Rr------------------------------------------
-|https://dyncdn.me/static/20/js/xqijtezmrschyl.js
-|https://rarbg.is$s@; } else { if (typeof(_wm3) !== 'undefined')*{ _wm3.format.popunder.isTriggered = true; } } @@
+!---rarbg.is
+|http://dyncdn.me/static/20/js/xqijtezmrschyl.js
+|http://rarbg.is$s@; } else { if (typeof(_wm3) !== 'undefined')*{ _wm3.format.popunder.isTriggered = true; } } @@
 !---------------------------------Ss------------------------------------------
-!--聊天悬浮窗 右下角二维码 上方空白
+!---subhd.com
 subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"] 
 !---------------------------------Tt------------------------------------------
 ---thzok.com 桃花族域名
 |http://s2.thzok.com/6/*.gif
 |http://s1.thzok.com/6/*.gif
 thzvv.com##img[style$="height:60px;"],img[style$="height:120px;"],img[height="400"][width="180"],img[height="250"][width="250"],img[height="300"][width="300"],li.txt,table[style="width:100%;"][bordercolor="#999999"],span[style^="font-weight:bold;color:#"],img[src="http://www.thztv.net/6/luoliao.gif"]
-!--页面内广告 拦截gif加快网页加载速度
+!---thzthz.net
 thzthz.net##[src*=".thzok.com/"]
 |http://tu9.3wk.cc/images/2017/11/27/af8f882b80463f15e375c1d8359efe56.gif
 |http://tu9.3wk.cc/images/2017/11/27/135d91f08b360e6ca4adbb03abaec5f0.gif
