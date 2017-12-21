@@ -1,4 +1,4 @@
-!  -----:  2017-12-20 19:04:10   by:kysdm-----
+!  -----:  2017-12-21 19:36:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !---5chajian.com
@@ -151,10 +151,20 @@ tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src$="7044f931gy1fkpop3mpffj20dc02ig
 |https://js.yyjym.com//v.php?id= 
 !---zimuzu.tv
 zimuzu.tv###help,[style^="text-align:center;"]
-!---APP-今日头条
-|https://it.snssdk.com/service/14/app_ad/?_unused=
-|https://it.snssdk.com/api/news/feed/v71/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"action\":1,\"desc\":\"\",\"extra\":{}},{\"action\":3,\"desc\":\"\",\"extra\":{}},{\"action\":7,\"desc\":\"\",\"extra\":{}},{\"action\":9,\"desc\":\"\",\"extra\":{}}],\"ad_id\":*,"code":""},@@
-!----------------------------------特殊----------------------------------------
+!---APP今日头条
+||snssdk.com/*/z_app_stats/?device_id=
+||snssdk.com/api/ad/
+|http://policy.jd.com/m/log/v1?item=
+|http://policy.jd.com/m/sys/v1?item=
+|http://p*.pstatp.com/origin/
+|http://alog.umengcloud.com/app_logs
+|http://a6.pstatp.com/article/content/19/1/6501882020296130829/6501882020296130829/1/0/?iid=
+|http://alog.umeng.com/app_logs
+||https://snssdk.com/service/2/app_log/
+||https://snssdk.com/*/app_ad/
+||http://snssdk.com/api/news/feed/v71/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"action\":1,\"desc\":\"\",\"extra\":{}},{\"action\":3,\"desc\":\"\",\"extra\":{}},{\"action\":7,\"desc\":\"\",\"extra\":{}},{\"action\":9,\"desc\":\"\",\"extra\":{}}],\"ad_id\":*"},{"content":"@{"content":"@
+||https://snssdk.com/api/news/feed/v71/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"action\":1,\"desc\":\"\",\"extra\":{}},{\"action\":3,\"desc\":\"\",\"extra\":{}},{\"action\":7,\"desc\":\"\",\"extra\":{}},{\"action\":9,\"desc\":\"\",\"extra\":{}}],\"ad_id\":*"},{"content":"@{"content":"@
+!----------------------------------特殊-------------------
 !--Android王者荣耀封禁登录
 http://msdk.qq.com/auth/getlogin_info/?timestamp=*
 http://msdk.qq.com/auth/wxfirst_login/?appid=*
