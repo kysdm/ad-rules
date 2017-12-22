@@ -1,4 +1,4 @@
-!  -----:  2017-12-21 19:36:10   by:kysdm-----
+!  -----:  2017-12-22 12:19:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !---5chajian.com
@@ -44,6 +44,8 @@ bttiantangs.com###sidebar-follow,[class="full-width row"]
 !---bttt.la
 |https://style.bttt.la/static/ad.js
 |https://style.bttt.la/static/wen_960.js
+!---btbtt88.com
+|http://www.btbtt88.com/slade.js
 !---bbs99.club
 bbs99.club###hd > div > div.a_2mu > center,#nv_forum > div.wp.a2_h > center,#postlist > table.ad > tbody > tr > td.plc > div > center
 |http://nz04com.com/aabdd/aaaddpics/$image
@@ -110,35 +112,15 @@ mobanwang.com##.linkyun,.topBannerYun,.guge,.g590x40
 !---subhd.com
 subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"] 
 !---------------------------------Tt------------------------------------------
----thzok.com 桃花族域名
-|http://s2.thzok.com/6/*.gif
-|http://s1.thzok.com/6/*.gif
-thzvv.com##img[style$="height:60px;"],img[style$="height:120px;"],img[height="400"][width="180"],img[height="250"][width="250"],img[height="300"][width="300"],li.txt,table[style="width:100%;"][bordercolor="#999999"],span[style^="font-weight:bold;color:#"],img[src="http://www.thztv.net/6/luoliao.gif"]
-!---thzthz.net
-thzthz.net##[src*=".thzok.com/"]
-|http://tu9.3wk.cc/images/2017/11/27/af8f882b80463f15e375c1d8359efe56.gif
-|http://tu9.3wk.cc/images/2017/11/27/135d91f08b360e6ca4adbb03abaec5f0.gif
-|http://thzthz.net$s@src="http://s*.thzok.com/6/*.gif"@src=""@
-|http://thzthz.net$s@src="https://wx2.sinaimg.cn/*.gif"@src=""@
-!---tsdmw.net
-|http://www.tsdmw.net/img01/MP3/
-tsdm.me###ts_sidebar_base,[colspan="5"],IMG[src$="7044f931gy1fkpop3mpffj20dc02igmq.jpg"],IMG[src$="7044f931gy1fed4yyib84j20dc02igms.jpg\a "]
-|http://www.tsdm.me/plugin.php?id=$s@var openTargetUrl = '';*window.open(openTargetUrl);@@
-|http://www.tsdm.me/plugin.php?id=$s@<a href="https://detail.tmall.com/item.htm?spm=*>@@
-|http://www.tsdm.me/plugin.php?id=$s@<a href="http://hxtk.taobao.com*>@@
-|http://www.tsdm.me/plugin.php?id=$s@<a href="http://www.ladybees.com/*>@@
-|http://www.tsdm.me/plugin.php?id=$s@<a href="http://www.masadora.net/singleTopic/*>@@
-|http://www.tsdm.me/plugin.php?id=$s@<a href="http://www.acgnz.cc*>@@
-|http://www.tsdm.me/plugin.php?id=$s@<a href="http://www.loli.cd/*>@@
-|http://www.tsdm.me/plugin.php?id=$s@<a href="http://vdm.cn/*>@@
-|http://www.tsdm.me/plugin.php?id=$s@<a href="http://www.upupoo.com*>@@
-|http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@<a href="http://www.tsdm.me/forum.php?mod=viewthread&tid=848006*">@<a href="javascript:void(0);" target="_blank">@
-|http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@<a href="http://777dm.net/*">@<a href="javascript:void(0);" target="_blank">@
-|http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@<a href="http://dm.tsdm.tv/xinfandongman/"*">@<a href="javascript:void(0);" target="_blank">@
-|http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@<a href="http://www.masadora.net/teleport.htm?hmsr=tsdm*">@<a href="javascript:void(0);" target="_blank">@
-|http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@<a href="https://wydm.taobao.com/*">@<a href="javascript:void(0);" target="_blank">@
-|http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@<a href="https://www.iqing.in/book/*">@<a href="javascript:void(0);" target="_blank">@
-|http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@<a href="http://zjzk.xiimoon.com/*">@<a href="javascript:void(0);" target="_blank">@
+---thzok.com thzthz.net thzvv.com  桃花族域名
+thzvv.com##img[height="400"][width="180"],img[height="250"][width="250"],img[height="300"][width="300"],img[style*="width:960px;"],img[style$="width:480px;height:60px;"],.it618_firstad_flex,td[style="text-align:center;"]
+|http://thzvv.com/imc_attachad-ad.html?aid=$s@<div style="WIDTH: 100%; padding-left:10px;">*<div style="padding-left:10px;">@<div style="padding-left:10px;">@
+!---tsdm.me
+tsdm.me###ts_sidebar_base,[colspan="5"],img[width="480"][height="90"],img[width="470"][height="90"]
+|http://ww1.sinaimg.cn/large/7044f931gw1ehw1zny52yg209p03c74g.gif
+|http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@style="float:left;width:240px"><a href="*target="_blank">@style="float:left;width:240px"><a href="javascript:void(0);" target="_blank">@
+|http://www.tsdm.me/plugin.php?id=dsu_paulsign:sign$s@var openTargetUrl = '';*window.open(openTargetUrl);@@
+|http://www.tsdm.me/plugin.php?id=dsu_paulsign:sign$s@showMenu({'ctrlid':this.id, 'pos':'21'});"><center><a href="*target="_blank">@showMenu({'ctrlid':this.id, 'pos':'21'});"><center>@
 !---------------------------------Uu------------------------------------------
 !---------------------------------Vv------------------------------------------
 !---------------------------------Ww------------------------------------------
