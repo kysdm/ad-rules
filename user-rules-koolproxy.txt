@@ -1,4 +1,4 @@
-!  -----:  2017-12-22 12:19:10   by:kysdm-----
+!  -----:  2017-12-22 16:26:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !---5chajian.com
@@ -52,7 +52,6 @@ bbs99.club###hd > div > div.a_2mu > center,#nv_forum > div.wp.a2_h > center,#pos
 ||https://lieshazhe.com/vs.php?id=
 !---comicat.org
 |http://m.comicat.org$s@document.referrer.indexOf(document.domain) !@-1 @
-!--网页插入广告
 ||comicat.org##img[src^="https://ooo.0o0.ooo/"],[class^="gg_canvas gg_canvas-hidden"]
 !---ctfile.com
 |https://mydisplay.ctfile.com/ad_display.php?ad_pos=
@@ -133,14 +132,18 @@ tsdm.me###ts_sidebar_base,[colspan="5"],img[width="480"][height="90"],img[width=
 |https://js.yyjym.com//v.php?id= 
 !---zimuzu.tv
 zimuzu.tv###help,[style^="text-align:center;"]
+!---APP搜狗输入法软件中心软件更新推送  误拦截???
+|http://notify.zhushou.sogou.com/checkupdatenotify/input.html?token=
 !---APP今日头条
-||snssdk.com/*/z_app_stats/?device_id=
-||snssdk.com/api/ad/
-|http://policy.jd.com/m/log/v1?item=
-|http://policy.jd.com/m/sys/v1?item=
+@@|http://p3.pstatp.com/origin/1bf50001abbc1c7f8dba
+@@|http://p3.pstatp.com/origin/16ab000fd406f6562385
+@@|http://p3.pstatp.com/origin/3ea40000a242b0178dd2 
+||http://snssdk.com/service/*/z_app_stats/?device_id=
+||https://snssdk.com/service/*/z_app_stats/?device_id=
+||http://snssdk.com/api/ad/
+||https://snssdk.com/api/ad/   
 |http://p*.pstatp.com/origin/
 |http://alog.umengcloud.com/app_logs
-|http://a6.pstatp.com/article/content/19/1/6501882020296130829/6501882020296130829/1/0/?iid=
 |http://alog.umeng.com/app_logs
 ||https://snssdk.com/service/2/app_log/
 ||https://snssdk.com/*/app_ad/

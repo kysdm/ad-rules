@@ -1,14 +1,15 @@
-!  -----:  2017-12-22 12:19:10   by:kysdm-----
+!  -----:  2017-12-22 16:26:10   by:kysdm-----
 !
 !  -----规则兼容Adbyby，部分兼容koolproxy-----
 |  -----如需过滤https网址，需配合ssllist.ini文件-----
 !---5chajian.com
 5chajian.com##[id^="ad_"]
-!--你懂得网站大量广告推送
+!--5326t.com
 |http://www.5326t.com/js/mobile.js
 |http://www.5326t.com/js/Collection.js
 |http://www.5326t.com/js/jquery.js$s@btnClose = '<*adRightFloatBottom,ofloat:1})@{@
 |http://www.3344ja.com/js/$script
+!---3344ja.com
 3344ja.com##[class="main top"]
 989bt.com##[width="1100"][height="90"]
 !---360doc.com
@@ -21,16 +22,16 @@
 |http://share.acgnx.se/images/cjTQH5PQ.png
 !---bilibili.com
 |http://www.bilibili.com##.bilibili-player-promote
-!--点击跳转 无用框架
+!---bttiantangs.com
 bttiantangs.com###sidebar-follow,[class="full-width row"]
 |http://www.bttiantangs.com$s@<script type="text/javascript" src="http://bttt99.kkcaicai.com:8080/tan.js"*"></script>@@
-!---http://tieba.baidu.com/
+!---baidu.com
 |http://tieba.baidu.com/p/$s@<div id="fixed_bar" class="showBar"><img src="*" alt="" class="close">@@
-!---http://bbs99.club/
-bbs99.club###hd > div > div.a_2mu > center,#nv_forum > div.wp.a2_h > center,#postlist > table.ad > tbody > tr > td.plc > div > center,iframe[src^="https://js001.lieshazhe.com/v.php"],img[src^="https://pic001.sharemiss.com//images/close"]
+!---bbs99.club
+bbs99.club###iframe[src^="https://js001.lieshazhe.com/v.php"],img[src^="https://pic001.sharemiss.com//images/close"]
 |http://nz04com.com/aabdd/aaaddpics/$image
 !---comicat.org
-!--手机版进入全屏广告3-5s
+!---comicat.org
 |http://m.comicat.org$s@document.referrer.indexOf(document.domain) !@-1 @
 ||comicat.org##img[src^="https://ooo.0o0.ooo/"],[class^="gg_canvas gg_canvas-hidden"]
 !---ctfile.com
@@ -109,17 +110,21 @@ tsdm.me###ts_sidebar_base,[colspan="5"],img[width="480"][height="90"],img[width=
 !---------------------------------Zz------------------------------------------
 !--人人字幕组赞助悬浮窗
 zimuzu.tv###help,[style^="text-align:center;"]
+!---APP搜狗输入法软件中心软件更新推送  误拦截???
+|http://notify.zhushou.sogou.com/checkupdatenotify/input.html?token=
 !---APP今日头条
-||snssdk.com/api/ad/
-||snssdk.com/*/z_app_stats/?device_id=
-|http://policy.jd.com/m/log/v1?item=
-|http://policy.jd.com/m/sys/v1?item=
-|http://alog.umengcloud.com/app_logs
+@@|http://p3.pstatp.com/origin/1bf50001abbc1c7f8dba
+@@|http://p3.pstatp.com/origin/16ab000fd406f6562385
+@@|http://p3.pstatp.com/origin/3ea40000a242b0178dd2 
+||http://snssdk.com/service/*/z_app_stats/?device_id=
+||http://snssdk.com/api/ad/
 |http://p*.pstatp.com/origin/
-|http://a6.pstatp.com/article/content/19/1/6501882020296130829/6501882020296130829/1/0/?iid=
+|http://alog.umengcloud.com/app_logs
 |http://alog.umeng.com/app_logs
+||http://snssdk.com/service/2/app_log/
+||http://snssdk.com/*/app_ad/
 ||http://snssdk.com/api/news/feed/v71/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"action\":1,\"desc\":\"\",\"extra\":{}},{\"action\":3,\"desc\":\"\",\"extra\":{}},{\"action\":7,\"desc\":\"\",\"extra\":{}},{\"action\":9,\"desc\":\"\",\"extra\":{}}],\"ad_id\":*"},{"content":"@{"content":"@
-!----------------------------------特殊----------------------------------------
+!----------------------------------特殊-------------------!----------------------------------特殊----------------------------------------
 !--Android王者荣耀封禁登录
 |http://msdk.qq.com/auth/getlogin_info/?timestamp=*
 |http://msdk.qq.com/auth/wxfirst_login/?appid=*
