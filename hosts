@@ -9,9 +9,9 @@
 127.0.0.1 activation.acronis.com 
 127.0.0.1 web-api-tih.acronis.com
 # 解决迅雷BT无法下载问题
-127.0.0.1 hub5btmain.sandai.net
-127.0.0.1 hub5emu.sandai.net
-127.0.0.1 upgrade.xl9.xunlei.com
+#127.0.0.1 hub5btmain.sandai.net
+#127.0.0.1 hub5emu.sandai.net
+#127.0.0.1 upgrade.xl9.xunlei.com
 # 屏蔽百度地图高精度IP定位(ipv4)
 0.0.0.0 api.map.baidu.com
 0.0.0.0 ps.map.baidu.com
