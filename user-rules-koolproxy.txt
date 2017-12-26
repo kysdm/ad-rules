@@ -1,4 +1,4 @@
-!  -----:  2017-12-26 15:25:10   by:kysdm-----
+!  -----:  2017-12-26 16:12:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !---5chajian.com
@@ -100,6 +100,9 @@ goudidiao.com##[class^="img-responsive"],[style$="red;"]
 ||kisssub.org##img[src="http://wx2.sinaimg.cn/large/55141b08gy1fls3xns7pbj20q40280t3.jpg"]
 ||kisssub.org##img[src="http://wx2.sinaimg.cn/large/55141b08gy1fm06q026j1j20qo02i41d.jpg"]
 |http://m.kisssub.org$s@document.referrer.indexOf(document.domain) !@-1 @
+!---laonanren.com
+|https://www.laonanren.com/js/page.js
+|https://www.laonanren.com/js/search.js$s@$('<div style=@('<div style=@
 !---live.com
 ||https://outlook.live.com##div[aria-label="广告"],img[aria-label="设置广告首选项"]
 !---mobanwang.com
