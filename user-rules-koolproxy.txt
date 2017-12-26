@@ -1,10 +1,12 @@
-!  -----:  2017-12-26 16:12:10   by:kysdm-----
+!  -----:  2017-12-26 21:04:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
+!  -----KP何时才能支持正则匹配https链接或者上https黑名单^…^----
+!
 !---5chajian.com
 5chajian.com##[id^="ad_"]
 |http://m.cloud.189.cn/source/images/banner.png
-!---四位数字+t域名 因kp正则语法只支持http链接故下面三条正则语法规则不生效
+!---5326t.com 5746t.com 9904t.com 同站长
 !/^https:\/\/www\.\d{4}t\.com\/js\/mobile\.js/
 !/^https:\/\/www\.\d{4}t\.com\/js\/Collection\.js/
 !/^https:\/\/www\.\d{4}t\.com\/js\/jquery\.js/$s@btnClose = '<*adRightFloatBottom,ofloat:1})@{@
@@ -71,6 +73,15 @@ bbs99.club###hd > div > div.a_2mu > center,#nv_forum > div.wp.a2_h > center,#pos
 ||eastday.com/assets/js/resources/new_detail_v2/detail.js?130480502
 !---enbte.com
 |http://www.enbte.com/Public/Ad/Ad-*.js
+!---eee196.com ttt255.com uuu227.com  同站长
+!/^https:\/\/www\.\w{3}\d{3}\.com\/js\/indextop\.js/
+!/^https:\/\/www\.\w{3}\d{3}\.com\/js\/config\.js/
+|https://www.eee196.com/js/indextop.js
+|https://www.uuu227.com/js/indextop.js
+|https://www.ttt255.com/js/indextop.js
+|https://www.eee196.com/js/config.js
+|https://www.uuu227.com/js/config.js
+|https://www.ttt255.com/js/config.js
 !---ettoday.net
 |https://ad.ettoday.net/$script
 |https://static.ettoday.net/ad/$script
@@ -126,8 +137,10 @@ mobanwang.com##.linkyun,.topBannerYun,.guge,.g590x40
 |https://zz.bdstatic.com/linksubmit/push.js
 !---subhd.com
 subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"]
-!---------------------------------Tt------------------------------------------
----thzok.com thzthz.net thzvv.com  桃花族域名
+!---taoyizhu.com
+taoyizhu.com##[class^="fixed-banner-"],[class^="float-banner banner-"]
+!---thzok.com thzthz.net thzvv.com thztv.net  桃花族域名
+thztv.net,thzvv.com##img[height="400"][width="180"],img[height="250"][width="250"],img[height="300"][width="300"],img[style*="width:960px;"],img[style$="width:480px;height:60px;"],.it618_firstad_flex,td[style="text-align:center;"],img[height="300"][width="336"]
 thzvv.com##img[height="400"][width="180"],img[height="250"][width="250"],img[height="300"][width="300"],img[style*="width:960px;"],img[style$="width:480px;height:60px;"],.it618_firstad_flex,td[style="text-align:center;"]
 |http://thzvv.com/imc_attachad-ad.html?aid=$s@<div style="WIDTH: 100%; padding-left:10px;">*<div style="padding-left:10px;">@<div style="padding-left:10px;">@
 !---tsdm.me
@@ -140,12 +153,10 @@ tsdm.me###ts_sidebar_base,[colspan="5"],img[width="480"][height="90"],img[width=
 !---------------------------------Vv------------------------------------------
 !---------------------------------Ww------------------------------------------
 !---------------------------------Xx------------------------------------------
-|http://cdn.xianliao.me/assets/static/lib.js?
-|http://union1.xiaojianjian.net/avkdebubrycx.js
+!---yeyemo.net
+|http://yeyemo.net/$s@<div align="center">*</div>@@
 !---youtube.com
 |https://www.youtube.com##[id$="-ad"]
-!
-|https://js.yyjym.com//v.php?id= 
 !---zimuku.cn
 zimuku.cn##img[width="200px"][height="auto"]
 !---zimuzu.tv

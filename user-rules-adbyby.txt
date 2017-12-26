@@ -1,7 +1,8 @@
-!  -----:  2017-12-26 16:12:10   by:kysdm-----
+!  -----:  2017-12-26 20:45:10   by:kysdm-----
 !
 !  -----规则兼容Adbyby，部分兼容koolproxy-----
 |  -----如需过滤https网址，需配合ssllist.ini文件-----
+!
 !---5chajian.com
 5chajian.com##[id^="ad_"]
 !--5326t.com
@@ -48,7 +49,6 @@ ctfile.com##a[href="https://union.ctfile.com"],iframe[width="380"][height="80"]
 |http://share.dmhy.org/12801201$image
 |http://share.dmhy.org/FGO1$image
 |http://share.dmhy.org###1280_ad
-!---------------------------------Ee------------------------------------------
 ||eastday.com/assets/js/resources/new_detail_v2/detail.js?130480502
 |http://www.enbte.com/Public/Ad/Ad-*.js
 !---ettoday.net
@@ -96,7 +96,8 @@ mobanwang.com##.linkyun,.topBannerYun,.guge,.g590x40
 !---------------------------------Ss------------------------------------------
 !---subhd.com
 subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"] 
-!---------------------------------Tt------------------------------------------
+!---taoyizhu.com
+taoyizhu.com##[class^="fixed-banner-"],[class^="float-banner banner-"]
 !---tsdm.me
 tsdm.me###ts_sidebar_base,[colspan="5"],img[width="480"][height="90"],img[width="470"][height="90"]
 |http://ww1.sinaimg.cn/large/7044f931gw1ehw1zny52yg209p03c74g.gif
