@@ -1,5 +1,7 @@
-!  -----:  2017-12-25 21:15:16   by:kysdm-----
-!--域名
+!  -----:  2017-12-27 09:00:16   by:kysdm-----
+!--域名白名单
+cnbtkitty.com
+!--域名黑名单
 91yun.co
 avast.com
 alibabacloud.com

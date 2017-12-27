@@ -1,4 +1,4 @@
-!  -----:  2017-12-27 08:57:10   by:kysdm-----
+!  -----:  2017-12-27 17:41:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !  -----KP何时才能支持正则匹配https链接或者上https黑名单^…^----
@@ -94,7 +94,8 @@ bbs99.club###hd > div > div.a_2mu > center,#nv_forum > div.wp.a2_h > center,#pos
 !---goudidiao.com
 goudidiao.com##[class^="img-responsive"],[style$="red;"]
 !---------------------------------Hh------------------------------------------
-!---------------------------------Ii------------------------------------------
+!---itellyou.cn
+|https://msdn.itellyou.cn/images/20171128122518214.png
 !---javbus3.com 因插件原因只在IE下生效
 |https://adserver.juicyads.com/
 |https://www.javbus3.com##div.ad-list,div.col-xs-12.col-md-4.text-center.ptb10
@@ -104,12 +105,7 @@ goudidiao.com##[class^="img-responsive"],[style$="red;"]
 !---kafan.cn
 |https://bbs.kafan.cn##iframe[width="500"][height="200"]
 !---kisssub.org
-||kisssub.org##.clear.text_center,[style="width:960px; height:90px"]
-||kisssub.org##img[src="http://wx3.sinaimg.cn/large/55141b08gy1fm4lpalhxwj2070070dj6.jpg"]
-||kisssub.org##img[src="https://ooo.0o0.ooo/2017/05/24/59253b331e924.jpg"]
-||kisssub.org##img[src="https://ooo.0o0.ooo/2017/11/03/59fc6b3c5b723.jpg"]
-||kisssub.org##img[src="http://wx2.sinaimg.cn/large/55141b08gy1fls3xns7pbj20q40280t3.jpg"]
-||kisssub.org##img[src="http://wx2.sinaimg.cn/large/55141b08gy1fm06q026j1j20qo02i41d.jpg"]
+kisssub.org##div.ads-full-width,.clear.text_center,div.box[style="overflow:hidden;"],[class^="gg_canvas gg_canvas-hidden"]
 |http://m.kisssub.org$s@document.referrer.indexOf(document.domain) !@-1 @
 !---laonanren.com
 |https://www.laonanren.com/js/page.js
