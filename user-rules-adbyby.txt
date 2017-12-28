@@ -1,4 +1,4 @@
-!  -----:  2017-12-27 17:41:10   by:kysdm-----
+!  -----:  2017-12-28 10:28:10   by:kysdm-----
 !
 !  -----规则兼容Adbyby，部分兼容koolproxy-----
 |  -----如需过滤https网址，需配合ssllist.ini文件-----
@@ -44,10 +44,6 @@ ctfile.com##a[href="https://union.ctfile.com"],iframe[width="380"][height="80"]
 ||http://ctfile.com/i/$s@<script src="https://mydisplay.ctfile.com/iz.php?i=*"></script>@@
 ||http://ctfile.com/i/$s@<script type="text/javascript">var _popup_ispoped = false;*);</script>@@
 !---dmhy.org
-|http://share.dmhy.org/dmhy$image
-|http://share.dmhy.org/msdl$image
-|http://share.dmhy.org/12801201$image
-|http://share.dmhy.org/FGO1$image
 |http://share.dmhy.org###1280_ad
 !---eastday.com/
 ||eastday.com/assets/js/resources/new_detail_v2/detail.js?130480502
@@ -104,7 +100,11 @@ tsdm.me###ts_sidebar_base,[colspan="5"],img[width="480"][height="90"],img[width=
 |http://www.tsdm.me/plugin.php?id=dsu_paulsign:sign$s@showMenu({'ctrlid':this.id, 'pos':'21'});"><center><a href="*target="_blank">@showMenu({'ctrlid':this.id, 'pos':'21'});"><center>@
 !---------------------------------Uu------------------------------------------
 !---------------------------------Vv------------------------------------------
-!---------------------------------Ww------------------------------------------
+!---wangpan007.com
+|http://wangpan007.com/cpc/wangpan007.js$s@withJQ(function()@@
+|http://wangpan007.com/$s@<script type="text/javascript" src="https://1.hslyqs.com/c.js"></script>@@
+|http://wangpan007.com/$s@<script type="text/javascript" src="https://j.sdqoi2d.com/r/er_20450_8682.js"></script>@@
+|http://m.wangpan007.com/$s@<script type="text/javascript" src="/cpc/cpm.js"></script>@@
 !---------------------------------Xx------------------------------------------
 |http://cdn.xianliao.me/assets/static/lib.js?
 |http://union1.xiaojianjian.net/avkdebubrycx.js

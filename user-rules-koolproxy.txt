@@ -1,4 +1,4 @@
-!  -----:  2017-12-27 17:41:10   by:kysdm-----
+!  -----:  2017-12-28 21:37:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !  -----KP何时才能支持正则匹配https链接或者上https黑名单^…^----
@@ -83,8 +83,8 @@ bbs99.club###hd > div > div.a_2mu > center,#nv_forum > div.wp.a2_h > center,#pos
 |https://www.uuu227.com/js/config.js
 |https://www.ttt255.com/js/config.js
 !---ettoday.net
-|https://ad.ettoday.net/$script
-|https://static.ettoday.net/ad/$script
+|https://ad.ettoday.net
+|https://static.ettoday.net/ad/
 |https://static.ettoday.net/style/adult/adult-alert.js
 |https://player.h-cdn.com/loader.js?customer=ettodaynet$script
 !---------------------------------Ff------------------------------------------
@@ -133,6 +133,7 @@ mobanwang.com##.linkyun,.topBannerYun,.guge,.g590x40
 |https://zz.bdstatic.com/linksubmit/push.js
 !---subhd.com
 subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"]
+|http://cdn.xianliao.me/assets/$script
 !---taoyizhu.com
 taoyizhu.com##[class^="fixed-banner-"],[class^="float-banner banner-"]
 !---thzok.com thzthz.net thzvv.com thztv.net  桃花族域名
@@ -147,7 +148,12 @@ tsdm.me###ts_sidebar_base,[colspan="5"],img[width="480"][height="90"],img[width=
 |http://www.tsdm.me/plugin.php?id=dsu_paulsign:sign$s@showMenu({'ctrlid':this.id, 'pos':'21'});"><center><a href="*target="_blank">@showMenu({'ctrlid':this.id, 'pos':'21'});"><center>@
 !---------------------------------Uu------------------------------------------
 !---------------------------------Vv------------------------------------------
-!---------------------------------Ww------------------------------------------
+!---wangpan007.com
+||https://hanqidq.com
+|https://wangpan007.com/cpc/wangpan007.js$s@withJQ(function()@@
+|https://wangpan007.com/$s@<script type="text/javascript" src="https://1.hslyqs.com/c.js"></script>@@
+|https://wangpan007.com/$s@<script type="text/javascript" src="https://j.sdqoi2d.com/r/er_20450_8682.js"></script>@@
+|https://m.wangpan007.com/$s@<script type="text/javascript" src="/cpc/cpm.js"></script>@@
 !---------------------------------Xx------------------------------------------
 !---yeyemo.net
 |http://yeyemo.net/$s@<div align="center">*</div>@@
