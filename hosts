@@ -8,6 +8,9 @@
 127.0.0.1 rpc.acronis.com
 127.0.0.1 activation.acronis.com 
 127.0.0.1 web-api-tih.acronis.com
+# bandicam破解 屏蔽检测
+127.0.0.1 bandicam.com
+127.0.0.1 ssl.bandisoft.com
 # 解决迅雷BT无法下载问题
 #127.0.0.1 hub5btmain.sandai.net
 #127.0.0.1 hub5emu.sandai.net

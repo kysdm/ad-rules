@@ -30,6 +30,7 @@ sourceforge.net
 services.googleapis.cn
 vcb-s.com
 videohelp.com
+xn--i2ru8q2qg.com
 teamviewer.com
 tsdm.me
 thzthz.net
@@ -74,8 +75,5 @@ cdn.steamstatic.com.8686c.com
 91.108.56.0/24
 109.239.140.0/24
 67.198.55.0/24
-8.8.8.8
-9.9.9.9
-208.67.222.222
-208.67.220.220
+151.101.8.133
 103.235.46.0/24

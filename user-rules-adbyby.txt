@@ -112,8 +112,9 @@ tsdm.me###ts_sidebar_base,[colspan="5"],img[width="480"][height="90"],img[width=
 |http://www.youtube.com##[id$="-ad"]
 |http://js.yyjym.com//v.php?id= 
 !---------------------------------Zz------------------------------------------
-!--人人字幕组赞助悬浮窗
-zimuzu.tv###help,[style^="text-align:center;"]
+!---zimuzu.tv
+zimuzu.tv###help,[style^="text-align:center;"],li.rel
+|http://www.zimuzu.tv$s@"https://p.tanx.com/ex?i=*"@""@
 !---APP搜狗输入法软件中心软件更新推送  误拦截???
 |http://notify.zhushou.sogou.com/checkupdatenotify/input.html?token=
 !---APP今日头条

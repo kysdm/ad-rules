@@ -35,6 +35,8 @@
 |https://share.acgnx.se##img[src="/images/gDqF4N4b.png"],img[src="/images/cjTQH5PQ.png"]
 |https://share.acgnx.se/images/gDqF4N4b.png
 |https://share.acgnx.se/images/cjTQH5PQ.png
+!---aies.cn
+aies.cn##ins.adsbygoogle
 !---baidu.com
 |https://www.baidu.com$s@<script type="text/javascript">var zbBanner = {switch: '1',startTime:*, storage.ls, B.log);});});}</script>@@
 |http://tieba.baidu.com/p/$s@<div id="fixed_bar" class="showBar"><img src="*" alt="" class="close">@@
@@ -162,7 +164,8 @@ tsdm.me###ts_sidebar_base,[colspan="5"],img[width="480"][height="90"],img[width=
 !---zimuku.cn
 zimuku.cn##img[width="200px"][height="auto"]
 !---zimuzu.tv
-zimuzu.tv###help,[style^="text-align:center;"]
+zimuzu.tv###help,[style^="text-align:center;"],li.rel
+|http://www.zimuzu.tv$s@"https://p.tanx.com/ex?i=*"@""@
 !---APP搜狗输入法软件中心软件更新推送  误拦截???
 |http://notify.zhushou.sogou.com/checkupdatenotify/input.html?token=
 !---APP今日头条
