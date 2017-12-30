@@ -1,8 +1,10 @@
-!  -----:  2017-12-28 10:28:10   by:kysdm-----
+!  -----:  2017-12-30 19:50:10   by:kysdm-----
 !
 !  -----规则兼容Adbyby，部分兼容koolproxy-----
 |  -----如需过滤https网址，需配合ssllist.ini文件-----
 !
+!---114la.com
+114la.com##[id^="Game"]
 !---5chajian.com
 5chajian.com##[id^="ad_"]
 !--5326t.com

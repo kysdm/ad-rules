@@ -22,6 +22,7 @@ godaddy.com
 googleapis.com
 javbus3.com
 kaspersky.com
+lede-project.org
 madvr.com
 madshi.net
 ping.cat

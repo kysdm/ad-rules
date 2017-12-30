@@ -3,6 +3,8 @@
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !  -----KP何时才能支持正则匹配https链接或者上https黑名单^…^----
 !
+!---114la.com
+114la.com##[id^="Game"]
 !---5chajian.com
 5chajian.com##[id^="ad_"]
 |http://m.cloud.189.cn/source/images/banner.png
@@ -95,7 +97,9 @@ bbs99.club###hd > div > div.a_2mu > center,#nv_forum > div.wp.a2_h > center,#pos
 ||http://gamersky.com/tips/all_tips.js
 !---goudidiao.com
 goudidiao.com##[class^="img-responsive"],[style$="red;"]
-!---------------------------------Hh------------------------------------------
+!---huoche.net
+|https://www.huoche.net##img[src^="/public/ad/"]
+|https://www.huoche.net/$s@开始-->*结束-->@-->@
 !---itellyou.cn
 |https://msdn.itellyou.cn/images/20171128122518214.png
 !---javbus3.com 因插件原因只在IE下生效
