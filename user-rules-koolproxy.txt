@@ -1,4 +1,4 @@
-!  -----:  2017-12-31 18:03:10   by:kysdm-----
+!  -----:  2017-12-31 18:11:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !  -----KP何时才能支持正则匹配https链接或者上https黑名单^…^----
@@ -188,8 +188,8 @@ zimuzu.tv###help,[style^="text-align:center;"],li.rel
 |http://alog.umeng.com/app_logs
 ||https://snssdk.com/service/2/app_log/
 ||https://snssdk.com/*/app_ad/
-||http://snssdk.com/api/news/feed/v71/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"action\":1,\"desc\":\"\",\"extra\":{}},{\"action\":3,\"desc\":\"\",\"extra\":{}},{\"action\":7,\"desc\":\"\",\"extra\":{}},{\"action\":9,\"desc\":\"\",\"extra\":{}}],\"ad_id\":*","code":""}],"
-||https://snssdk.com/api/news/feed/v71/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"action\":1,\"desc\":\"\",\"extra\":{}},{\"action\":3,\"desc\":\"\",\"extra\":{}},{\"action\":7,\"desc\":\"\",\"extra\":{}},{\"action\":9,\"desc\":\"\",\"extra\":{}}],\"ad_id\":*","code":""}],"
+||http://snssdk.com/api/news/feed/v71/?list_count=$s@,{"content":"{\"abstract\":\"\",\"action_list\":[{\"action\":1,\"desc\":\"\",\"extra\":{}},{\"action\":3,\"desc\":\"\",\"extra\":{}},{\"action\":7,\"desc\":\"\",\"extra\":{}},{\"action\":9,\"desc\":\"\",\"extra\":{}}],\"ad_id\":*","code":""}@@
+||https://snssdk.com/api/news/feed/v71/?list_count=$s@,{"content":"{\"abstract\":\"\",\"action_list\":[{\"action\":1,\"desc\":\"\",\"extra\":{}},{\"action\":3,\"desc\":\"\",\"extra\":{}},{\"action\":7,\"desc\":\"\",\"extra\":{}},{\"action\":9,\"desc\":\"\",\"extra\":{}}],\"ad_id\":*","code":""}@@
 !---APP追书神器
 |http://api.zhuishushenqi.com/splashes/android
 |https://api10e46r.zhuishushenqi.com/splashes/ios

@@ -1,4 +1,4 @@
-!  -----:  2017-12-31 18:03:10   by:kysdm-----
+!  -----:  2017-12-31 18:11:10   by:kysdm-----
 !
 !  -----规则兼容Adbyby，部分兼容koolproxy-----
 |  -----如需过滤https网址，需配合ssllist.ini文件-----
@@ -131,7 +131,7 @@ zimuzu.tv###help,[style^="text-align:center;"],li.rel
 |http://alog.umeng.com/app_logs
 ||http://snssdk.com/service/2/app_log/
 ||http://snssdk.com/*/app_ad/
-||http://snssdk.com/api/news/feed/v71/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"action\":1,\"desc\":\"\",\"extra\":{}},{\"action\":3,\"desc\":\"\",\"extra\":{}},{\"action\":7,\"desc\":\"\",\"extra\":{}},{\"action\":9,\"desc\":\"\",\"extra\":{}}],\"ad_id\":*","code":""}],"
+||http://snssdk.com/api/news/feed/v71/?list_count=$s@,{"content":"{\"abstract\":\"\",\"action_list\":[{\"action\":1,\"desc\":\"\",\"extra\":{}},{\"action\":3,\"desc\":\"\",\"extra\":{}},{\"action\":7,\"desc\":\"\",\"extra\":{}},{\"action\":9,\"desc\":\"\",\"extra\":{}}],\"ad_id\":*","code":""}@@
 !---APP追书神器
 |http://api.zhuishushenqi.com/splashes/android
 |http://api.zhuishushenqi.com/notification/shelfMessage?platform=android
