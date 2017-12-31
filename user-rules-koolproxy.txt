@@ -1,4 +1,4 @@
-!  -----:  2017-12-30 19:50:10   by:kysdm-----
+!  -----:  2017-12-31 18:03:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !  -----KP何时才能支持正则匹配https链接或者上https黑名单^…^----
@@ -100,6 +100,8 @@ goudidiao.com##[class^="img-responsive"],[style$="red;"]
 !---huoche.net
 |https://www.huoche.net##img[src^="/public/ad/"]
 |https://www.huoche.net/$s@开始-->*结束-->@-->@
+!---ifeng.com
+ifeng.com##div.blockR.iphone_none.ipad_none,.bd_t5
 !---itellyou.cn
 |https://msdn.itellyou.cn/images/20171128122518214.png
 !---javbus3.com 因插件原因只在IE下生效
@@ -126,7 +128,8 @@ mobanwang.com##.linkyun,.topBannerYun,.guge,.g590x40
 |http://renren2.maoyun.tv/ads
 !---------------------------------Nn------------------------------------------
 |http://img.namusai.com/
-!---------------------------------Oo------------------------------------------
+!---oyksoft.com
+oyksoft.com##[id^="down-"]
 !---------------------------------Pp------------------------------------------ 
 !---------------------------------Qq------------------------------------------
 !---rarbg.is
@@ -185,8 +188,16 @@ zimuzu.tv###help,[style^="text-align:center;"],li.rel
 |http://alog.umeng.com/app_logs
 ||https://snssdk.com/service/2/app_log/
 ||https://snssdk.com/*/app_ad/
-||http://snssdk.com/api/news/feed/v71/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"action\":1,\"desc\":\"\",\"extra\":{}},{\"action\":3,\"desc\":\"\",\"extra\":{}},{\"action\":7,\"desc\":\"\",\"extra\":{}},{\"action\":9,\"desc\":\"\",\"extra\":{}}],\"ad_id\":*"},{"content":"@{"content":"@
-||https://snssdk.com/api/news/feed/v71/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"action\":1,\"desc\":\"\",\"extra\":{}},{\"action\":3,\"desc\":\"\",\"extra\":{}},{\"action\":7,\"desc\":\"\",\"extra\":{}},{\"action\":9,\"desc\":\"\",\"extra\":{}}],\"ad_id\":*"},{"content":"@{"content":"@
+||http://snssdk.com/api/news/feed/v71/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"action\":1,\"desc\":\"\",\"extra\":{}},{\"action\":3,\"desc\":\"\",\"extra\":{}},{\"action\":7,\"desc\":\"\",\"extra\":{}},{\"action\":9,\"desc\":\"\",\"extra\":{}}],\"ad_id\":*","code":""}],"
+||https://snssdk.com/api/news/feed/v71/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"action\":1,\"desc\":\"\",\"extra\":{}},{\"action\":3,\"desc\":\"\",\"extra\":{}},{\"action\":7,\"desc\":\"\",\"extra\":{}},{\"action\":9,\"desc\":\"\",\"extra\":{}}],\"ad_id\":*","code":""}],"
+!---APP追书神器
+|http://api.zhuishushenqi.com/splashes/android
+|https://api10e46r.zhuishushenqi.com/splashes/ios
+|http://api.zhuishushenqi.com/notification/shelfMessage?platform=android
+|https://api10e46r.zhuishushenqi.com/notification/shelfMessage?platform=ios
+|http://api.zhuishushenqi.com/advert?platform=android&position=all
+|https://api10e46r.zhuishushenqi.com/advert?platform=ios&position=all
+|https://net.rayjump.com/openapi/ad/v3?ad_num=
 !----------------------------------特殊-------------------
 !--Android王者荣耀封禁登录
 http://msdk.qq.com/auth/getlogin_info/?timestamp=*

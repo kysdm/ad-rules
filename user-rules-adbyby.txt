@@ -1,4 +1,4 @@
-!  -----:  2017-12-30 19:50:10   by:kysdm-----
+!  -----:  2017-12-31 18:03:10   by:kysdm-----
 !
 !  -----规则兼容Adbyby，部分兼容koolproxy-----
 |  -----如需过滤https网址，需配合ssllist.ini文件-----
@@ -83,7 +83,8 @@ mobanwang.com##.linkyun,.topBannerYun,.guge,.g590x40
 |http://renren2.maoyun.tv/ads
 !---------------------------------Nn------------------------------------------
 |http://img.namusai.com/
-!---------------------------------Oo------------------------------------------
+!---oyksoft.com
+oyksoft.com##[id^="down-"]
 !---------------------------------Pp------------------------------------------ 
 !---------------------------------Qq------------------------------------------
 !---rarbg.is
@@ -130,8 +131,12 @@ zimuzu.tv###help,[style^="text-align:center;"],li.rel
 |http://alog.umeng.com/app_logs
 ||http://snssdk.com/service/2/app_log/
 ||http://snssdk.com/*/app_ad/
-||http://snssdk.com/api/news/feed/v71/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"action\":1,\"desc\":\"\",\"extra\":{}},{\"action\":3,\"desc\":\"\",\"extra\":{}},{\"action\":7,\"desc\":\"\",\"extra\":{}},{\"action\":9,\"desc\":\"\",\"extra\":{}}],\"ad_id\":*"},{"content":"@{"content":"@
-!----------------------------------特殊-------------------!----------------------------------特殊----------------------------------------
+||http://snssdk.com/api/news/feed/v71/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"action\":1,\"desc\":\"\",\"extra\":{}},{\"action\":3,\"desc\":\"\",\"extra\":{}},{\"action\":7,\"desc\":\"\",\"extra\":{}},{\"action\":9,\"desc\":\"\",\"extra\":{}}],\"ad_id\":*","code":""}],"
+!---APP追书神器
+|http://api.zhuishushenqi.com/splashes/android
+|http://api.zhuishushenqi.com/notification/shelfMessage?platform=android
+|http://api.zhuishushenqi.com/advert?platform=android&position=all
+!----------------------------------特殊----------------------------------------
 !--Android王者荣耀封禁登录
 |http://msdk.qq.com/auth/getlogin_info/?timestamp=*
 |http://msdk.qq.com/auth/wxfirst_login/?appid=*
