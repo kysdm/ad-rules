@@ -1,4 +1,4 @@
-!  -----:  2017-12-31 18:11:10   by:kysdm-----
+!  -----:  2018-01-02 21:35:10   by:kysdm-----
 !
 !  -----规则兼容Adbyby，部分兼容koolproxy-----
 |  -----如需过滤https网址，需配合ssllist.ini文件-----
@@ -97,6 +97,7 @@ subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210
 taoyizhu.com##[class^="fixed-banner-"],[class^="float-banner banner-"]
 !---tsdm.me
 tsdm.me###ts_sidebar_base,[colspan="5"],img[width="480"][height="90"],img[width="470"][height="90"]
+|http://www.tsdmw.net/img01/MP3/
 |http://ww1.sinaimg.cn/large/7044f931gw1ehw1zny52yg209p03c74g.gif
 |http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@style="float:left;width:240px"><a href="*target="_blank">@style="float:left;width:240px"><a href="javascript:void(0);" target="_blank">@
 |http://www.tsdm.me/plugin.php?id=dsu_paulsign:sign$s@var openTargetUrl = '';*window.open(openTargetUrl);@@
