@@ -1,4 +1,4 @@
-!  -----:  2018-01-02 21:35:10   by:kysdm-----
+!  -----:  2018-01-04 11:22:10   by:kysdm-----
 !
 !  -----规则兼容Adbyby，部分兼容koolproxy-----
 |  -----如需过滤https网址，需配合ssllist.ini文件-----
@@ -45,6 +45,8 @@ bbs99.club###iframe[src^="https://js001.lieshazhe.com/v.php"],img[src^="https://
 ctfile.com##a[href="https://union.ctfile.com"],iframe[width="380"][height="80"]
 ||http://ctfile.com/i/$s@<script src="https://mydisplay.ctfile.com/iz.php?i=*"></script>@@
 ||http://ctfile.com/i/$s@<script type="text/javascript">var _popup_ispoped = false;*);</script>@@
+!---ddooo.com
+|http://www.ddooo.com/public/uaredirect.js$s@function do_main(parm)@function fuck()@
 !---dmhy.org
 |http://share.dmhy.org###1280_ad
 !---eastday.com/

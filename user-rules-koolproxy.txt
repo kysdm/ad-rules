@@ -1,4 +1,4 @@
-!  -----:  2018-01-02 21:35:10   by:kysdm-----
+!  -----:  2018-01-04 11:22:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !  -----KP何时才能支持正则匹配https链接或者上https黑名单^…^----
@@ -58,7 +58,7 @@ bbs99.club###hd > div > div.a_2mu > center,#nv_forum > div.wp.a2_h > center,#pos
 |http://nz04com.com/aabdd/aaaddpics/$image
 ||https://lieshazhe.com/vs.php?id=
 !---bilibili.com
-|https://www.bilibili.com##.bilibili-player-promote
+!|https://www.bilibili.com##.bilibili-player-promote
 !---biqubao.com
 |https://www.biqubao.com##[class$="_ad"]
 |https://m.biqubao.com/book/*.html$s@<script type="text/javascript" src="/js/common.js"></script>@@
@@ -108,6 +108,8 @@ bttiantangs.com###sidebar-follow,[class="full-width row"]
 ||https://ctfile.com/i/$s@<script type="text/javascript">var _popup_ispoped = false;*);</script>@@
 !---ddbiquge.com
 |https://m.ddbiquge.com/xxgg/book.js
+!---ddooo.com
+|http://www.ddooo.com/public/uaredirect.js$s@function do_main(parm)@function fuck()@
 !---dmhy.org
 @@|https://share.dmhy.org/images/$image
 |https://share.dmhy.org##img[width="1280"][height="120"]

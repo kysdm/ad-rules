@@ -11,6 +11,7 @@ amazonaws.com
 blogspot.com
 bitcomet.com
 bbs99.club
+cdn.netsarang.net
 cloudflare.com
 daum.net
 doub.io
@@ -25,6 +26,7 @@ kaspersky.com
 lede-project.org
 madvr.com
 madshi.net
+netsarang.com
 ping.cat
 rarbg.is
 sourceforge.net
