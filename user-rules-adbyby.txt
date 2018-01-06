@@ -1,10 +1,10 @@
-!  -----:  2018-01-04 11:22:10   by:kysdm-----
+!  -----:  2018-01-06 11:45:10   by:kysdm-----
 !
 !  -----规则兼容Adbyby，部分兼容koolproxy-----
 |  -----如需过滤https网址，需配合ssllist.ini文件-----
 !
 !---114la.com
-114la.com##[id^="Game"]
+114la.com##[id^="Game"],#HDtopBar
 !---5chajian.com
 5chajian.com##[id^="ad_"]
 !--5326t.com
@@ -19,6 +19,8 @@
 |http://www.360doc.com/content/$s@</body>@<script>document.body.oncopy=null;document.body.__defineSetter__("oncopy",function(){})</script></body>@
 !---52fuqing.com
 |http://news.52fuqing.com$s@<div class="nr" oncopy="alert('*!');return false;">@<div class="nr">@
+!---5icool.org
+|http://www.5icool.org/statics/js/function.js$s@$("#top_slide")@//@
 !---acgnx.se
 |http://share.acgnx.se##img[src="/images/gDqF4N4b.png"],img[src="/images/cjTQH5PQ.png"]
 |http://share.acgnx.se/images/gDqF4N4b.png
@@ -49,6 +51,8 @@ ctfile.com##a[href="https://union.ctfile.com"],iframe[width="380"][height="80"]
 |http://www.ddooo.com/public/uaredirect.js$s@function do_main(parm)@function fuck()@
 !---dmhy.org
 |http://share.dmhy.org###1280_ad
+!---dyxz5.com
+|http://www.dyxz5.com##div[style="text-align:center"]
 !---eastday.com/
 ||eastday.com/assets/js/resources/new_detail_v2/detail.js?130480502
 !---enbte.com
@@ -105,7 +109,8 @@ tsdm.me###ts_sidebar_base,[colspan="5"],img[width="480"][height="90"],img[width=
 |http://www.tsdm.me/plugin.php?id=dsu_paulsign:sign$s@var openTargetUrl = '';*window.open(openTargetUrl);@@
 |http://www.tsdm.me/plugin.php?id=dsu_paulsign:sign$s@showMenu({'ctrlid':this.id, 'pos':'21'});"><center><a href="*target="_blank">@showMenu({'ctrlid':this.id, 'pos':'21'});"><center>@
 !---------------------------------Uu------------------------------------------
-!---------------------------------Vv------------------------------------------
+!---viidii.info
+viidii.info##img[width="468"][height="60"]
 !---wangpan007.com
 |http://wangpan007.com/cpc/wangpan007.js$s@withJQ(function()@@
 |http://wangpan007.com/$s@<script type="text/javascript" src="https://1.hslyqs.com/c.js"></script>@@

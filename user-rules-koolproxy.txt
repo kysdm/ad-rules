@@ -1,10 +1,10 @@
-!  -----:  2018-01-04 11:22:10   by:kysdm-----
+!  -----:  2018-01-06 11:45:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
-!  -----KP何时才能支持正则匹配https链接或者上https黑名单^…^----
+!  -----X64秒天秒地----
 !
 !---114la.com
-114la.com##[id^="Game"]
+114la.com##[id^="Game"],#HDtopBar,#imgArr
 !---16book.org
 |https://www.16book.org##[id^="tanx"],[id^="cs_CFdivdlST_"],[class^="ad"]
 ||https://16book.org/*.js$s@function yuedu*function downapp()@function fuck()@
@@ -39,6 +39,8 @@
 !|http://www.360doc.com/content/$r@http://www.360doc.com/js/showarticle.js*@https://coding.net/u/kysdm/p/ad-rules/git/raw/master/js/showarticle.js@
 !---52fuqing.com
 |http://news.52fuqing.com$s@<div class="nr" oncopy="alert('*!');return false;">@<div class="nr">@
+!---5icool.org
+|http://www.5icool.org/statics/js/function.js$s@$("#top_slide")@//@
 !---88dushu.com
 |http://m.88dushu.com/mobile/css/m.js$s@function baba_*()@function fuck()@
 !---acgnx.se
@@ -114,6 +116,8 @@ bttiantangs.com###sidebar-follow,[class="full-width row"]
 @@|https://share.dmhy.org/images/$image
 |https://share.dmhy.org##img[width="1280"][height="120"]
 |https://share.dmhy.org$image
+!---dyxz5.com
+|http://www.dyxz5.com##div[style="text-align:center"]
 !---eastday.com
 ||eastday.com/assets/js/resources/new_detail_v2/detail.js?130480502
 !---enbte.com
@@ -162,6 +166,9 @@ kisssub.org##div.ads-full-width,.clear.text_center,div.box[style="overflow:hidde
 !---laonanren.com
 |https://www.laonanren.com/js/page.js
 |https://www.laonanren.com/js/search.js$s@$('<div style=@('<div style=@
+!---loldytt.com
+|https://www.loldytt.com##[id^="qj"],#xinxi,#gegz
+|https://www.loldytt.com$s@<script src="https://img.aolusb.com/forever/*.js"></script>@@
 !---live.com
 ||https://outlook.live.com##div[aria-label="广告"],img[aria-label="设置广告首选项"]
 !---mobanwang.com
@@ -184,12 +191,22 @@ oyksoft.com##[id^="down-"]
 |https://dyncdn.me/static/20/js/expla60.js
 |https://dyncdn.me/static/20/js/xqijtezmrschyl.js
 |https://rarbg.is$s@; } else { if (typeof(_wm3) !== 'undefined')*{ _wm3.format.popunder.isTriggered = true; } } @@
+!---rmdown.com
+rmdown.com##img[width="468"][height="60"],img[width="760"][height="90"]
 !---soxunlei.net
 |https://www.soxunlei.net/wap/$script
 |https://zz.bdstatic.com/linksubmit/push.js
 !---subhd.com
 subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"]
 |http://cdn.xianliao.me/assets/$script
+!---t66y.com
+|http://t66y.com/htm_data$s@<br><img src='http://kk.51688.cc*style='cursor:pointer'>&nbsp;<br>@@
+|http://t66y.com/htm_data$s@<b><span class="f24">*</a></span></b><br>@@
+|http://t66y.com/htm_data$s@<b><span class="f14">*</a></span></b><br>@@
+|http://t66y.com/htm_data$s@<a href='http://www.viidii.info/?http* WIDTH="100%" HEIGHT=500></iframe><br><br>@@
+|http://t66y.com/htm_data$s@<br /><div class="tpc_content do_not_catch">*</span></span></a><br></blockquote><br><br><br>@<br /><div class="tpc_content do_not_catch">@
+|http://t66y.com/htm_data$s@<br /><div class="tpc_content do_not_catch"><img src='http*.gif' onclick="window.open('*;" style='cursor:pointer'>&nbsp;<br>@<br /><div class="tpc_content do_not_catch">@
+|http://t66y.com/htm_data$s@<br><img src='http*.gif' onclick="window.open('*;" style='cursor:pointer'>&nbsp;<br>@@
 !---taoyizhu.com
 taoyizhu.com##[class^="fixed-banner-"],[class^="float-banner banner-"]
 !---thzok.com thzthz.net thzvv.com thztv.net  桃花族域名
@@ -210,7 +227,8 @@ tsdm.me###ts_sidebar_base,[colspan="5"],img[width="480"][height="90"],img[width=
 |http://www.tsdm.me/plugin.php?id=dsu_paulsign:sign$s@var openTargetUrl = '';*window.open(openTargetUrl);@@
 |http://www.tsdm.me/plugin.php?id=dsu_paulsign:sign$s@showMenu({'ctrlid':this.id, 'pos':'21'});"><center><a href="*target="_blank">@showMenu({'ctrlid':this.id, 'pos':'21'});"><center>@
 !---------------------------------Uu------------------------------------------
-!---------------------------------Vv------------------------------------------
+!---viidii.info
+viidii.info##img[width="468"][height="60"]
 !---wangpan007.com
 ||https://hanqidq.com
 |https://wangpan007.com/cpc/wangpan007.js$s@withJQ(function()@@
