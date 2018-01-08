@@ -1,4 +1,4 @@
-!  -----:  2018-01-06 11:45:10   by:kysdm-----
+!  -----:  2018-01-08 18:09:10   by:kysdm-----
 !
 !  -----规则兼容Adbyby，部分兼容koolproxy-----
 |  -----如需过滤https网址，需配合ssllist.ini文件-----
@@ -29,6 +29,7 @@
 |http://www.bilibili.com##.bilibili-player-promote
 !---bttiantangs.com
 bttiantangs.com###sidebar-follow,[class="full-width row"]
+|http://www.bttiantangs.com$s@<script src="http://j.qiqivv.com*"></script>@@
 |http://www.bttiantangs.com$s@<script type="text/javascript" src="http://bttt99.kkcaicai.com:8080/tan.js"*"></script>@@
 !---baidu.com
 |http://tieba.baidu.com/p/$s@<div id="fixed_bar" class="showBar"><img src="*" alt="" class="close">@@
