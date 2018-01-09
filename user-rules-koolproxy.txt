@@ -1,4 +1,4 @@
-!  -----:  2018-01-08 18:09:10   by:kysdm-----
+!  -----:  2018-01-09 12:09:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !  -----X64秒天秒地----
@@ -247,9 +247,13 @@ zdfans.com##a[href^="http://13191a.com"]
 !---zimuku.cn
 zimuku.cn##img[width="200px"][height="auto"]
 |http://www.zimuku.cn$s@<div style="position:fixed; text-align:center;*</a></div></div>@@
-!---zimuzu.tv
+!---zimuzu.tv  替换部分加载巨慢的资源地址
 zimuzu.tv###help,[style^="text-align:center;"],li.rel
+|http://www.96518.org/url.php
+|http://www.zimuku.cn/images/v2/js/bn.js
 |http://www.zimuzu.tv$s@"https://p.tanx.com/ex?i=*"@""@
+|http://www.zimuku.cn$s@<script src='/images/ad/foot.js*'></script>@@
+|http://www.zimuku.cn$s@src="/images/v2/no_litpic.gif"@src="//wx2.sinaimg.cn/large/a1ce17b8gy1fna3pzxn42g202s03wjr5.gif"@
 !---zwdu.com
 |https://m.zwdu.com##[id^="iIk_tfta"],[style^="height:95px;width:100"],img[src^="http://m.kaquansc.com/"],img[src^="http://os.vchuan88.com"]
 |https://www.zwdu.com##img[width="960"][height="90"]
