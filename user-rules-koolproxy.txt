@@ -1,7 +1,6 @@
-!  -----:  2018-01-09 12:09:10   by:kysdm-----
+!  -----:  2018-01-10 11:58:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
-!  -----X64秒天秒地----
 !
 !---114la.com
 114la.com##[id^="Game"],#HDtopBar,#imgArr
@@ -15,9 +14,6 @@
 5chajian.com##[id^="ad_"]
 |http://m.cloud.189.cn/source/images/banner.png
 !---5326t.com 5746t.com 9904t.com 同站长
-!/^https:\/\/www\.\d{4}t\.com\/js\/mobile\.js/
-!/^https:\/\/www\.\d{4}t\.com\/js\/Collection\.js/
-!/^https:\/\/www\.\d{4}t\.com\/js\/jquery\.js/$s@btnClose = '<*adRightFloatBottom,ofloat:1})@{@
 |https://www.5326t.com/js/mobile.js
 |https://www.5326t.com/js/Collection.js
 |https://www.5326t.com/js/jquery.js$s@btnClose = '<*adRightFloatBottom,ofloat:1})@{@
@@ -36,7 +32,6 @@
 |https://mipcache.bdstatic.com/static/v1/mip-360doc-script/mip-360doc-script.js
 |http://www.360doc.cn/mip$s@<div class="w1">*<div class="footer_nav_box">@<div class="footer_nav_box">@
 |http://www.360doc.com/content/$s@</body>@<script>document.body.oncopy=null;document.body.__defineSetter__("oncopy",function(){})</script></body>@
-!|http://www.360doc.com/content/$r@http://www.360doc.com/js/showarticle.js*@https://coding.net/u/kysdm/p/ad-rules/git/raw/master/js/showarticle.js@
 !---52fuqing.com
 |http://news.52fuqing.com$s@<div class="nr" oncopy="alert('*!');return false;">@<div class="nr">@
 !---5icool.org
@@ -59,8 +54,6 @@ aies.cn##ins.adsbygoogle
 bbs99.club###hd > div > div.a_2mu > center,#nv_forum > div.wp.a2_h > center,#postlist > table.ad > tbody > tr > td.plc > div > center
 |http://nz04com.com/aabdd/aaaddpics/$image
 ||https://lieshazhe.com/vs.php?id=
-!---bilibili.com
-!|https://www.bilibili.com##.bilibili-player-promote
 !---biqubao.com
 |https://www.biqubao.com##[class$="_ad"]
 |https://m.biqubao.com/book/*.html$s@<script type="text/javascript" src="/js/common.js"></script>@@
@@ -124,8 +117,6 @@ bttiantangs.com###sidebar-follow,[class="full-width row"]
 !---enbte.com
 |http://www.enbte.com/Public/Ad/Ad-*.js
 !---eee196.com ttt255.com uuu227.com  同站长
-!/^https:\/\/www\.\w{3}\d{3}\.com\/js\/indextop\.js/
-!/^https:\/\/www\.\w{3}\d{3}\.com\/js\/config\.js/
 |https://www.eee196.com/js/indextop.js
 |https://www.uuu227.com/js/indextop.js
 |https://www.ttt255.com/js/indextop.js
@@ -244,16 +235,16 @@ viidii.info##img[width="468"][height="60"]
 |https://www.youtube.com##[id$="-ad"]
 !---zdfans.co
 zdfans.com##a[href^="http://13191a.com"]
-!---zimuku.cn
+!---zimuku.cn  替换部分加载巨慢的资源地址
 zimuku.cn##img[width="200px"][height="auto"]
-|http://www.zimuku.cn$s@<div style="position:fixed; text-align:center;*</a></div></div>@@
-!---zimuzu.tv  替换部分加载巨慢的资源地址
-zimuzu.tv###help,[style^="text-align:center;"],li.rel
 |http://www.96518.org/url.php
 |http://www.zimuku.cn/images/v2/js/bn.js
 |http://www.zimuzu.tv$s@"https://p.tanx.com/ex?i=*"@""@
 |http://www.zimuku.cn$s@<script src='/images/ad/foot.js*'></script>@@
+|http://www.zimuku.cn$s@<div style="position:fixed; text-align:center;*</a></div></div>@@
 |http://www.zimuku.cn$s@src="/images/v2/no_litpic.gif"@src="//wx2.sinaimg.cn/large/a1ce17b8gy1fna3pzxn42g202s03wjr5.gif"@
+!---zimuzu.tv
+zimuzu.tv###help,[style^="text-align:center;"],li.rel
 !---zwdu.com
 |https://m.zwdu.com##[id^="iIk_tfta"],[style^="height:95px;width:100"],img[src^="http://m.kaquansc.com/"],img[src^="http://os.vchuan88.com"]
 |https://www.zwdu.com##img[width="960"][height="90"]
@@ -262,20 +253,16 @@ zimuzu.tv###help,[style^="text-align:center;"],li.rel
 !---APP搜狗输入法软件中心软件更新推送  误拦截???
 |http://notify.zhushou.sogou.com/checkupdatenotify/input.html?token=
 !---APP今日头条
-@@|http://p3.pstatp.com/origin/1bf50001abbc1c7f8dba
-@@|http://p3.pstatp.com/origin/16ab000fd406f6562385
-@@|http://p3.pstatp.com/origin/3ea40000a242b0178dd2 
-||http://snssdk.com/service/*/z_app_stats/?device_id=
-||https://snssdk.com/service/*/z_app_stats/?device_id=
 ||http://snssdk.com/api/ad/
 ||https://snssdk.com/api/ad/   
-|http://p*.pstatp.com/origin/
-|http://alog.umengcloud.com/app_logs
-|http://alog.umeng.com/app_logs
-||https://snssdk.com/service/2/app_log/
 ||https://snssdk.com/*/app_ad/
-||http://snssdk.com/api/news/feed/v71/?list_count=$s@,{"content":"{\"abstract\":\"\",\"action_list\":[{\"action\":1,\"desc\":\"\",\"extra\":{}},{\"action\":3,\"desc\":\"\",\"extra\":{}},{\"action\":7,\"desc\":\"\",\"extra\":{}},{\"action\":9,\"desc\":\"\",\"extra\":{}}],\"ad_id\":*","code":""}@@
-||https://snssdk.com/api/news/feed/v71/?list_count=$s@,{"content":"{\"abstract\":\"\",\"action_list\":[{\"action\":1,\"desc\":\"\",\"extra\":{}},{\"action\":3,\"desc\":\"\",\"extra\":{}},{\"action\":7,\"desc\":\"\",\"extra\":{}},{\"action\":9,\"desc\":\"\",\"extra\":{}}],\"ad_id\":*","code":""}@@
+||http://snssdk.com/api/news/feed/v71/?list_count=$s@,{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""}@@
+||https://snssdk.com/api/news/feed/v71/?list_count=$s@,{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""}@@
+||https://snssdk.com/api/news/feed/v72/?list_count=$s@,{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""}@@
+||https://snssdk.com/2/article/information/v24/?latitude=$s@,{"ad_data":"{\"*","name":"ad"}@@
+!||https://snssdk.com/2/article/information/v24/?latitude=$s@,{"ad_data":"{\"app\":{\"ad_id\"*"is_preview\":false}","name":"ad"}@@
+!||https://snssdk.com/2/article/information/v24/?latitude=$s@,{"ad_data":"{\"is_preview\":false,\"mixed\":{\"button_text\"*"}}","name":"ad"}@@
+||https://snssdk.com/wenda/v1/answer/information/?wd_version=$s@,{"name":"ad","ad_data":"{\"*"is_preview\": false}"}@@
 !---APP追书神器
 |http://api.zhuishushenqi.com/splashes/android
 |https://api10e46r.zhuishushenqi.com/splashes/ios
