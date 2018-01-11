@@ -1,4 +1,4 @@
-!  -----:  2018-01-10 13:03:10   by:kysdm-----
+!  -----:  2018-01-11 12:07:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !
@@ -260,9 +260,10 @@ zimuzu.tv###help,[style^="text-align:center;"],li.rel
 ||http://snssdk.com/api/ad/
 ||https://snssdk.com/api/ad/   
 ||https://snssdk.com/*/app_ad/
-||http://snssdk.com/api/news/feed/v71/?list_count=$s@,{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""}@@
-||https://snssdk.com/api/news/feed/v71/?list_count=$s@,{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""}@@
-||https://snssdk.com/api/news/feed/v72/?list_count=$s@,{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""}@@
+||http://snssdk.com/api/news/feed/v71/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""},@@
+||https://snssdk.com/api/news/feed/v71/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""},@@
+||https://snssdk.com/api/news/feed/v72/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""},@@
+||https://snssdk.com/api/news/feed/v72/?list_count=$s@,{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""}]@]@
 ||https://snssdk.com/2/article/information/v24/?latitude=$s@,{"ad_data":"{\"*","name":"ad"}@@
 !||https://snssdk.com/2/article/information/v24/?latitude=$s@,{"ad_data":"{\"app\":{\"ad_id\"*"is_preview\":false}","name":"ad"}@@
 !||https://snssdk.com/2/article/information/v24/?latitude=$s@,{"ad_data":"{\"is_preview\":false,\"mixed\":{\"button_text\"*"}}","name":"ad"}@@
