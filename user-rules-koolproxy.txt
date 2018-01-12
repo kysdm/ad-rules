@@ -286,6 +286,17 @@ zimuzu.tv###help,[style^="text-align:center;"],li.rel
 ||https://snssdk.com/2/article/information/v24/?latitude=$s@[{"ad_id":*"type":"web","web_url":"*"},@[@
 ||https://snssdk.com/2/article/information/v24/?latitude=$s@{"data":{"ad":{"is_preview":false,"mixed":{"button_text":"*},"ban_bury":@{"data":{"ban_bury":@
 ||https://snssdk.com/wenda/v1/answer/information/?wd_version=$s@,{"name":"ad","ad_data":"{\"*"is_preview\": false}"}@@
+!---APP优酷视频 by houzi-（误拦截？？？）
+!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\.mp4\?ccode=.*&duration=(30|15|5)&expire=.*/@http://www.youku.com/0.mp4@
+!/^http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/cache\/.*\/youku.com\/.*\.mp4\?.*&duration=20.*/
+!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\/0300080100.*(\.mp4\?|.flv\?)ccode=.*&ups_client_netip=.*/@http://www.youku.com/0.mp4@
+!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/youku\/6.*\/0300080100.*(\.mp4\?|.flv\?)sid=.*&ctype=(50|(([1-4])[0-9])|(0?[1-9]))/@http://www.youku.com/0.mp4@
+!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\/03000.*(\.mp4\?|.flv\?)ccode=.*&duration=(30|((1|2)[0-9])|(0?[1-9]))&expire=18000&psid=.*/@http://www.youku.com/0.mp4@
+!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\/0300080100.*(\.mp4\?|.flv\?)ccode=.*&duration=(75|((6)[0-9])|(7[0-4]))&expire=18000&psid=.*/@http://www.youku.com/0.mp4@
+!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\/0300080100.*(\.mp4\?|.flv\?)ccode=.*&duration=(138|((13)[5-7]))&expire=18000&psid=.*/@http://www.youku.com/0.mp4@
+!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\/0300080100.*(\.mp4\?|.flv\?)ccode=.*&duration=(175|((17)[0-4]))&expire=18000&psid=.*/@http://www.youku.com/0.mp4@
+!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\/0300020100.*\.flv\?ccode=.*&duration=(185|((18)[0-4]))&expire=18000&psid=.*/@http://www.youku.com/0.mp4@
+!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\.flv\?ccode=.*&duration=(30|15|5)&expire=.*/@http://www.youku.com/0.mp4@
 !---APP追书神器
 |http://api.zhuishushenqi.com/splashes/android
 |https://api10e46r.zhuishushenqi.com/splashes/ios
