@@ -21,6 +21,7 @@ formyip.com
 github.com
 godaddy.com
 googleapis.com
+ipsw.me
 javbus3.com
 kaspersky.com
 keepvid.com

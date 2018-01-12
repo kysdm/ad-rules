@@ -1,4 +1,4 @@
-!  -----:  2018-01-11 12:07:10   by:kysdm-----
+!  -----:  2018-01-12 14:42:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !
@@ -91,6 +91,8 @@ bttiantangs.com###sidebar-follow,[class="full-width row"]
 |https://style.bttt.la/static/wen_960.js
 !---btbtt88.com
 |http://www.btbtt88.com/slade.js
+!---cnbeta.com
+cnbeta.com##.cbv810
 !---cnbtkitty.com
 |http://cnbtkitty.com/$s@<div class="footer" >*<div class="copyright">@<div class="footer" ><div class="copyright">@
 |http://cnbtkitty.com/$s@<a style='font-weight:bold;color:#f00;' href='*</a></span>@</span>@
@@ -256,6 +258,15 @@ zimuzu.tv###help,[style^="text-align:center;"],li.rel
 !---------------------APP-------------------
 !---APP搜狗输入法软件中心软件更新推送  误拦截???
 |http://notify.zhushou.sogou.com/checkupdatenotify/input.html?token=
+!---APP触宝电话  （不全，拦截意义不大)
+|http://ws2.cootekservice.com/ad/
+|http://touchlife.cootekservice.com/yellowpage_v3/reward_query?&_token=
+|http://touchlife.cootekservice.com/voice_actor/get_service_unit?_token=
+|http://ws2.cootekservice.com/advertise/platform/get
+|http://ws2.cootekservice.com/news/goldegg?latitude=
+|http://dialer.cdn.cootekservice.com/AD/
+|http://touchlife.cootekservice.com/redpacket/query?_token=
+|http://ws2.cootekservice.com/notification_center/8196fd2a-9587-4918-968f-7753845283ff/
 !---APP今日头条
 ||http://snssdk.com/api/ad/
 ||https://snssdk.com/api/ad/   
@@ -264,9 +275,16 @@ zimuzu.tv###help,[style^="text-align:center;"],li.rel
 ||https://snssdk.com/api/news/feed/v71/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""},@@
 ||https://snssdk.com/api/news/feed/v72/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""},@@
 ||https://snssdk.com/api/news/feed/v72/?list_count=$s@,{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""}]@]@
-||https://snssdk.com/2/article/information/v24/?latitude=$s@,{"ad_data":"{\"*","name":"ad"}@@
-!||https://snssdk.com/2/article/information/v24/?latitude=$s@,{"ad_data":"{\"app\":{\"ad_id\"*"is_preview\":false}","name":"ad"}@@
-!||https://snssdk.com/2/article/information/v24/?latitude=$s@,{"ad_data":"{\"is_preview\":false,\"mixed\":{\"button_text\"*"}}","name":"ad"}@@
+||https://snssdk.com/2/article/information/v24/?latitude=$s@{"ad_data":"{\"*","name":"ad"},@@
+!||https://snssdk.com/2/article/information/v24/?latitude=$s@{"ad_data":"{\"app\":{\"ad_id\"*"is_preview\":false}","name":"ad"},@@
+!||https://snssdk.com/2/article/information/v24/?latitude=$s@{"ad_data":"{\"is_preview\":false,\"mixed\":{\"button_text\"*"}}","name":"ad"},@@
+!||https://snssdk.com/2/article/information/v24/?latitude=$s@{"ad_data":"{\"form\":{\"button_text\":\"*"},\"is_preview\":false}","name":"ad"},@@
+!||https://snssdk.com/2/article/information/v24/?latitude=$s@{"ad_data":"{\"image\":{\"filter_words\":[{\"*"},\"is_preview\":false}","name":"ad"},@@
+||https://snssdk.com/2/article/information/v24/?latitude=$s@"ordered_info":[{"ad_data":"{\"*","name":"ad"}],@@
+!||https://snssdk.com/2/article/information/v24/?latitude=$s@"ordered_info":[{"ad_data":"{\"is_preview\":false,\"mixed\":{\"button_text\":\"*"}}","name":"ad"}],@@
+!|https://snssdk.com/2/article/information/v24/?latitude=$s@"ordered_info":[{"ad_data":"{\"form\":{\"button_text\":\"*"},\"is_preview\":false}","name":"ad"}],@@
+||https://snssdk.com/2/article/information/v24/?latitude=$s@[{"ad_id":*"type":"web","web_url":"*"},@[@
+||https://snssdk.com/2/article/information/v24/?latitude=$s@{"data":{"ad":{"is_preview":false,"mixed":{"button_text":"*},"ban_bury":@{"data":{"ban_bury":@
 ||https://snssdk.com/wenda/v1/answer/information/?wd_version=$s@,{"name":"ad","ad_data":"{\"*"is_preview\": false}"}@@
 !---APP追书神器
 |http://api.zhuishushenqi.com/splashes/android
