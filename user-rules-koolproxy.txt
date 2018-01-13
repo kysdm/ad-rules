@@ -1,4 +1,4 @@
-!  -----:  2018-01-12 14:42:10   by:kysdm-----
+!  -----:  2018-01-13 17:15:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !
@@ -268,35 +268,47 @@ zimuzu.tv###help,[style^="text-align:center;"],li.rel
 |http://touchlife.cootekservice.com/redpacket/query?_token=
 |http://ws2.cootekservice.com/notification_center/8196fd2a-9587-4918-968f-7753845283ff/
 !---APP今日头条
+!---android
 ||http://snssdk.com/api/ad/
 ||https://snssdk.com/api/ad/   
 ||https://snssdk.com/*/app_ad/
-||http://snssdk.com/api/news/feed/v71/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""},@@
-||https://snssdk.com/api/news/feed/v71/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""},@@
-||https://snssdk.com/api/news/feed/v72/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""},@@
-||https://snssdk.com/api/news/feed/v72/?list_count=$s@,{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""}]@]@
-||https://snssdk.com/2/article/information/v24/?latitude=$s@{"ad_data":"{\"*","name":"ad"},@@
+||http://snssdk.com/api/news/feed/v*/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""},@@
+||https://snssdk.com/api/news/feed/v*/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""},@@
+||https://snssdk.com/api/news/feed/v*/?list_count=$s@,{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""}]@]@
+||https://snssdk.com/api/news/feed/v*/?list_count=$s@{"content":"{\"abstract\":\"\",\"allow_download\":false,\*\"bury_count\":0,\"cell_flag\"*"video_style\":0}","code":""},@@
+||https://snssdk.com/2/article/information/v*/?latitude=$s@{"ad_data":"{\"*","name":"ad"},@@
+||https://snssdk.com/2/article/information/v*/?latitude=$s@"ordered_info":[{"ad_data":"{\"*","name":"ad"}],@@
+||https://snssdk.com/2/article/information/v*/?latitude=$s@[{"ad_id":*"type":"web","web_url":"*"},@[@
+||https://snssdk.com/2/article/information/v*/?latitude=$s@{"data":{"ad":{"app":{"ad_id":*"is_preview":false},"ban_bury":@{"data":{"ban_bury":@
+||https://snssdk.com/2/article/information/v*/?latitude=$s@{"data":{"ad":{"is_preview":false,"mixed":{"button_text":"*},"ban_bury":@{"data":{"ban_bury":@
+||https://snssdk.com/wenda/v1/answer/information/?wd_version=$s@,{"name":"ad","ad_data":"{\"*"is_preview\": false}"}@@
+!||http://snssdk.com/api/news/feed/v71/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""},@@
+!||https://snssdk.com/api/news/feed/v71/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""},@@
+!||https://snssdk.com/api/news/feed/v72/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""},@@
+!||https://snssdk.com/api/news/feed/v72/?list_count=$s@,{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""}]@]@
+!||https://snssdk.com/api/news/feed/v72/?list_count=$s@{"content":"{\"abstract\":\"\",\"allow_download\":false,\*\"bury_count\":0,\"cell_flag\"*"video_style\":0}","code":""},@@
 !||https://snssdk.com/2/article/information/v24/?latitude=$s@{"ad_data":"{\"app\":{\"ad_id\"*"is_preview\":false}","name":"ad"},@@
 !||https://snssdk.com/2/article/information/v24/?latitude=$s@{"ad_data":"{\"is_preview\":false,\"mixed\":{\"button_text\"*"}}","name":"ad"},@@
 !||https://snssdk.com/2/article/information/v24/?latitude=$s@{"ad_data":"{\"form\":{\"button_text\":\"*"},\"is_preview\":false}","name":"ad"},@@
 !||https://snssdk.com/2/article/information/v24/?latitude=$s@{"ad_data":"{\"image\":{\"filter_words\":[{\"*"},\"is_preview\":false}","name":"ad"},@@
-||https://snssdk.com/2/article/information/v24/?latitude=$s@"ordered_info":[{"ad_data":"{\"*","name":"ad"}],@@
 !||https://snssdk.com/2/article/information/v24/?latitude=$s@"ordered_info":[{"ad_data":"{\"is_preview\":false,\"mixed\":{\"button_text\":\"*"}}","name":"ad"}],@@
 !|https://snssdk.com/2/article/information/v24/?latitude=$s@"ordered_info":[{"ad_data":"{\"form\":{\"button_text\":\"*"},\"is_preview\":false}","name":"ad"}],@@
-||https://snssdk.com/2/article/information/v24/?latitude=$s@[{"ad_id":*"type":"web","web_url":"*"},@[@
-||https://snssdk.com/2/article/information/v24/?latitude=$s@{"data":{"ad":{"is_preview":false,"mixed":{"button_text":"*},"ban_bury":@{"data":{"ban_bury":@
-||https://snssdk.com/wenda/v1/answer/information/?wd_version=$s@,{"name":"ad","ad_data":"{\"*"is_preview\": false}"}@@
-!---APP优酷视频 by houzi-（误拦截？？？）
-!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\.mp4\?ccode=.*&duration=(30|15|5)&expire=.*/@http://www.youku.com/0.mp4@
-!/^http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/cache\/.*\/youku.com\/.*\.mp4\?.*&duration=20.*/
-!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\/0300080100.*(\.mp4\?|.flv\?)ccode=.*&ups_client_netip=.*/@http://www.youku.com/0.mp4@
-!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/youku\/6.*\/0300080100.*(\.mp4\?|.flv\?)sid=.*&ctype=(50|(([1-4])[0-9])|(0?[1-9]))/@http://www.youku.com/0.mp4@
-!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\/03000.*(\.mp4\?|.flv\?)ccode=.*&duration=(30|((1|2)[0-9])|(0?[1-9]))&expire=18000&psid=.*/@http://www.youku.com/0.mp4@
-!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\/0300080100.*(\.mp4\?|.flv\?)ccode=.*&duration=(75|((6)[0-9])|(7[0-4]))&expire=18000&psid=.*/@http://www.youku.com/0.mp4@
-!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\/0300080100.*(\.mp4\?|.flv\?)ccode=.*&duration=(138|((13)[5-7]))&expire=18000&psid=.*/@http://www.youku.com/0.mp4@
-!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\/0300080100.*(\.mp4\?|.flv\?)ccode=.*&duration=(175|((17)[0-4]))&expire=18000&psid=.*/@http://www.youku.com/0.mp4@
-!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\/0300020100.*\.flv\?ccode=.*&duration=(185|((18)[0-4]))&expire=18000&psid=.*/@http://www.youku.com/0.mp4@
-!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\.flv\?ccode=.*&duration=(30|15|5)&expire=.*/@http://www.youku.com/0.mp4@
+!||https://snssdk.com/2/article/information/v24/?latitude=$s@[{"ad_id":*"type":"web","web_url":"*"},@[@
+!||https://snssdk.com/2/article/information/v24/?latitude=$s@{"data":{"ad":{"app":{"ad_id":*"is_preview":false},"ban_bury":@{"data":{"ban_bury":@
+!||https://snssdk.com/2/article/information/v24/?latitude=$s@{"data":{"ad":{"is_preview":false,"mixed":{"button_text":"*},"ban_bury":@{"data":{"ban_bury":@
+!---ios
+||http://snssdk.com/2/article/information/v*/?fp=$s@{"ad_data":"{\"*","name":"ad"},@@
+||http://snssdk.com/2/article/information/v*/?fp=$s@{"data":{"ad":{"app":{"ad_id":*"is_preview":false},"ban_bury":@{"data":{"ban_bury":@
+||http://snssdk.com/2/article/information/v*/?fp=$s@{"data":{"ad":{"is_preview":false,"mixed":{"button_text":"*},"ban_bury":@{"data":{"ban_bury":@
+||http://snssdk.com/2/article/information/v*/?fp=$s@"ordered_info":[{"ad_data":"{\"*","name":"ad"}],@@
+||http://snssdk.com/2/article/information/v*/?fp=$s@[{"ad_id":*"type":"web","web_url":"*"},@[@
+||http://snssdk.com/wenda/v1/answer/information/?fp=$s@,{"name":"ad","ad_data":"{\"*"is_preview\": false}"}@@
+!||http://snssdk.com/2/article/information/v24/?fp=$s@[{"ad_id":*"type":"web","web_url":"*"},@[@
+!||http://snssdk.com/2/article/information/v23/?fp=$s@{"ad_data":"{\"app\":{\"ad_id\"*"is_preview\":false}","name":"ad"},@@
+!||http://snssdk.com/2/article/information/v23/?fp=$s@{"ad_data":"{\"is_preview\":false,\"mixed\":{\"button_text\":\"*"}}","name":"ad"},@@
+!||http://snssdk.com/2/article/information/v24/?fp=$s@{"data":{"ad":{"app":{"ad_id":*"is_preview":false},"ban_bury":@{"data":{"ban_bury":@
+!||http://snssdk.com/2/article/information/v24/?fp=$s@{"data":{"ad":{"is_preview":false,"mixed":{"button_text":"*},"ban_bury":@{"data":{"ban_bury":@
+!||http://snssdk.com/2/article/information/v24/?fp=$s@"ordered_info":[{"ad_data":"{\"is_preview\":false,\"mixed\":{\"button_text\":\"*"}}","name":"ad"}],@@
 !---APP追书神器
 |http://api.zhuishushenqi.com/splashes/android
 |https://api10e46r.zhuishushenqi.com/splashes/ios
