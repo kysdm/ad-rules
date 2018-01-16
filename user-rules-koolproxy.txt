@@ -1,4 +1,4 @@
-!  -----:  2018-01-15 15:15:10   by:kysdm-----
+!  -----:  2018-01-16 20:12:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !
@@ -82,6 +82,8 @@ bbs99.club###hd > div > div.a_2mu > center,#nv_forum > div.wp.a2_h > center,#pos
 !---btbtdy.com
 |http://www.btbtdy.com/templets/btdy/js/ad9401.js
 |http://www.btbtdy.com/templets/btdy/js/slade888.js
+!---btso.pw
+|https://btso.pw/app/bts/View/js/app.min.js
 !---bttiantangs.com
 bttiantangs.com###sidebar-follow,[class="full-width row"]
 |http://www.bttiantangs.com$s@<script src="http://j.qiqivv.com*"></script>@@
@@ -196,11 +198,7 @@ subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210
 img588.net##[class^="ad-"],[class^="google-ad"]
 |http://www.rmdown.com/link.php?hash=$s@function dpos(str)@function fuck()@
 |http://t66y.com/htm_data$s@<br><img src='http://kk.51688.cc*style='cursor:pointer'>&nbsp;<br>@@
-|http://t66y.com/htm_data$s@<b><span class="f24">*</a></span></b><br>@@
-|http://t66y.com/htm_data$s@<b><span class="f14">*</a></span></b><br>@@
-|http://t66y.com/htm_data$s@<a href='http://www.viidii.info/?http* WIDTH="100%" HEIGHT=500></iframe><br><br>@@
-|http://t66y.com/htm_data$s@<br /><div class="tpc_content do_not_catch"><img src='http*.gif' onclick="window.open('*;" style='cursor:pointer'>&nbsp;<br>@<br /><div class="tpc_content do_not_catch">@
-|http://t66y.com/htm_data$s@<br><img src='http*.gif' onclick="window.open('*;" style='cursor:pointer'>&nbsp;<br>@@
+|http://t66y.com/htm_data/$s@/<a href='https?:\/\/www.viidii.info\/\?https?:\/\/.*?WIDTH="\d{2,}%"\s?HEIGHT=\d{2,}><\/iframe>(<br>\s?)+/@@
 !---taoyizhu.com
 taoyizhu.com##[class^="fixed-banner-"],[class^="float-banner banner-"]
 !---thzok.com thzthz.net thzvv.com thztv.net  桃花族域名
@@ -241,6 +239,10 @@ viidii.info##img[width="468"][height="60"]
 |https://www.youtube.com##[id$="-ad"]
 !---zdfans.com
 zdfans.com##a[href^="http://13191a.com"]
+!---zhongzishenqi.net
+|http://zhongzishenqi.net$s@<a style="width:100%;" href="*" /></a>@@
+|http://zhongzishenqi.net$s@<a style='font-weight:bold;color:#f00;' href='*</a>@@
+|http://zhongzishenqi.net$s@<div class="footer" >*<div class="copyright">@<div class="footer" ><div class="copyright">@
 !---zimuku.cn  替换部分加载巨慢的资源地址
 zimuku.cn##img[width="200px"][height="auto"],[style^="width:800px;height:90px]
 |http://www.96518.org/url.php
