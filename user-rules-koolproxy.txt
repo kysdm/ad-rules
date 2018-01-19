@@ -1,9 +1,16 @@
-!  -----:  2018-01-16 20:12:10   by:kysdm-----
+!  -----:  2018-01-19 11:12:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !
 !---114la.com
 114la.com##[id^="Game"],#HDtopBar,#imgArr
+!---163.com
+3g.163.com##[class^="u-ad-"]
+blog.163.com##[class^="gg area pb"],[class="gg area channel_relative_2016"],[style="height: 360px; overflow: hidden;"]
+|http://shared.ydstatic.com/js/yadk/1.1.1.js
+|http://www.lofter.com/blogPhotoAd?positionId=
+|http://blog.163.com/$s@.wrapperbg{height: 151px;},@@
+|http://blog.163.com/$s@1px solid #DDDDDD; height: 241px;width:100%@1px solid #DDDDDD; height: auto;width:100%@
 !---16book.org
 |https://www.16book.org##[id^="tanx"],[id^="cs_CFdivdlST_"],[class^="ad"]
 ||https://16book.org/*.js$s@function yuedu*function downapp()@function fuck()@
@@ -192,7 +199,7 @@ rmdown.com##img[width="468"][height="60"],img[width="760"][height="90"]
 |https://www.soxunlei.net/wap/$script
 |https://zz.bdstatic.com/linksubmit/push.js
 !---subhd.com
-subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"]
+subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"],[style="text-align:center;padding:20px;margin:0 auto;width:500px;"],#weixin_game
 |http://cdn.xianliao.me/assets/$script
 !---t66y.com
 img588.net##[class^="ad-"],[class^="google-ad"]
