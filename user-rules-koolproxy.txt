@@ -1,4 +1,4 @@
-!  -----:  2018-01-22 22:11:10   by:kysdm-----
+!  -----:  2018-01-24 16:36:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !
@@ -87,8 +87,12 @@ bbs99.club###hd > div > div.a_2mu > center,#nv_forum > div.wp.a2_h > center,#pos
 |http://m.bokon.net$s@<div style="height:200px;"></div>@@
 |http://www.bokon.net$s@<div id="float_*/mulu.js"></script>@<div>@
 !---btbtdy.com
+@@|http://www.btbtdy.com/templets/btdy/js/jQuery.top
+@@|http://www.btbtdy.com/templets/btdy/js/language
 |http://www.btbtdy.com/templets/btdy/js/ad9401.js
 |http://www.btbtdy.com/templets/btdy/js/slade888.js
+!---btdx8.com
+|https://www.btdx8.com/tmp/$script
 !---btso.pw
 |https://btso.pw/app/bts/View/js/app.min.js
 !---bttiantangs.com
