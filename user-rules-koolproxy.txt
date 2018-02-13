@@ -1,5 +1,5 @@
-!  -----:  2018-02-09 09:43:10   by:kysdm-----
-!
+!  -----:  2018-02-13 10:24:10   by:kysdm-----
+!  -----新年快乐-----
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !
 !---114la.com
@@ -193,7 +193,6 @@ oyksoft.com##[id^="down-"]
 |https://www.qu.la##[class$="_ad"]
 !---rarbg.is
 |https://rarbg.is$s@var _wm3_settings={popunder:*</script>@</script>@
-|https://dyncdn.me/static/20/js/xqijtezmrschyl.js
 |https://rarbg.is$s@<script type="text/javascript" src="//dyncdn.me/static/20/js/expla*.js"></script>@@
 |https://rarbg.is$s@; } else { if (typeof(_wm3) !== 'undefined')*{ _wm3.format.popunder.isTriggered = true; } } @@
 !---rmdown.com
@@ -211,8 +210,8 @@ img588.net##[class^="ad-"],[class^="google-ad"]
 |http://t66y.com/htm_data/$s@/<a href='https?:\/\/www.viidii.info\/\?https?:\/\/.*?WIDTH="\d{2,}%"\s?HEIGHT=\d{2,}><\/iframe>(<br>\s?)+/@@
 !---taoyizhu.com
 taoyizhu.com##[class^="fixed-banner-"],[class^="float-banner banner-"]
-!---thzok.com thzthz.net thzvv.com thztv.net  桃花族域名
-thztv.net,thzvv.com##img[height="400"][width="180"],img[height="250"][width="250"],img[height="300"][width="300"],img[style*="width:960px;"],img[style$="width:480px;height:60px;"],.it618_firstad_flex,td[style="text-align:center;"],img[height="300"][width="336"]
+!---thzok.com thzthz.net thzvv.com thztv.net thzvvv.com  桃花族域名
+thztv.net,thzvv.com,thzvvv.com##img[height="400"][width="180"],img[height="250"][width="250"],img[height="300"][width="300"],img[style*="width:960px;"],img[style$="width:480px;height:60px;"],.it618_firstad_flex,td[style="text-align:center;"],img[height="300"][width="336"]
 |http://thzvv.com/imc_attachad-ad.html?aid=$s@<div style="WIDTH: 100%; padding-left:10px;">*<div style="padding-left:10px;">@<div style="padding-left:10px;">@
 !---tmetb.net hkslg.net 同站长
 |https://js.tmetb.net/$script
@@ -254,13 +253,13 @@ zdfans.com##a[href^="http://13191a.com"]
 |http://zhongzishenqi.net$s@<a style='font-weight:bold;color:#f00;' href='*</a>@@
 |http://zhongzishenqi.net$s@<div class="footer" >*<div class="copyright">@<div class="footer" ><div class="copyright">@
 !---zimuku.cn  替换部分加载巨慢的资源地址
-zimuku.cn##img[width="200px"][height="auto"],[style^="width:800px;height:90px]
-|http://www.96518.org/url.php
-|http://www.zimuku.cn/images/v2/js/b$script
-|http://www.zimuzu.tv$s@"https://p.tanx.com/ex?i=*"@""@
-|http://www.zimuku.cn$s@<script src='/images/ad/foot.js*'></script>@@
-|http://www.zimuku.cn$s@<div style="position:fixed; text-align:center;*</a></div></div>@@
-|http://www.zimuku.cn$s@src="/images/v2/no_litpic.gif"@src="//wx2.sinaimg.cn/large/a1ce17b8gy1fna3pzxn42g202s03wjr5.gif"@
+!zimuku.cn##img[width="200px"][height="auto"],[style^="width:800px;height:90px]
+!|http://www.96518.org/url.php
+!|http://www.zimuku.cn/images/v2/js/b$script
+!|http://www.zimuzu.tv$s@"https://p.tanx.com/ex?i=*"@""@
+!|http://www.zimuku.cn$s@<script src='/images/ad/foot.js*'></script>@@
+!|http://www.zimuku.cn$s@<div style="position:fixed; text-align:center;*</a></div></div>@@
+!|http://www.zimuku.cn$s@src="/images/v2/no_litpic.gif"@src="//wx2.sinaimg.cn/large/a1ce17b8gy1fna3pzxn42g202s03wjr5.gif"@
 !---zimuzu.tv
 zimuzu.tv###help,[style^="text-align:center;"],li.rel
 !---zwdu.com
