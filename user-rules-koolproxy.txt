@@ -1,5 +1,5 @@
-!  -----:  2018-02-13 10:24:10   by:kysdm-----
-!  -----新年快乐-----
+!  -----:  2018-02-24 13:56:10   by:kysdm-----
+!
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !
 !---114la.com
@@ -200,9 +200,9 @@ rmdown.com##img[width="468"][height="60"],img[width="760"][height="90"]
 !---soxunlei.net
 |https://www.soxunlei.net/wap/$script
 |https://zz.bdstatic.com/linksubmit/push.js
-!---subhd.com [Failed]
+!---subhd.co
 subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"],[style="text-align:center;padding:20px;margin:0 auto;width:500px;"],#weixin_game,img[src^="/images/ad/"]
-|http://cdn.xianliao.me/assets/$script
+|https://www.xianliao.me/embed.js
 !---t66y.com
 img588.net##[class^="ad-"],[class^="google-ad"]
 |http://www.rmdown.com/link.php?hash=$s@function dpos(str)@function fuck()@
@@ -257,9 +257,7 @@ zdfans.com##a[href^="http://13191a.com"]
 !|http://www.96518.org/url.php
 !|http://www.zimuku.cn/images/v2/js/b$script
 !|http://www.zimuzu.tv$s@"https://p.tanx.com/ex?i=*"@""@
-!|http://www.zimuku.cn$s@<script src='/images/ad/foot.js*'></script>@@
-!|http://www.zimuku.cn$s@<div style="position:fixed; text-align:center;*</a></div></div>@@
-!|http://www.zimuku.cn$s@src="/images/v2/no_litpic.gif"@src="//wx2.sinaimg.cn/large/a1ce17b8gy1fna3pzxn42g202s03wjr5.gif"@
+|http://www.zimuku.cn/detail/$s@style="width:820px;height:90px;*"@style="display:none"@
 !---zimuzu.tv
 zimuzu.tv###help,[style^="text-align:center;"],li.rel
 !---zwdu.com
