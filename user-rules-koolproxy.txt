@@ -1,4 +1,4 @@
-!  -----:  2018-02-24 13:56:10   by:kysdm-----
+!  -----:  2018-02-26 20:50:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !
@@ -122,6 +122,9 @@ cnbeta.com##.cbv810
 |https://m.ddbiquge.com/xxgg/book.js
 !---ddooo.com
 |http://www.ddooo.com/public/uaredirect.js$s@function do_main(parm)@function fuck()@
+!---dlkoo.com
+|http://www.dlkoo.com/down/Copyright.js
+|http://www.dlkoo.com/$s@function testad()@function fuck()@
 !---dmhy.org
 @@|https://share.dmhy.org/images/$image
 |https://share.dmhy.org##img[width="1280"][height="120"]
