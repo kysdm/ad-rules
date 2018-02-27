@@ -239,6 +239,11 @@ viidii.info##img[width="468"][height="60"]
 |https://wangpan007.com/$s@<script type="text/javascript" src="https://1.hslyqs.com/c.js"></script>@@
 |https://wangpan007.com/$s@<script type="text/javascript" src="https://j.sdqoi2d.com/r/er_20450_8682.js"></script>@@
 |https://m.wangpan007.com/$s@<script type="text/javascript" src="/cpc/cpm.js"></script>@@
+!---wenku1.com
+|http://cidian.wenku1.com/css/main.css$s@float: right;@margin:0 auto;@
+|http://cidian.wenku1.com/js/head.js$s@function wayk()@function fuck()@
+|http://cidian.wenku1.com/js/head.js$s@function leftDD()@function fuck()@
+|http://cidian.wenku1.com/js/head.js$s@function fullDD()@function fuck()@
 !---xs74.com
 ||https://xs74.com/*.js$s@function yuedu_1()*function downapp()@function fuck()@
 |https://www.xs74.com##.mb_21b,[id^="tanx"],[id^="cs_CFdivdlST_"]
