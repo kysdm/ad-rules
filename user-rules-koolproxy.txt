@@ -1,4 +1,4 @@
-!  -----:  2018-02-26 20:50:10   by:kysdm-----
+!  -----:  2018-03-01 12:50:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !
@@ -203,8 +203,7 @@ rmdown.com##img[width="468"][height="60"],img[width="760"][height="90"]
 !---soxunlei.net
 |https://www.soxunlei.net/wap/$script
 |https://zz.bdstatic.com/linksubmit/push.js
-!---subhd.co
-subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"],[style="text-align:center;padding:20px;margin:0 auto;width:500px;"],#weixin_game,img[src^="/images/ad/"]
+!---subhd.com 无法对网页源代码进行更改
 |https://www.xianliao.me/embed.js
 !---t66y.com
 img588.net##[class^="ad-"],[class^="google-ad"]
