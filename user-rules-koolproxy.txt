@@ -1,4 +1,4 @@
-!  -----:  2018-03-01 12:50:10   by:kysdm-----
+!  -----:  2018-03-03 09:51:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !
@@ -259,12 +259,10 @@ zdfans.com##a[href^="http://13191a.com"]
 |http://zhongzishenqi.net$s@<a style="width:100%;" href="*" /></a>@@
 |http://zhongzishenqi.net$s@<a style='font-weight:bold;color:#f00;' href='*</a>@@
 |http://zhongzishenqi.net$s@<div class="footer" >*<div class="copyright">@<div class="footer" ><div class="copyright">@
-!---zimuku.cn  替换部分加载巨慢的资源地址
-!zimuku.cn##img[width="200px"][height="auto"],[style^="width:800px;height:90px]
-!|http://www.96518.org/url.php
-!|http://www.zimuku.cn/images/v2/js/b$script
-!|http://www.zimuzu.tv$s@"https://p.tanx.com/ex?i=*"@""@
+!---zimuku.cn
+|http://www.zimuku.cn/images/v2/js/common.js
 |http://www.zimuku.cn/detail/$s@style="width:820px;height:90px;*"@style="display:none"@
+|http://www.zimuku.cn$s@style="position:fixed; text-align:center; width:100%; height:80px; *"@style="display:none"@
 !---zimuzu.tv
 zimuzu.tv###help,[style^="text-align:center;"],li.rel
 !---zwdu.com
