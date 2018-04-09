@@ -1,4 +1,4 @@
-!  -----:  2018-03-20 14:49:10   by:kysdm-----
+!  -----:  2018-04-09 10:52:10   by:kysdm-----
 !
 !  -----规则兼容Adbyby，部分兼容koolproxy-----
 |  -----如需过滤https网址，需配合ssllist.ini文件-----
@@ -110,12 +110,14 @@ cnbeta.com##.cbv810
 !---comicat.org
 |http://m.comicat.org$s@document.referrer.indexOf(document.domain) !@-1 @
 ||comicat.org##img[src^="https://ooo.0o0.ooo/"],[class^="gg_canvas gg_canvas-hidden"]
-!---ctfile.com
-|http://mydisplay.ctfile.com/ad_display.php?ad_pos=
+!---ctfile.com pipipan.com 城通网盘域名
+|http://mydisplay.ctfile.com/iz.php?i=
 |http://static.ctfile.com/js/bd_stat.js?v=
+|http://mydisplay.ctfile.com/ad_display.php?ad_pos=
 ||http://ctfile.com##a[href="https://union.ctfile.com"],iframe[width="380"][height="80"]
-||http://ctfile.com/i/$s@<script src="https://mydisplay.ctfile.com/iz.php?i=*"></script>@@
 ||http://ctfile.com/i/$s@<script type="text/javascript">var _popup_ispoped = false;*);</script>@@
+|http://*.pipipan.com/fs/$s@<script type="text/javascript">var _popup_ispoped =*</script>@@
+|http://*.pipipan.com/fs/$s@var clickcount_url = "https://doubleclick.ctfile.com/?adv&advert&mod=cpv&act=add&uid=*</script>@</script>@
 !---ddbiquge.com
 |http://m.ddbiquge.com/xxgg/book.js
 !---ddooo.com
