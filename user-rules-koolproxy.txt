@@ -163,6 +163,8 @@ goudidiao.com##[class^="img-responsive"],[style$="red;"]
 |https://www.hunhun520.com##[id^="cs_CFdivdlST_"]
 !---ifeng.com
 ifeng.com##div.blockR.iphone_none.ipad_none,.bd_t5
+!---imgchr.com
+|https://imgchr.com##div.ad-banner
 !---itellyou.cn
 |https://msdn.itellyou.cn/images/20171128122518214.png
 !---javbus3.com 因插件原因只在IE下生效
@@ -187,8 +189,6 @@ mobanwang.com##.linkyun,.topBannerYun,.guge,.g590x40
 |http://g1.pptair.com^$script
 |http://fonts.mobanwang.com$s@<div id="searchTop">*</a></span>@<div id="searchTop">@
 !---------------------------------Nn------------------------------------------
-!---ourbits.club
-https://ourbits.club###img[alt="ad"]
 !---oyksoft.com
 oyksoft.com##[id^="down-"]
 !---------------------------------Pp------------------------------------------ 
@@ -200,6 +200,8 @@ oyksoft.com##[id^="down-"]
 |https://rarbg.is$s@var _wm3_settings={popunder:*</script>@</script>@
 |https://rarbg.is$s@<script type="text/javascript" src="//dyncdn.me/static/20/js/expla*.js"></script>@@
 |https://rarbg.is$s@; } else { if (typeof(_wm3) !== 'undefined')*{ _wm3.format.popunder.isTriggered = true; } } @@
+!---rjno1.com
+|http://www.rjno1.com$s@window.setTimeout(function()*</script>@</script>@
 !---rmdown.com
 rmdown.com##img[width="468"][height="60"],img[width="760"][height="90"]
 !---soxunlei.net

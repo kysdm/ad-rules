@@ -116,8 +116,8 @@ cnbeta.com##.cbv810
 |http://mydisplay.ctfile.com/ad_display.php?ad_pos=
 ||http://ctfile.com##a[href="https://union.ctfile.com"],iframe[width="380"][height="80"]
 ||http://ctfile.com/i/$s@<script type="text/javascript">var _popup_ispoped = false;*);</script>@@
-|http://*.pipipan.com/fs/$s@<script type="text/javascript">var _popup_ispoped =*</script>@@
-|http://*.pipipan.com/fs/$s@var clickcount_url = "https://doubleclick.ctfile.com/?adv&advert&mod=cpv&act=add&uid=*</script>@</script>@
+||pipipan.com/fs/$s@<script type="text/javascript">var _popup_ispoped =*</script>@@
+||pipipan.com/fs/$s@var clickcount_url = "https://doubleclick.ctfile.com/?adv&advert&mod=cpv&act=add&uid=*</script>@</script>@
 !---ddbiquge.com
 |http://m.ddbiquge.com/xxgg/book.js
 !---ddooo.com
@@ -157,6 +157,8 @@ goudidiao.com##[class^="img-responsive"],[style$="red;"]
 |http://www.hunhun520.com##[id^="cs_CFdivdlST_"]
 !---ifeng.com
 ifeng.com##div.blockR.iphone_none.ipad_none,.bd_t5
+!---imgchr.com
+imgchr.com##div.ad-banner
 !---itellyou.cn
 |http://msdn.itellyou.cn/images/20171128122518214.png
 !---javbus3.com 因插件原因只在IE下生效
@@ -192,6 +194,8 @@ oyksoft.com##[id^="down-"]
 |http://rarbg.is$s@var _wm3_settings={popunder:*</script>@</script>@
 |http://rarbg.is$s@<script type="text/javascript" src="//dyncdn.me/static/20/js/expla*.js"></script>@@
 |http://rarbg.is$s@; } else { if (typeof(_wm3) !== 'undefined')*{ _wm3.format.popunder.isTriggered = true; } } @@
+!---rjno1.com
+|http://www.rjno1.com$s@window.setTimeout(function()*</script>@</script>@
 !---rmdown.com
 rmdown.com##img[width="468"][height="60"],img[width="760"][height="90"]
 !---soxunlei.net

@@ -1,8 +1,9 @@
-!  -----:  2018-01-07 14:57:16   by:kysdm-----
+!  -----:  2018-05-20 09:25:16   by:kysdm-----
 !--域名白名单
 cnbtkitty.com
 !--域名黑名单
 91yun.co
+aixinxi.net
 avast.com
 alibabacloud.com
 aliyun.com
@@ -22,18 +23,22 @@ github.com
 godaddy.com
 googleapis.com
 humblebundle.com
+imgchr.com
 ipsw.me
 javbus3.com
 kaspersky.com
 keepvid.com
 lede-project.org
+loli.net
 madvr.com
 madshi.net
+mega.nz
 netsarang.com
 ping.cat
 rarbg.is
 sourceforge.net
 services.googleapis.cn
+sm.ms
 vcb-s.com
 videohelp.com
 xn--i2ru8q2qg.com
