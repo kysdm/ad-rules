@@ -1,4 +1,4 @@
-!  -----:  2018-06-02 10:51:10   by:kysdm-----
+!  -----:  2018-06-13 09:23:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !
@@ -191,7 +191,8 @@ mobanwang.com##.linkyun,.topBannerYun,.guge,.g590x40
 !---------------------------------Nn------------------------------------------
 !---oyksoft.com
 oyksoft.com##[id^="down-"]
-!---------------------------------Pp------------------------------------------ 
+!---pixiv.net
+|https://www.pixiv.net##.ad,.ad-footer
 !---qu.la
 |https://m.qu.la/jsa/p.js
 |https://code.zantainet.com/j$script
@@ -199,6 +200,7 @@ oyksoft.com##[id^="down-"]
 !---rarbg.is
 |https://rarbg.is$s@var _wm3_settings={popunder:*</script>@</script>@
 |https://rarbg.is$s@<script type="text/javascript" src="//dyncdn.me/static/20/js/expla*.js"></script>@@
+                    <script type="text/javascript" src="//dyncdn.me/static/20/js/expla*.js"></script>
 |https://rarbg.is$s@; } else { if (typeof(_wm3) !== 'undefined')*{ _wm3.format.popunder.isTriggered = true; } } @@
 !---rjno1.com
 |http://www.rjno1.com$s@window.setTimeout(function()*</script>@</script>@
