@@ -1,4 +1,4 @@
-!  -----:  2018-04-09 10:52:10   by:kysdm-----
+!  -----:  2018-07-09 10:16:10   by:kysdm-----
 !
 !  -----规则兼容Adbyby，部分兼容koolproxy-----
 |  -----如需过滤https网址，需配合ssllist.ini文件-----
@@ -149,6 +149,8 @@ cnbeta.com##.cbv810
 |http://ja1.gamersky.com/tips/all_tips.js
 !---goudidiao.com
 goudidiao.com##[class^="img-responsive"],[style$="red;"]
+!---hdsky.me
+|http://hdsky.me##[id^="ad_"]
 !---huoche.net
 |http://www.huoche.net##img[src^="/public/ad/"]
 |http://www.huoche.net/$s@开始-->*结束-->@-->@
@@ -182,7 +184,8 @@ kisssub.org##div.ads-full-width,.clear.text_center,div.box[style="overflow:hidde
 mobanwang.com##.linkyun,.topBannerYun,.guge,.g590x40
 |http://g1.pptair.com^$script
 |http://fonts.mobanwang.com$s@<div id="searchTop">*</a></span>@<div id="searchTop">@
-!---------------------------------Nn------------------------------------------
+!---nanyangpt.com
+|https://nanyangpt.com##[id^="ad_"]
 !---oyksoft.com
 oyksoft.com##[id^="down-"]
 !---------------------------------Pp------------------------------------------ 

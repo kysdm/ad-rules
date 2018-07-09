@@ -1,4 +1,4 @@
-!  -----:  2018-06-17 09:27:10   by:kysdm-----
+!  -----:  2018-07-09 10:16:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !
@@ -155,6 +155,8 @@ cnbeta.com##.cbv810
 |http://ja1.gamersky.com/tips/all_tips.js
 !---goudidiao.com
 goudidiao.com##[class^="img-responsive"],[style$="red;"]
+!---hdsky.me
+|https://hdsky.me##[id^="ad_"]
 !---huoche.net
 |https://www.huoche.net##img[src^="/public/ad/"]
 |https://www.huoche.net/$s@开始-->*结束-->@-->@
@@ -188,7 +190,8 @@ kisssub.org##div.ads-full-width,.clear.text_center,div.box[style="overflow:hidde
 mobanwang.com##.linkyun,.topBannerYun,.guge,.g590x40
 |http://g1.pptair.com^$script
 |http://fonts.mobanwang.com$s@<div id="searchTop">*</a></span>@<div id="searchTop">@
-!---------------------------------Nn------------------------------------------
+!---nanyangpt.com
+|https://nanyangpt.com##[id^="ad_"]
 !---oyksoft.com
 oyksoft.com##[id^="down-"]
 !---pixiv.net
@@ -218,8 +221,8 @@ img588.net##[class^="ad-"],[class^="google-ad"]
 |http://t66y.com/htm_data/$s@/<a href='https?:\/\/www.viidii.info\/\?https?:\/\/.*?WIDTH="\d{2,}%"\s?HEIGHT=\d{2,}><\/iframe>(<br>\s?)+/@@
 !---taoyizhu.com
 taoyizhu.com##[class^="fixed-banner-"],[class^="float-banner banner-"]
-!---thzok.com thzthz.net thzvv.com thztv.net thzvvv.com vipthz.com taohuabt.cc 桃花族域名
-thztv.net,thzvv.com,thzvvv.com,vipthz.com,taohuabt.cc##img[height="400"][width="180"],img[height="250"][width="250"],img[height="300"][width="300"],img[style*="width:960px;"],img[style$="width:480px;height:60px;"],.it618_firstad_flex,td[style="text-align:center;"],img[height="300"][width="336"]
+!---thzok.com thzthz.net thzvv.com thztv.net thzvvv.com vipthz.com taohuabt.cc thznb.com桃花族域名
+thztv.net,thzvv.com,thzvvv.com,vipthz.com,taohuabt.cc,thznb.com##img[height="400"][width="180"],img[height="250"][width="250"],img[height="300"][width="300"],img[style*="width:960px;"],img[style$="width:480px;height:60px;"],.it618_firstad_flex,td[style="text-align:center;"],img[height="300"][width="336"]
 |http://thzvv.com/imc_attachad-ad.html?aid=$s@<div style="WIDTH: 100%; padding-left:10px;">*<div style="padding-left:10px;">@<div style="padding-left:10px;">@
 |http://vipthz.com/imc_attachad-ad.html?aid=$s@<div style="WIDTH: 100%; padding-left:10px;">*<div style="padding-left:10px;">@<div style="padding-left:10px;">@
 !---tmetb.net hkslg.net 同站长
