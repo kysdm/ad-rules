@@ -1,4 +1,4 @@
-!  -----:  2018-07-09 10:16:10   by:kysdm-----
+!  -----:  2018-08-07 10:50:10   by:kysdm-----
 !
 !  -----规则兼容koolproxy，部分兼容Adbyby-----
 !
@@ -212,8 +212,9 @@ rmdown.com##img[width="468"][height="60"],img[width="760"][height="90"]
 |https://www.soxunlei.net/wap/$script
 |https://zz.bdstatic.com/linksubmit/push.js
 !---subhd.com
+subhd.com##[style="text-align:center;padding-top:5px;"]
 |https://www.xianliao.me/embed.js
-|http://subhd.com$s@if (*</script>@</script>@
+|http://subhd.com$s@if (sessionStorage.hassession) {*</script>@</script>@
 !---t66y.com
 img588.net##[class^="ad-"],[class^="google-ad"]
 |http://www.rmdown.com/link.php?hash=$s@function dpos(str)@function fuck()@
@@ -222,7 +223,7 @@ img588.net##[class^="ad-"],[class^="google-ad"]
 !---taoyizhu.com
 taoyizhu.com##[class^="fixed-banner-"],[class^="float-banner banner-"]
 !---thzok.com thzthz.net thzvv.com thztv.net thzvvv.com vipthz.com taohuabt.cc thznb.com桃花族域名
-thztv.net,thzvv.com,thzvvv.com,vipthz.com,taohuabt.cc,thznb.com##img[height="400"][width="180"],img[height="250"][width="250"],img[height="300"][width="300"],img[style*="width:960px;"],img[style$="width:480px;height:60px;"],.it618_firstad_flex,td[style="text-align:center;"],img[height="300"][width="336"]
+thztv.net,thzvv.com,thzvvv.com,vipthz.com,taohuabt.cc,thznb.com,thzbb.com##img[height="400"][width="180"],img[height="250"][width="250"],img[height="300"][width="300"],img[style*="width:960px;"],img[style$="width:480px;height:60px;"],.it618_firstad_flex,td[style="text-align:center;"],img[height="300"][width="336"]
 |http://thzvv.com/imc_attachad-ad.html?aid=$s@<div style="WIDTH: 100%; padding-left:10px;">*<div style="padding-left:10px;">@<div style="padding-left:10px;">@
 |http://vipthz.com/imc_attachad-ad.html?aid=$s@<div style="WIDTH: 100%; padding-left:10px;">*<div style="padding-left:10px;">@<div style="padding-left:10px;">@
 !---tmetb.net hkslg.net 同站长
