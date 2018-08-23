@@ -1,7 +1,5 @@
 !  -----:  2018-08-07 10:50:10   by:kysdm-----
 !
-!  -----规则兼容koolproxy，部分兼容Adbyby-----
-!
 !---114la.com
 114la.com##[id^="Game"],#HDtopBar,#imgArr
 !---163.com
@@ -105,10 +103,11 @@ bttiantangs.com###sidebar-follow,[class="full-width row"]
 |http://www.btbtt88.com/slade.js
 !---cnbeta.com
 cnbeta.com##.cbv810
-!---cnbtkitty.com
+!---cnbtkitty.com cnbtkitty.cc
 |http://cnbtkitty.com/$s@<div class="footer" >*<div class="copyright">@<div class="footer" ><div class="copyright">@
 |http://cnbtkitty.com/$s@<a style='font-weight:bold;color:#f00;' href='*</a></span>@</span>@
 |http://cnbtkitty.com/$s@<a style="width:100%;" href="*" /></a>@@
+|http://cnbtkitty.cc$s@<div class="footer" >*<div class="copyright">@<div class="footer" ><div class="copyright">@
 !---comicat.org
 |http://m.comicat.org$s@document.referrer.indexOf(document.domain) !@-1 @
 ||comicat.org##img[src^="https://ooo.0o0.ooo/"],[class^="gg_canvas gg_canvas-hidden"]
